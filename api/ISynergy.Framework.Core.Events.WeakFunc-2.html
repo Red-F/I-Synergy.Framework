@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WeakFunc&lt;T, TResult&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WeakFunc&lt;T, TResult&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2">
+  
+  
+  <h1 id="ISynergy_Framework_Core_Events_WeakFunc_2" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2" class="text-break">Class WeakFunc&lt;T, TResult&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Stores an Func without causing a hard reference
+to be created to the Func's owner. The owner can be garbage collected at any time.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html">WeakFunc</a>&lt;TResult&gt;</div>
+    <div class="level2"><span class="xref">WeakFunc&lt;T, TResult&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ISynergy.Framework.Core.Events.IExecuteWithObjectAndResult.html">IExecuteWithObjectAndResult</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_Method">WeakFunc&lt;TResult&gt;.Method</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_IsStatic">WeakFunc&lt;TResult&gt;.IsStatic</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_FuncReference">WeakFunc&lt;TResult&gt;.FuncReference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_LiveReference">WeakFunc&lt;TResult&gt;.LiveReference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_Reference">WeakFunc&lt;TResult&gt;.Reference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_Target">WeakFunc&lt;TResult&gt;.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakFunc-1.html#ISynergy_Framework_Core_Events_WeakFunc_1_FuncTarget">WeakFunc&lt;TResult&gt;.FuncTarget</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Core.Events.html">ISynergy.Framework.Core.Events</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Core.dll</h6>
+  <h5 id="ISynergy_Framework_Core_Events_WeakFunc_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WeakFunc&lt;T, TResult&gt; : WeakFunc&lt;TResult&gt;, IExecuteWithObjectAndResult</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the Func's parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td><p>The type of the Func's return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2__ctor_Func__0__1__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.%23ctor(Func%7B%600%2C%601%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L72">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2__ctor_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2__ctor_Func__0__1__System_Boolean_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.#ctor(Func{`0,`1},System.Boolean)">WeakFunc(Func&lt;T, TResult&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the WeakFunc class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeakFunc(Func&lt;T, TResult&gt; func, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>The Func that will be associated to this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2__ctor_System_Object_Func__0__1__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.%23ctor(System.Object%2CFunc%7B%600%2C%601%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L85">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2__ctor_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2__ctor_System_Object_Func__0__1__System_Boolean_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.#ctor(System.Object,Func{`0,`1},System.Boolean)">WeakFunc(Object, Func&lt;T, TResult&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the WeakFunc class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeakFunc(object target, Func&lt;T, TResult&gt; func, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The Func's owner.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>The Func that will be associated to this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2_IsAlive.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.IsAlive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L41">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2_IsAlive_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.IsAlive*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2_IsAlive" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.IsAlive">IsAlive</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the Func's owner is still alive, or if it was collected
+by the Garbage Collector already.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsAlive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is alive; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ISynergy.Framework.Core.Events.WeakFunc&lt;TResult&gt;.IsAlive</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2_MethodName.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.MethodName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L23">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2_MethodName_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.MethodName*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2_MethodName" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.MethodName">MethodName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the name of the method that this WeakFunc represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string MethodName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">ISynergy.Framework.Core.Events.WeakFunc&lt;TResult&gt;.MethodName</span></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2_Execute.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.Execute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L133">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2_Execute_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.Execute*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2_Execute" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Executes the Func. This only happens if the Func's owner
+is still alive. The Func's parameter is set to default(T).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TResult Execute()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of the Func stored as reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2_Execute__0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.Execute(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L144">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2_Execute_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.Execute*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2_Execute__0_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.Execute(`0)">Execute(T)</h4>
+  <div class="markdown level1 summary"><p>Executes the Func. This only happens if the Func's owner
+is still alive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TResult Execute(T parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>A parameter to be passed to the action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TResult</span></td>
+        <td><p>The result of the Func stored as reference.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2_ExecuteWithObject_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.ExecuteWithObject(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L181">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2_ExecuteWithObject_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.ExecuteWithObject*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2_ExecuteWithObject_System_Object_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.ExecuteWithObject(System.Object)">ExecuteWithObject(Object)</h4>
+  <div class="markdown level1 summary"><p>Executes the Func with a parameter of type object. This parameter
+will be casted to T. This method implements <a class="xref" href="ISynergy.Framework.Core.Events.IExecuteWithObject.html#ISynergy_Framework_Core_Events_IExecuteWithObject_ExecuteWithObject_System_Object_">ExecuteWithObject(Object)</a>
+and can be useful if you store multiple WeakFunc{T} instances but don't know in advance
+what type T represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ExecuteWithObject(object parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>The parameter that will be passed to the Func after
+being casted to T.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>The result of the execution as object, to be casted to T.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2_MarkForDeletion.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602.MarkForDeletion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L192">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakFunc_2_MarkForDeletion_" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.MarkForDeletion*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakFunc_2_MarkForDeletion" data-uid="ISynergy.Framework.Core.Events.WeakFunc`2.MarkForDeletion">MarkForDeletion()</h4>
+  <div class="markdown level1 summary"><p>Sets all the funcs that this WeakFunc contains to null,
+which is a signal for containing objects that this WeakFunc
+should be deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkForDeletion()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.IExecuteWithObjectAndResult.html">IExecuteWithObjectAndResult</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakFunc_2.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakFunc%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakFuncGeneric.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

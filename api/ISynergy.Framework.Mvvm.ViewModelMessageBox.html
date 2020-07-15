@@ -1,0 +1,935 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ViewModelMessageBox
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ViewModelMessageBox
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox">
+  
+  
+  <h1 id="ISynergy_Framework_Mvvm_ViewModelMessageBox" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox" class="text-break">Class ViewModelMessageBox
+  </h1>
+  <div class="markdown level0 summary"><p>Class ViewModelMessageBox.
+Implements the <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html">ViewModelDialog&lt;TEntity&gt;</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html">ObservableClass</a></div>
+    <div class="level2"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html">ViewModel</a></div>
+    <div class="level3"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html">ViewModelDialog</a>&lt;<a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxResult.html">MessageBoxResult</a>&gt;</div>
+    <div class="level4"><span class="xref">ViewModelMessageBox</span></div>
+      <div class="level5"><a class="xref" href="ISynergy.Framework.Windows.ViewModels.Library.MessageBoxViewModel.html">MessageBoxViewModel</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelDialog-1.html">IViewModelDialog</a>&lt;<a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxResult.html">MessageBoxResult</a>&gt;</div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelSelectedItem-1.html">IViewModelSelectedItem</a>&lt;<a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxResult.html">MessageBoxResult</a>&gt;</div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModel.html">IViewModel</a></div>
+    <div><a class="xref" href="ISynergy.Framework.Core.Data.IObservableClass.html">IObservableClass</a></div>
+    <div><a class="xref" href="ISynergy.Framework.Core.Data.IBindable.html">IBindable</a></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ICleanup.html">ICleanup</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_Submitted">ViewModelDialog&lt;MessageBoxResult&gt;.Submitted</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_OnSubmitted_ISynergy_Framework_Mvvm_Events_SubmitEventArgs__0__">ViewModelDialog&lt;MessageBoxResult&gt;.OnSubmitted(SubmitEventArgs&lt;MessageBoxResult&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_SelectedItem">ViewModelDialog&lt;MessageBoxResult&gt;.SelectedItem</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_IsNew">ViewModelDialog&lt;MessageBoxResult&gt;.IsNew</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_Submit_Command">ViewModelDialog&lt;MessageBoxResult&gt;.Submit_Command</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_SetSelectedItem__0_">ViewModelDialog&lt;MessageBoxResult&gt;.SetSelectedItem(MessageBoxResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html#ISynergy_Framework_Mvvm_ViewModelDialog_1_SubmitAsync__0_">ViewModelDialog&lt;MessageBoxResult&gt;.SubmitAsync(MessageBoxResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Cancelled">ViewModel.Cancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Closed">ViewModel.Closed</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnCancelled_EventArgs_">ViewModel.OnCancelled(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnClosed_EventArgs_">ViewModel.OnClosed(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Context">ViewModel.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_BaseCommonServices">ViewModel.BaseCommonServices</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Logger">ViewModel.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel__loggerFactory">ViewModel._loggerFactory</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Close_Command">ViewModel.Close_Command</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Title">ViewModel.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_IsInitialized">ViewModel.IsInitialized</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_InitializeAsync">ViewModel.InitializeAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_GetEnumDescription_Enum_">ViewModel.GetEnumDescription(Enum)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnPropertyChanged_System_Object_PropertyChangedEventArgs_">ViewModel.OnPropertyChanged(Object, PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_CanClose">ViewModel.CanClose</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_IsCancelled">ViewModel.IsCancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Cleanup">ViewModel.Cleanup()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_CancelAsync">ViewModel.CancelAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_CloseAsync">ViewModel.CloseAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnDeactivateAsync">ViewModel.OnDeactivateAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnActivateAsync_System_Object_System_Boolean_">ViewModel.OnActivateAsync(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Dispose_System_Boolean_">ViewModel.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Properties">ObservableClass.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Errors">ObservableClass.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validator">ObservableClass.Validator</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_IsValid">ObservableClass.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_IsDirty">ObservableClass.IsDirty</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Equals_System_Object_">ObservableClass.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_GetHashCode">ObservableClass.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_GetValue__1_System_String_">ObservableClass.GetValue&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_SetValue__1___0_System_String_">ObservableClass.SetValue&lt;T&gt;(T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_ClearErrors">ObservableClass.ClearErrors()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validate">ObservableClass.Validate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Revert">ObservableClass.Revert()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_MarkAsClean">ObservableClass.MarkAsClean()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_PropertyChanged">ObservableClass.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_OnPropertyChanged_System_String_">ObservableClass.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Dispose">ObservableClass.Dispose()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Mvvm.html">ISynergy.Framework.Mvvm</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Mvvm.dll</h6>
+  <h5 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ViewModelMessageBox : ViewModelDialog&lt;MessageBoxResult&gt;, INotifyPropertyChanged, IViewModelDialog&lt;MessageBoxResult&gt;, IViewModelSelectedItem&lt;MessageBoxResult&gt;, IViewModel, IObservableClass, IBindable, INotifyPropertyChanged, IDisposable, ICleanup</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox__ctor_ISynergy_Framework_Core_Abstractions_IContext_ISynergy_Framework_Mvvm_Abstractions_Services_IBaseCommonServices_ILoggerFactory_System_String_System_String_ISynergy_Framework_Mvvm_Enumerations_MessageBoxButton_ISynergy_Framework_Mvvm_Enumerations_MessageBoxImage_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.%23ctor(ISynergy.Framework.Core.Abstractions.IContext%2CISynergy.Framework.Mvvm.Abstractions.Services.IBaseCommonServices%2CILoggerFactory%2CSystem.String%2CSystem.String%2CISynergy.Framework.Mvvm.Enumerations.MessageBoxButton%2CISynergy.Framework.Mvvm.Enumerations.MessageBoxImage)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L148">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox__ctor_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox__ctor_ISynergy_Framework_Core_Abstractions_IContext_ISynergy_Framework_Mvvm_Abstractions_Services_IBaseCommonServices_ILoggerFactory_System_String_System_String_ISynergy_Framework_Mvvm_Enumerations_MessageBoxButton_ISynergy_Framework_Mvvm_Enumerations_MessageBoxImage_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.#ctor(ISynergy.Framework.Core.Abstractions.IContext,ISynergy.Framework.Mvvm.Abstractions.Services.IBaseCommonServices,ILoggerFactory,System.String,System.String,ISynergy.Framework.Mvvm.Enumerations.MessageBoxButton,ISynergy.Framework.Mvvm.Enumerations.MessageBoxImage)">ViewModelMessageBox(IContext, IBaseCommonServices, ILoggerFactory, String, String, MessageBoxButton, MessageBoxImage)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelMessageBox.html">ViewModelMessageBox</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ViewModelMessageBox(IContext context, IBaseCommonServices commonServices, ILoggerFactory loggerFactory, string message, string title, MessageBoxButton button = default(MessageBoxButton), MessageBoxImage image = default(MessageBoxImage))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Core.Abstractions.IContext.html">IContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.Services.IBaseCommonServices.html">IBaseCommonServices</a></td>
+        <td><span class="parametername">commonServices</span></td>
+        <td><p>The common services.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ILoggerFactory</span></td>
+        <td><span class="parametername">loggerFactory</span></td>
+        <td><p>The logger factory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>The title.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxButton.html">MessageBoxButton</a></td>
+        <td><span class="parametername">button</span></td>
+        <td><p>The button.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxImage.html">MessageBoxImage</a></td>
+        <td><span class="parametername">image</span></td>
+        <td><p>The image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_ButtonImages.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.ButtonImages%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L41">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_ButtonImages_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.ButtonImages*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_ButtonImages" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.ButtonImages">ButtonImages</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ButtonImages property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageBoxImage ButtonImages { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxImage.html">MessageBoxImage</a></td>
+        <td><p>The button images.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_ButtonOptions.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.ButtonOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L31">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_ButtonOptions_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.ButtonOptions*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_ButtonOptions" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.ButtonOptions">ButtonOptions</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ButtonOptions property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageBoxButton ButtonOptions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxButton.html">MessageBoxButton</a></td>
+        <td><p>The button options.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_Cancel_Command.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.Cancel_Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L126">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Cancel_Command_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Cancel_Command*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Cancel_Command" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Cancel_Command">Cancel_Command</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the cancel command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand Cancel_Command { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Commands.RelayCommand.html">RelayCommand</a></td>
+        <td><p>The cancel command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_CancelVisible.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.CancelVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L61">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_CancelVisible_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.CancelVisible*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_CancelVisible" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.CancelVisible">CancelVisible</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the CancelVisible property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CancelVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [cancel visible]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_IsCancelDefault.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.IsCancelDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L111">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsCancelDefault_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsCancelDefault*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsCancelDefault" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsCancelDefault">IsCancelDefault</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the IsCancelDefault property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCancelDefault { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is cancel default; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_IsNoDefault.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.IsNoDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L101">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsNoDefault_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsNoDefault*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsNoDefault" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsNoDefault">IsNoDefault</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the IsNoDefault property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNoDefault { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is no default; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_IsOkDefault.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.IsOkDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L81">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsOkDefault_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsOkDefault*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsOkDefault" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsOkDefault">IsOkDefault</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the IsOkDefault property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOkDefault { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is ok default; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_IsYesDefault.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.IsYesDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L91">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsYesDefault_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsYesDefault*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_IsYesDefault" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.IsYesDefault">IsYesDefault</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the IsYesDefault property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsYesDefault { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is yes default; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_Message.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.Message%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L21">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Message_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Message*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Message" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Message property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_No_Command.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.No_Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L136">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_No_Command_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.No_Command*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_No_Command" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.No_Command">No_Command</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the no command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand No_Command { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Commands.RelayCommand.html">RelayCommand</a></td>
+        <td><p>The no command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_Ok_Command.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.Ok_Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L121">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Ok_Command_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Ok_Command*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Ok_Command" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Ok_Command">Ok_Command</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ok command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand Ok_Command { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Commands.RelayCommand.html">RelayCommand</a></td>
+        <td><p>The ok command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_OkVisible.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.OkVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L51">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_OkVisible_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.OkVisible*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_OkVisible" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.OkVisible">OkVisible</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the OkVisible property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OkVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [ok visible]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_Yes_Command.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.Yes_Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L131">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Yes_Command_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Yes_Command*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_Yes_Command" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.Yes_Command">Yes_Command</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the yes command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand Yes_Command { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Commands.RelayCommand.html">RelayCommand</a></td>
+        <td><p>The yes command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_YesNoVisible.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.YesNoVisible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L71">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_YesNoVisible_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.YesNoVisible*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_YesNoVisible" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.YesNoVisible">YesNoVisible</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the YesNoVisible property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool YesNoVisible { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if [yes no visible]; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_SetButtonDefault_ISynergy_Framework_Mvvm_Enumerations_MessageBoxResult_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.SetButtonDefault(ISynergy.Framework.Mvvm.Enumerations.MessageBoxResult)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L173">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_SetButtonDefault_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.SetButtonDefault*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_SetButtonDefault_ISynergy_Framework_Mvvm_Enumerations_MessageBoxResult_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.SetButtonDefault(ISynergy.Framework.Mvvm.Enumerations.MessageBoxResult)">SetButtonDefault(MessageBoxResult)</h4>
+  <div class="markdown level1 summary"><p>Sets the button default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetButtonDefault(MessageBoxResult defaultResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxResult.html">MessageBoxResult</a></td>
+        <td><span class="parametername">defaultResult</span></td>
+        <td><p>The default result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox_SetButtonVisibility_ISynergy_Framework_Mvvm_Enumerations_MessageBoxButton_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox.SetButtonVisibility(ISynergy.Framework.Mvvm.Enumerations.MessageBoxButton)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L199">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelMessageBox_SetButtonVisibility_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.SetButtonVisibility*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelMessageBox_SetButtonVisibility_ISynergy_Framework_Mvvm_Enumerations_MessageBoxButton_" data-uid="ISynergy.Framework.Mvvm.ViewModelMessageBox.SetButtonVisibility(ISynergy.Framework.Mvvm.Enumerations.MessageBoxButton)">SetButtonVisibility(MessageBoxButton)</h4>
+  <div class="markdown level1 summary"><p>Sets the button visibility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetButtonVisibility(MessageBoxButton buttonOption)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Enumerations.MessageBoxButton.html">MessageBoxButton</a></td>
+        <td><span class="parametername">buttonOption</span></td>
+        <td><p>The button option.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelDialog-1.html">IViewModelDialog&lt;TEntity&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelSelectedItem-1.html">IViewModelSelectedItem&lt;TEntity&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModel.html">IViewModel</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.IObservableClass.html">IObservableClass</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.IBindable.html">IBindable</a>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ICleanup.html">ICleanup</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html">ViewModelDialog</a>&lt;TEntity&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelMessageBox.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelMessageBox%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelMessageBox.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

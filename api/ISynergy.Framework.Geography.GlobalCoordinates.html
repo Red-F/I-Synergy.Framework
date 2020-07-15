@@ -1,0 +1,905 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct GlobalCoordinates
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct GlobalCoordinates
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography.GlobalCoordinates">
+  
+  
+  <h1 id="ISynergy_Framework_Geography_GlobalCoordinates" data-uid="ISynergy.Framework.Geography.GlobalCoordinates" class="text-break">Struct GlobalCoordinates
+  </h1>
+  <div class="markdown level0 summary"><p>Encapsulation of latitude and longitude coordinates on a globe.  Negative
+latitude is southern hemisphere.  Negative longitude is western hemisphere.
+Any angle may be specified for longtiude and latitude, but all angles will
+be canonicalized such that:
+-90 &lt;= latitude &lt;= +90
+-180 &lt; longitude &lt;= +180</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IComparable</span>&lt;<a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a>&gt;</div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Geography.html">ISynergy.Framework.Geography</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Geography.dll</h6>
+  <h5 id="ISynergy_Framework_Geography_GlobalCoordinates_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct GlobalCoordinates : IComparable&lt;GlobalCoordinates&gt;, IEquatable&lt;GlobalCoordinates&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates__ctor_ISynergy_Framework_Geography_Angle_ISynergy_Framework_Geography_Angle_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.%23ctor(ISynergy.Framework.Geography.Angle%2CISynergy.Framework.Geography.Angle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L31">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates__ctor_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates__ctor_ISynergy_Framework_Geography_Angle_ISynergy_Framework_Geography_Angle_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.#ctor(ISynergy.Framework.Geography.Angle,ISynergy.Framework.Geography.Angle)">GlobalCoordinates(Angle, Angle)</h4>
+  <div class="markdown level1 summary"><p>Construct a new GlobalCoordinates.  Angles will be canonicalized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates(Angle latitude, Angle longitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>latitude</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>longitude</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_Antipode.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.Antipode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L75">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_Antipode_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Antipode*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_Antipode" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Antipode">Antipode</h4>
+  <div class="markdown level1 summary"><p>The coordinates of the Antipode of this point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates Antipode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The antipode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_Latitude.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.Latitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L44">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_Latitude_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Latitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_Latitude" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Latitude">Latitude</h4>
+  <div class="markdown level1 summary"><p>Get/set latitude.  The latitude value will be canonicalized (which might
+result in a change to the longitude). Negative latitude is southern hemisphere.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Latitude { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The latitude.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_Longitude.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.Longitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L60">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_Longitude_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Longitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_Longitude" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Longitude">Longitude</h4>
+  <div class="markdown level1 summary"><p>Get/set longitude.  The longitude value will be canonicalized. Negative
+longitude is western hemisphere.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Longitude { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The longitude.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_CompareTo_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.CompareTo(ISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L86">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_CompareTo_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.CompareTo*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_CompareTo_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.CompareTo(ISynergy.Framework.Geography.GlobalCoordinates)">CompareTo(GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Compare these coordinates to another set of coordiates.  Western
+longitudes are less than eastern logitudes.  If longitudes are equal,
+then southern latitudes are less than northern latitudes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(GlobalCoordinates other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>instance to compare to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>-1, 0, or +1 as per IComparable contract</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_Equals_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.Equals(ISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L163">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_Equals_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Equals*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_Equals_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Equals(ISynergy.Framework.Geography.GlobalCoordinates)">Equals(GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Compare these coordinates to other coordinates for equality</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(GlobalCoordinates other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other coordinates to compare to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if they are equal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_Equals_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L173">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_Equals_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Equals*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_Equals_System_Object_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Compare these coordinates to another object for equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare with the current instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if they are the same</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_GetHashCode.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L153">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_GetHashCode_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.GetHashCode*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_GetHashCode" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Get a hash code for these coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_IsApproximatelyEqual_ISynergy_Framework_Geography_GlobalCoordinates_System_Double_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.IsApproximatelyEqual(ISynergy.Framework.Geography.GlobalCoordinates%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L143">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_IsApproximatelyEqual_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.IsApproximatelyEqual*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_IsApproximatelyEqual_ISynergy_Framework_Geography_GlobalCoordinates_System_Double_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.IsApproximatelyEqual(ISynergy.Framework.Geography.GlobalCoordinates,System.Double)">IsApproximatelyEqual(GlobalCoordinates, Double)</h4>
+  <div class="markdown level1 summary"><p>Test whether or not another coordinate is close to this coordinate
+within a defined precision.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsApproximatelyEqual(GlobalCoordinates other, double precision = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The coordinates of the ther place</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The precsion (optional, defaults to some small value)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the places are close to each other</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_ToString.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L187">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_ToString_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.ToString*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_ToString" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Get coordinates as a culture invariant string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The coordinates as culture invariant string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_op_Equality_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.op_Equality(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L208">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_op_Equality_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_Equality*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_op_Equality_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_Equality(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">Equality(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Test whether two GlobalCoordinates are the same</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(GlobalCoordinates lhs, GlobalCoordinates rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first coordinate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if they are the same</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_op_GreaterThan_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.op_GreaterThan(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L230">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_op_GreaterThan_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_GreaterThan*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_op_GreaterThan_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_GreaterThan(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">GreaterThan(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Test whether one GlobalCoordinates is greater than the other</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator&gt;(GlobalCoordinates lhs, GlobalCoordinates rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first coordinate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the first coordinate is greater</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_op_GreaterThanOrEqual_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.op_GreaterThanOrEqual(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L241">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_op_GreaterThanOrEqual_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_GreaterThanOrEqual*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_op_GreaterThanOrEqual_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_GreaterThanOrEqual(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">GreaterThanOrEqual(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Test whether one GlobalCoordinates is greater or equal than the other</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(GlobalCoordinates lhs, GlobalCoordinates rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first coordinate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the first coordinate is greater or equal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_op_Inequality_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.op_Inequality(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L219">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_op_Inequality_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_Inequality*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_op_Inequality_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_Inequality(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">Inequality(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Test whether two GlobalCoordinates are not the same</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(GlobalCoordinates lhs, GlobalCoordinates rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first coordinate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if they are not the same</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_op_LessThan_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.op_LessThan(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L252">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_op_LessThan_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_LessThan*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_op_LessThan_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_LessThan(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">LessThan(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Test whether one GlobalCoordinates is smaller than the other</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(GlobalCoordinates lhs, GlobalCoordinates rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first coordinate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the first coordinate is smaller</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates_op_LessThanOrEqual_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates.op_LessThanOrEqual(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L263">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalCoordinates_op_LessThanOrEqual_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_LessThanOrEqual*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalCoordinates_op_LessThanOrEqual_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalCoordinates.op_LessThanOrEqual(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">LessThanOrEqual(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Test whether one GlobalCoordinates is smaller or equal than the other</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(GlobalCoordinates lhs, GlobalCoordinates rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first coordinate</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second coordinate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the first coordinate is smaller or equal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IComparable&lt;&gt;</span>
+  </div>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalCoordinates.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalCoordinates%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalCoordinates.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

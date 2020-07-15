@@ -1,0 +1,479 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WeakAction&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WeakAction&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Events.WeakAction`1">
+  
+  
+  <h1 id="ISynergy_Framework_Core_Events_WeakAction_1" data-uid="ISynergy.Framework.Core.Events.WeakAction`1" class="text-break">Class WeakAction&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Stores an Action without causing a hard reference
+to be created to the Action's owner. The owner can be garbage collected at any time.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html">WeakAction</a></div>
+    <div class="level2"><span class="xref">WeakAction&lt;T&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ISynergy.Framework.Core.Events.IExecuteWithObject.html">IExecuteWithObject</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_Method">WeakAction.Method</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_ActionReference">WeakAction.ActionReference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_LiveReference">WeakAction.LiveReference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_Reference">WeakAction.Reference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_IsStatic">WeakAction.IsStatic</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_Target">WeakAction.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_ActionTarget">WeakAction.ActionTarget</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Core.Events.html">ISynergy.Framework.Core.Events</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Core.dll</h6>
+  <h5 id="ISynergy_Framework_Core_Events_WeakAction_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class WeakAction&lt;T&gt; : WeakAction, IExecuteWithObject</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the Action's parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1__ctor_Action__0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.%23ctor(Action%7B%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L72">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1__ctor_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1__ctor_Action__0__System_Boolean_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.#ctor(Action{`0},System.Boolean)">WeakAction(Action&lt;T&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the WeakAction class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeakAction(Action&lt;T&gt; action, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that will be associated to this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1__ctor_System_Object_Action__0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.%23ctor(System.Object%2CAction%7B%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L85">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1__ctor_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1__ctor_System_Object_Action__0__System_Boolean_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.#ctor(System.Object,Action{`0},System.Boolean)">WeakAction(Object, Action&lt;T&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the WeakAction class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeakAction(object target, Action&lt;T&gt; action, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The action's owner.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that will be associated to this instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1_IsAlive.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.IsAlive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L41">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1_IsAlive_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.IsAlive*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1_IsAlive" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.IsAlive">IsAlive</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the Action's owner is still alive, or if it was collected
+by the Garbage Collector already.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsAlive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is alive; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_IsAlive">WeakAction.IsAlive</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1_MethodName.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.MethodName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L23">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1_MethodName_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.MethodName*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1_MethodName" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.MethodName">MethodName</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the method that this WeakAction represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string MethodName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The name of the method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ISynergy.Framework.Core.Events.WeakAction.html#ISynergy_Framework_Core_Events_WeakAction_MethodName">WeakAction.MethodName</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1_Execute.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.Execute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L132">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1_Execute_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.Execute*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1_Execute" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Executes the action. This only happens if the action's owner
+is still alive. The action's parameter is set to default(T).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1_Execute__0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.Execute(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L142">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1_Execute_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.Execute*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1_Execute__0_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.Execute(`0)">Execute(T)</h4>
+  <div class="markdown level1 summary"><p>Executes the action. This only happens if the action's owner
+is still alive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute(T parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>A parameter to be passed to the action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1_ExecuteWithObject_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.ExecuteWithObject(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L177">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1_ExecuteWithObject_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.ExecuteWithObject*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1_ExecuteWithObject_System_Object_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.ExecuteWithObject(System.Object)">ExecuteWithObject(Object)</h4>
+  <div class="markdown level1 summary"><p>Executes the action with a parameter of type object. This parameter
+will be casted to T. This method implements <a class="xref" href="ISynergy.Framework.Core.Events.IExecuteWithObject.html#ISynergy_Framework_Core_Events_IExecuteWithObject_ExecuteWithObject_System_Object_">ExecuteWithObject(Object)</a>
+and can be useful if you store multiple WeakAction{T} instances but don't know in advance
+what type T represents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteWithObject(object parameter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">parameter</span></td>
+        <td><p>The parameter that will be passed to the action after
+being casted to T.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1_MarkForDeletion.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601.MarkForDeletion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L188">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Events_WeakAction_1_MarkForDeletion_" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.MarkForDeletion*"></a>
+  <h4 id="ISynergy_Framework_Core_Events_WeakAction_1_MarkForDeletion" data-uid="ISynergy.Framework.Core.Events.WeakAction`1.MarkForDeletion">MarkForDeletion()</h4>
+  <div class="markdown level1 summary"><p>Sets all the actions that this WeakAction contains to null,
+which is a signal for containing objects that this WeakAction
+should be deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkForDeletion()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Events.IExecuteWithObject.html">IExecuteWithObject</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Events_WeakAction_1.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Events.WeakAction%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Events/WeakActionGeneric.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

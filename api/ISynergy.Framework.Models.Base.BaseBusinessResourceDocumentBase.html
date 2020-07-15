@@ -1,0 +1,1397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseBusinessResourceDocumentBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseBusinessResourceDocumentBase
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase">
+  
+  
+  <h1 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase" class="text-break">Class BaseBusinessResourceDocumentBase
+  </h1>
+  <div class="markdown level0 summary"><p>Class BaseBusinessResourceDocumentBase.
+Implements the <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentSearch.html">BaseBusinessResourceDocumentSearch</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html">BaseBusinessResourceDocumentBasic</a></div>
+    <div class="level2"><a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentSearch.html">BaseBusinessResourceDocumentSearch</a></div>
+    <div class="level3"><span class="xref">BaseBusinessResourceDocumentBase</span></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocument-1.html">BaseBusinessResourceDocument&lt;TEntityLine&gt;</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentSearch.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentSearch_Amount">BaseBusinessResourceDocumentSearch.Amount</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentSearch.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentSearch_IsOnline">BaseBusinessResourceDocumentSearch.IsOnline</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentSearch.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentSearch_Age">BaseBusinessResourceDocumentSearch.Age</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_CurrencyId">BaseBusinessResourceDocumentBasic.CurrencyId</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_Date">BaseBusinessResourceDocumentBasic.Date</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_ExpirationDate">BaseBusinessResourceDocumentBasic.ExpirationDate</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryCustomerName">BaseBusinessResourceDocumentBasic.DeliveryCustomerName</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryCustomerNumber">BaseBusinessResourceDocumentBasic.DeliveryCustomerNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressStreet">BaseBusinessResourceDocumentBasic.DeliveryAddressStreet</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressExtraAddressLine">BaseBusinessResourceDocumentBasic.DeliveryAddressExtraAddressLine</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressHouseNumber">BaseBusinessResourceDocumentBasic.DeliveryAddressHouseNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressAddition">BaseBusinessResourceDocumentBasic.DeliveryAddressAddition</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressZipcode">BaseBusinessResourceDocumentBasic.DeliveryAddressZipcode</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressCity">BaseBusinessResourceDocumentBasic.DeliveryAddressCity</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressState">BaseBusinessResourceDocumentBasic.DeliveryAddressState</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryAddressCountry">BaseBusinessResourceDocumentBasic.DeliveryAddressCountry</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingCustomerName">BaseBusinessResourceDocumentBasic.BillingCustomerName</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingCustomerNumber">BaseBusinessResourceDocumentBasic.BillingCustomerNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressStreet">BaseBusinessResourceDocumentBasic.BillingAddressStreet</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressExtraAddressLine">BaseBusinessResourceDocumentBasic.BillingAddressExtraAddressLine</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressHouseNumber">BaseBusinessResourceDocumentBasic.BillingAddressHouseNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressAddition">BaseBusinessResourceDocumentBasic.BillingAddressAddition</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressZipcode">BaseBusinessResourceDocumentBasic.BillingAddressZipcode</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressCity">BaseBusinessResourceDocumentBasic.BillingAddressCity</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressState">BaseBusinessResourceDocumentBasic.BillingAddressState</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingAddressCountry">BaseBusinessResourceDocumentBasic.BillingAddressCountry</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingContactPersonTitle">BaseBusinessResourceDocumentBasic.BillingContactPersonTitle</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingContactPersonSalutation">BaseBusinessResourceDocumentBasic.BillingContactPersonSalutation</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_Subject">BaseBusinessResourceDocumentBasic.Subject</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_Reference">BaseBusinessResourceDocumentBasic.Reference</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_UserId">BaseBusinessResourceDocumentBasic.UserId</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_VATCodeId">BaseBusinessResourceDocumentBasic.VATCodeId</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_Number">BaseBusinessResourceDocumentBasic.Number</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_BillingEmailAddress">BaseBusinessResourceDocumentBasic.BillingEmailAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_DeliveryEmailAddress">BaseBusinessResourceDocumentBasic.DeliveryEmailAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html#ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBasic_Id">BaseBusinessResourceDocumentBasic.Id</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Models.Base.html">ISynergy.Framework.Models.Base</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Models.dll</h6>
+  <h5 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseBusinessResourceDocumentBase : BaseBusinessResourceDocumentSearch</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCosts.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCosts%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L433">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCosts_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCosts*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCosts" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCosts">AdministrativeCosts</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AdministrativeCosts property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal AdministrativeCosts { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The administrative costs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCostsId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCostsId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L444">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCostsId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCostsId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCostsId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCostsId">AdministrativeCostsId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AdministrativeCostsId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid AdministrativeCostsId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The administrative costs identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCostsVAT.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCostsVAT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L455">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCostsVAT_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCostsVAT*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AdministrativeCostsVAT" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AdministrativeCostsVAT">AdministrativeCostsVAT</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AdministrativeCostsVAT property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal AdministrativeCostsVAT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The administrative costs vat.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AmountNett.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AmountNett%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L466">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AmountNett_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AmountNett*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AmountNett" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AmountNett">AmountNett</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AmountNett property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal AmountNett { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The amount nett.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AmountVAT.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AmountVAT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L477">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AmountVAT_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AmountVAT*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AmountVAT" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AmountVAT">AmountVAT</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AmountVAT property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal AmountVAT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The amount vat.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCosts.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCosts%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L488">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCosts_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCosts*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCosts" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCosts">AssemblyCosts</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AssemblyCosts property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal AssemblyCosts { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The assembly costs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCostsId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCostsId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L499">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCostsId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCostsId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCostsId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCostsId">AssemblyCostsId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AssemblyCostsId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid AssemblyCostsId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The assembly costs identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCostsVAT.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCostsVAT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L510">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCostsVAT_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCostsVAT*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_AssemblyCostsVAT" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.AssemblyCostsVAT">AssemblyCostsVAT</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the AssemblyCostsVAT property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal AssemblyCostsVAT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The assembly costs vat.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingAddressId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingAddressId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L596">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingAddressId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingAddressId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingAddressId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingAddressId">BillingAddressId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the BillingAddressId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid BillingAddressId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The billing address identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingContactPersonId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingContactPersonId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L521">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingContactPersonId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingContactPersonId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingContactPersonId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingContactPersonId">BillingContactPersonId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ContactPersonId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid BillingContactPersonId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The billing contact person identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingCustomerId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingCustomerId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L773">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingCustomerId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingCustomerId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_BillingCustomerId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.BillingCustomerId">BillingCustomerId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the BillingCustomerId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid BillingCustomerId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The billing customer identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryAddressId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryAddressId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L542">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryAddressId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryAddressId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryAddressId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryAddressId">DeliveryAddressId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryAddressId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid DeliveryAddressId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The delivery address identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionDiscount.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionDiscount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L711">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionDiscount_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionDiscount*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionDiscount" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionDiscount">DeliveryConditionDiscount</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Delivery_Condition_Discount property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal DeliveryConditionDiscount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The delivery condition discount.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L680">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionId">DeliveryConditionId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryConditionId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid DeliveryConditionId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The delivery condition identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionText.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L701">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionText_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionText*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionText" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionText">DeliveryConditionText</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryConditionText property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DeliveryConditionText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The delivery condition text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionValue.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L691">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionValue_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionValue*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryConditionValue" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryConditionValue">DeliveryConditionValue</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryConditionValue property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal DeliveryConditionValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The delivery condition value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCosts.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCosts%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L553">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCosts_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCosts*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCosts" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCosts">DeliveryCosts</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryCosts property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal DeliveryCosts { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The delivery costs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCostsId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCostsId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L564">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCostsId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCostsId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCostsId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCostsId">DeliveryCostsId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryCostsId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid DeliveryCostsId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The delivery costs identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCostsVAT.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCostsVAT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L575">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCostsVAT_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCostsVAT*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCostsVAT" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCostsVAT">DeliveryCostsVAT</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryCostsVAT property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal DeliveryCostsVAT { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The delivery costs vat.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCustomerId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCustomerId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L784">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCustomerId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCustomerId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryCustomerId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryCustomerId">DeliveryCustomerId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryCustomerId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid DeliveryCustomerId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The delivery customer identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryDate.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryDate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L586">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryDate_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryDate*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_DeliveryDate" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.DeliveryDate">DeliveryDate</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the DeliveryDate property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? DeliveryDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><p>The delivery date.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_Discount.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.Discount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L531">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_Discount_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.Discount*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_Discount" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.Discount">Discount</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Discount property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal Discount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The discount.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_LocationId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.LocationId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L607">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_LocationId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.LocationId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_LocationId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.LocationId">LocationId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the LocationId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid? LocationId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Guid</span>&gt;</td>
+        <td><p>The location identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_MotiveId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.MotiveId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L617">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_MotiveId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.MotiveId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_MotiveId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.MotiveId">MotiveId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the MotiveId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid MotiveId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The motive identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_MotiveText.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.MotiveText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L628">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_MotiveText_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.MotiveText*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_MotiveText" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.MotiveText">MotiveText</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the MotiveText property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MotiveText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The motive text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionDiscount.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionDiscount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L670">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionDiscount_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionDiscount*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionDiscount" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionDiscount">PaymentConditionDiscount</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Payment_Condition_Discount property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal PaymentConditionDiscount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The payment condition discount.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L639">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionId">PaymentConditionId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the PaymentConditionId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid PaymentConditionId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The payment condition identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionText.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L660">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionText_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionText*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionText" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionText">PaymentConditionText</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the PaymentConditionText property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PaymentConditionText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The payment condition text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionValue.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L650">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionValue_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionValue*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentConditionValue" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentConditionValue">PaymentConditionValue</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the PaymentConditionValue property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal PaymentConditionValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The payment condition value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentTerm.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentTerm%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L762">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentTerm_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentTerm*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_PaymentTerm" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.PaymentTerm">PaymentTerm</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the PaymentTerm property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PaymentTerm { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The payment term.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_ServicingProductId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.ServicingProductId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L795">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_ServicingProductId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.ServicingProductId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_ServicingProductId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.ServicingProductId">ServicingProductId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the ServicingProductId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid? ServicingProductId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Guid</span>&gt;</td>
+        <td><p>The servicing product identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionDiscount.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionDiscount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L752">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionDiscount_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionDiscount*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionDiscount" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionDiscount">WarrantyConditionDiscount</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Warranty_Condition_Discount property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal WarrantyConditionDiscount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The warranty condition discount.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionId.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L721">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionId_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionId*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionId" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionId">WarrantyConditionId</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the WarrantyConditionId property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid WarrantyConditionId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Guid</span></td>
+        <td><p>The warranty condition identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionText.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L742">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionText_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionText*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionText" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionText">WarrantyConditionText</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the WarrantyConditionText property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WarrantyConditionText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The warranty condition text.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionValue.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L732">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionValue_" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionValue*"></a>
+  <h4 id="ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase_WarrantyConditionValue" data-uid="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase.WarrantyConditionValue">WarrantyConditionValue</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the WarrantyConditionValue property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal WarrantyConditionValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p>The warranty condition value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentSearch.html">BaseBusinessResourceDocumentSearch</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBusinessResourceDocumentBase.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBusinessResourceDocument.cs/#L427" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DispatcherExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DispatcherExtensions
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Windows.UI.Core.DispatcherExtensions">
+  
+  
+  <h1 id="Windows_UI_Core_DispatcherExtensions" data-uid="Windows.UI.Core.DispatcherExtensions" class="text-break">Class DispatcherExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Class DispatcherExtensions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DispatcherExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Windows.UI.Core.html">Windows.UI.Core</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Windows.dll</h6>
+  <h5 id="Windows_UI_Core_DispatcherExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DispatcherExtensions : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Action_.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L18">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Action_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Action)">RunAndAwaitAsync(CoreDispatcher, Action)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunAndAwaitAsync(this CoreDispatcher dispatcher, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Func_Task__.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher%2CFunc%7BTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L98">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Func_Task__" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Func{Task})">RunAndAwaitAsync(CoreDispatcher, Func&lt;Task&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunAndAwaitAsync(this CoreDispatcher dispatcher, Func&lt;Task&gt; asyncAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">asyncAction</span></td>
+        <td><p>The async action to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Func_Windows_Foundation_IAsyncAction__.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher%2CFunc%7BWindows.Foundation.IAsyncAction%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L178">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Func_Windows_Foundation_IAsyncAction__" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Func{Windows.Foundation.IAsyncAction})">RunAndAwaitAsync(CoreDispatcher, Func&lt;IAsyncAction&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunAndAwaitAsync(this CoreDispatcher dispatcher, Func&lt;IAsyncAction&gt; asyncAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Windows.Foundation.IAsyncAction</span>&gt;</td>
+        <td><span class="parametername">asyncAction</span></td>
+        <td><p>The async action to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Action_.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher%2CWindows.UI.Core.CoreDispatcherPriority%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L30">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Action_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,Action)">RunAndAwaitAsync(CoreDispatcher, CoreDispatcherPriority, Action)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunAndAwaitAsync(this CoreDispatcher dispatcher, CoreDispatcherPriority priority, Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcherPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Specifies the priority for event dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Task__.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher%2CWindows.UI.Core.CoreDispatcherPriority%2CFunc%7BTask%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L110">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Task__" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,Func{Task})">RunAndAwaitAsync(CoreDispatcher, CoreDispatcherPriority, Func&lt;Task&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunAndAwaitAsync(this CoreDispatcher dispatcher, CoreDispatcherPriority priority, Func&lt;Task&gt; asyncAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcherPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Specifies the priority for event dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&gt;</td>
+        <td><span class="parametername">asyncAction</span></td>
+        <td><p>The async action to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Windows_Foundation_IAsyncAction__.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher%2CWindows.UI.Core.CoreDispatcherPriority%2CFunc%7BWindows.Foundation.IAsyncAction%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L190">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Windows_Foundation_IAsyncAction__" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,Func{Windows.Foundation.IAsyncAction})">RunAndAwaitAsync(CoreDispatcher, CoreDispatcherPriority, Func&lt;IAsyncAction&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task RunAndAwaitAsync(this CoreDispatcher dispatcher, CoreDispatcherPriority priority, Func&lt;IAsyncAction&gt; asyncAction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcherPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Specifies the priority for event dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Windows.Foundation.IAsyncAction</span>&gt;</td>
+        <td><span class="parametername">asyncAction</span></td>
+        <td><p>The async action to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Func___0__.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync%60%601(Windows.UI.Core.CoreDispatcher%2CFunc%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L58">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Func___0__" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Func{``0})">RunAndAwaitAsync&lt;T&gt;(CoreDispatcher, Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RunAndAwaitAsync&lt;T&gt;(this CoreDispatcher dispatcher, Func&lt;T&gt; function)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">function</span></td>
+        <td><p>The function to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The return type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Func_Task___0___.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync%60%601(Windows.UI.Core.CoreDispatcher%2CFunc%7BTask%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L138">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Func_Task___0___" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Func{Task{``0}})">RunAndAwaitAsync&lt;T&gt;(CoreDispatcher, Func&lt;Task&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RunAndAwaitAsync&lt;T&gt;(this CoreDispatcher dispatcher, Func&lt;Task&lt;T&gt;&gt; asyncFunction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">asyncFunction</span></td>
+        <td><p>The async function to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The return type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Func_Windows_Foundation_IAsyncOperation___0___.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync%60%601(Windows.UI.Core.CoreDispatcher%2CFunc%7BWindows.Foundation.IAsyncOperation%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L218">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Func_Windows_Foundation_IAsyncOperation___0___" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Func{Windows.Foundation.IAsyncOperation{``0}})">RunAndAwaitAsync&lt;T&gt;(CoreDispatcher, Func&lt;IAsyncOperation&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RunAndAwaitAsync&lt;T&gt;(this CoreDispatcher dispatcher, Func&lt;IAsyncOperation&lt;T&gt;&gt; asyncFunction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Windows.Foundation.IAsyncOperation</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">asyncFunction</span></td>
+        <td><p>The async function to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The return type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func___0__.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync%60%601(Windows.UI.Core.CoreDispatcher%2CWindows.UI.Core.CoreDispatcherPriority%2CFunc%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L71">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func___0__" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,Func{``0})">RunAndAwaitAsync&lt;T&gt;(CoreDispatcher, CoreDispatcherPriority, Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RunAndAwaitAsync&lt;T&gt;(this CoreDispatcher dispatcher, CoreDispatcherPriority priority, Func&lt;T&gt; function)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcherPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Specifies the priority for event dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;T&gt;</td>
+        <td><span class="parametername">function</span></td>
+        <td><p>The function to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The return type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Task___0___.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync%60%601(Windows.UI.Core.CoreDispatcher%2CWindows.UI.Core.CoreDispatcherPriority%2CFunc%7BTask%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L151">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Task___0___" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,Func{Task{``0}})">RunAndAwaitAsync&lt;T&gt;(CoreDispatcher, CoreDispatcherPriority, Func&lt;Task&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RunAndAwaitAsync&lt;T&gt;(this CoreDispatcher dispatcher, CoreDispatcherPriority priority, Func&lt;Task&lt;T&gt;&gt; asyncFunction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcherPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Specifies the priority for event dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Task</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">asyncFunction</span></td>
+        <td><p>The async function to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The return type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Windows_Foundation_IAsyncOperation___0___.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync%60%601(Windows.UI.Core.CoreDispatcher%2CWindows.UI.Core.CoreDispatcherPriority%2CFunc%7BWindows.Foundation.IAsyncOperation%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L231">View Source</a>
+  </span>
+  <a id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync_" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync*"></a>
+  <h4 id="Windows_UI_Core_DispatcherExtensions_RunAndAwaitAsync__1_Windows_UI_Core_CoreDispatcher_Windows_UI_Core_CoreDispatcherPriority_Func_Windows_Foundation_IAsyncOperation___0___" data-uid="Windows.UI.Core.DispatcherExtensions.RunAndAwaitAsync``1(Windows.UI.Core.CoreDispatcher,Windows.UI.Core.CoreDispatcherPriority,Func{Windows.Foundation.IAsyncOperation{``0}})">RunAndAwaitAsync&lt;T&gt;(CoreDispatcher, CoreDispatcherPriority, Func&lt;IAsyncOperation&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Runs the event dispatcher and awaits for it to complete before returning the results for dispatched events asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;T&gt; RunAndAwaitAsync&lt;T&gt;(this CoreDispatcher dispatcher, CoreDispatcherPriority priority, Func&lt;IAsyncOperation&lt;T&gt;&gt; asyncFunction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcher</span></td>
+        <td><span class="parametername">dispatcher</span></td>
+        <td><p>The dispatcher.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Windows.UI.Core.CoreDispatcherPriority</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td><p>Specifies the priority for event dispatch.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">Windows.Foundation.IAsyncOperation</span>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">asyncFunction</span></td>
+        <td><p>The async function to call.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;T&gt;</td>
+        <td><p>The <see cref="!:Task"></see> object representing the asynchronous operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The return type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=Windows_UI_Core_DispatcherExtensions.md&amp;value=---%0Auid%3A%20Windows.UI.Core.DispatcherExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Extensions/DispatcherExtensions.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

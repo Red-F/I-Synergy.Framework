@@ -1,0 +1,867 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GlobalMesh
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GlobalMesh
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography.GlobalMesh">
+  
+  
+  <h1 id="ISynergy_Framework_Geography_GlobalMesh" data-uid="ISynergy.Framework.Geography.GlobalMesh" class="text-break">Class GlobalMesh
+  </h1>
+  <div class="markdown level0 summary"><p>This class overlays the globe with a mesh of squares.
+The algorithm is based on subdividing the UTM grids into
+finer cell structures, so the coverage is for latitudes
+between 80° South and 84° North.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GlobalMesh</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Geography.html">ISynergy.Framework.Geography</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Geography.dll</h6>
+  <h5 id="ISynergy_Framework_Geography_GlobalMesh_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GlobalMesh : object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L37">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh__ctor_" data-uid="ISynergy.Framework.Geography.GlobalMesh.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh__ctor_System_Int32_" data-uid="ISynergy.Framework.Geography.GlobalMesh.#ctor(System.Int32)">GlobalMesh(Int32)</h4>
+  <div class="markdown level1 summary"><p>Instantiate the Mesh with the given nuber of meters as the size
+of the mesh squares. We do not support squares less than 1m.
+Please note that the actual mesh size used is a derived value
+that approximates the requested mesh size in order to provide
+better computational efficiency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalMesh(int meshSizeinMeters = 1000)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">meshSizeinMeters</span></td>
+        <td><p>The size of the squares in meter. The defauklt value is 1000m.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_Count.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L86">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_Count_" data-uid="ISynergy.Framework.Geography.GlobalMesh.Count*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_Count" data-uid="ISynergy.Framework.Geography.GlobalMesh.Count">Count</h4>
+  <div class="markdown level1 summary"><p>The (maximum) total number of meshes used to cover an UTM Grid.
+Individual Grids may actually be covered by fewer mesh-cells.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_GlobalCount.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.GlobalCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L92">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_GlobalCount_" data-uid="ISynergy.Framework.Geography.GlobalMesh.GlobalCount*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_GlobalCount" data-uid="ISynergy.Framework.Geography.GlobalMesh.GlobalCount">GlobalCount</h4>
+  <div class="markdown level1 summary"><p>The maximum number of a mesh</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long GlobalCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The global count.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_MeshSize.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.MeshSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L73">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_MeshSize_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshSize*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_MeshSize" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshSize">MeshSize</h4>
+  <div class="markdown level1 summary"><p>The size of the mesh squares in meters. We only support full meters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MeshSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The size of the mesh.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_Projection.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L79">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_Projection_" data-uid="ISynergy.Framework.Geography.GlobalMesh.Projection*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_Projection" data-uid="ISynergy.Framework.Geography.GlobalMesh.Projection">Projection</h4>
+  <div class="markdown level1 summary"><p>The UTM Projection for the Globe we cover with the mesh.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmProjection Projection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></td>
+        <td><p>The projection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_CenterOf_System_Int64_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.CenterOf(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L177">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_CenterOf_" data-uid="ISynergy.Framework.Geography.GlobalMesh.CenterOf*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_CenterOf_System_Int64_" data-uid="ISynergy.Framework.Geography.GlobalMesh.CenterOf(System.Int64)">CenterOf(Int64)</h4>
+  <div class="markdown level1 summary"><p>Return the central coordinates of a Mesh given by its number.
+Please note that this center is on the UTM map, but at the borders
+of a grid this coordinate may actually overlap and belong to another
+UTM grid. So if you convert them to a Latitude/Longitude and then back
+to an UtmCoordinate, you may get different values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmCoordinate CenterOf(long meshNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The number of the mesh</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><p>The UTM coordinates of the center of the square</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_Grid_System_Int64_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.Grid(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L100">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_Grid_" data-uid="ISynergy.Framework.Geography.GlobalMesh.Grid*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_Grid_System_Int64_" data-uid="ISynergy.Framework.Geography.GlobalMesh.Grid(System.Int64)">Grid(Int64)</h4>
+  <div class="markdown level1 summary"><p>Return the UtmGrid this mesh belongs to</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid Grid(long meshNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The mesh number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><p>The UtmGrid in which this mesh cell is located</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_LowerLeft_System_Int64_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.LowerLeft(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L196">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_LowerLeft_" data-uid="ISynergy.Framework.Geography.GlobalMesh.LowerLeft*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_LowerLeft_System_Int64_" data-uid="ISynergy.Framework.Geography.GlobalMesh.LowerLeft(System.Int64)">LowerLeft(Int64)</h4>
+  <div class="markdown level1 summary"><p>Return the lower left corner coordinates of a Mesh given by its number.
+Please note that this point is on the UTM map, but at the borders
+of a grid this coordinate may actually overlap and belong to another
+UTM grid. So if you convert them to a Latitude/Longitude and then back
+to an UtmCoordinate, you may get different values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmCoordinate LowerLeft(long meshNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The mesh number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><p>The UTM coordinates of the lower left corner of the Mesh</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_LowerRight_System_Int64_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.LowerRight(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L213">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_LowerRight_" data-uid="ISynergy.Framework.Geography.GlobalMesh.LowerRight*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_LowerRight_System_Int64_" data-uid="ISynergy.Framework.Geography.GlobalMesh.LowerRight(System.Int64)">LowerRight(Int64)</h4>
+  <div class="markdown level1 summary"><p>Return the lower right corner coordinates of a Mesh given by its number.
+Please note that this point is on the UTM map, but at the borders
+of a grid this coordinate may actually overlap and belong to another
+UTM grid. So if you convert them to a Latitude/Longitude and then back
+to an UtmCoordinate, you may get different values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmCoordinate LowerRight(long meshNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The mesh number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><p>The UTM coordinates of the lower right corner of the Mesh</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_MeshNumber_ISynergy_Framework_Geography_Angle_ISynergy_Framework_Geography_Angle_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.MeshNumber(ISynergy.Framework.Geography.Angle%2CISynergy.Framework.Geography.Angle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L138">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_MeshNumber_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshNumber*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_MeshNumber_ISynergy_Framework_Geography_Angle_ISynergy_Framework_Geography_Angle_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshNumber(ISynergy.Framework.Geography.Angle,ISynergy.Framework.Geography.Angle)">MeshNumber(Angle, Angle)</h4>
+  <div class="markdown level1 summary"><p>Get the globally unique Mesh number of a location given by
+latitude and longitude.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MeshNumber(Angle latitude, Angle longitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The latitude (in degrees)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude (in degrees)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The mesh number to which the location belongs</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_MeshNumber_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.MeshNumber(ISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L126">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_MeshNumber_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshNumber*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_MeshNumber_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshNumber(ISynergy.Framework.Geography.GlobalCoordinates)">MeshNumber(GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Get the globally unique Mesh number of a location given by
+latitude and longitude.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MeshNumber(GlobalCoordinates coord)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">coord</span></td>
+        <td><p>The location to convert</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The mesh number to which the location belongs</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_MeshNumber_ISynergy_Framework_Geography_UtmCoordinate_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.MeshNumber(ISynergy.Framework.Geography.UtmCoordinate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L112">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_MeshNumber_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshNumber*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_MeshNumber_ISynergy_Framework_Geography_UtmCoordinate_" data-uid="ISynergy.Framework.Geography.GlobalMesh.MeshNumber(ISynergy.Framework.Geography.UtmCoordinate)">MeshNumber(UtmCoordinate)</h4>
+  <div class="markdown level1 summary"><p>Get the globally unique Mesh number of a coordinate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long MeshNumber(UtmCoordinate coord)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><span class="parametername">coord</span></td>
+        <td><p>The UTM coordinate to convert</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>The mesh number to which the coordinate belongs</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_Neighborhood_System_Int64_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.Neighborhood(System.Int64%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L266">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_Neighborhood_" data-uid="ISynergy.Framework.Geography.GlobalMesh.Neighborhood*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_Neighborhood_System_Int64_System_Int32_" data-uid="ISynergy.Framework.Geography.GlobalMesh.Neighborhood(System.Int64,System.Int32)">Neighborhood(Int64, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get the list of neighbor meshes in a specified &quot;distance&quot;. Distance 1 means
+direct neighbors, 2 means neighbors that are 2 meshes away etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;long&gt; Neighborhood(long meshNumber, int distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The mesh number</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>The distance (0-3 currently supported)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><p>The list of mesh numbers of the neighbors</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_UpperLeft_System_Int64_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.UpperLeft(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L231">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_UpperLeft_" data-uid="ISynergy.Framework.Geography.GlobalMesh.UpperLeft*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_UpperLeft_System_Int64_" data-uid="ISynergy.Framework.Geography.GlobalMesh.UpperLeft(System.Int64)">UpperLeft(Int64)</h4>
+  <div class="markdown level1 summary"><p>Return the upper left corner coordinates of a Mesh given by its number.
+Please note that this point is on the UTM map, but at the borders
+of a grid this coordinate may actually overlap and belong to another
+UTM grid. So if you convert them to a Latitude/Longitude and then back
+to an UtmCoordinate, you may get different values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmCoordinate UpperLeft(long meshNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The mesh number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><p>The UTM coordinates of the upper left corner of the Mesh</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh_UpperRight_System_Int64_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh.UpperRight(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L249">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GlobalMesh_UpperRight_" data-uid="ISynergy.Framework.Geography.GlobalMesh.UpperRight*"></a>
+  <h4 id="ISynergy_Framework_Geography_GlobalMesh_UpperRight_System_Int64_" data-uid="ISynergy.Framework.Geography.GlobalMesh.UpperRight(System.Int64)">UpperRight(Int64)</h4>
+  <div class="markdown level1 summary"><p>Return the upper right corner coordinates of a Mesh given by its number.
+Please note that this point is on the UTM map, but at the borders
+of a grid this coordinate may actually overlap and belong to another
+UTM grid. So if you convert them to a Latitude/Longitude and then back
+to an UtmCoordinate, you may get different values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmCoordinate UpperRight(long meshNumber)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">meshNumber</span></td>
+        <td><p>The mesh number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><p>The UTM coordinates of the upper right corner of the Mesh</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GlobalMesh.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GlobalMesh%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Global/GlobalMesh.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

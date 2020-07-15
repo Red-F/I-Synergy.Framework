@@ -1,0 +1,1114 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Messenger
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Messenger
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger">
+  
+  
+  <h1 id="ISynergy_Framework_Mvvm_Messaging_Messenger" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger" class="text-break">Class Messenger
+  </h1>
+  <div class="markdown level0 summary"><p>The Messenger is a class allowing objects to exchange messages.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Messenger</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Messaging.IMessenger.html">IMessenger</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Mvvm.Messaging.html">ISynergy.Framework.Mvvm.Messaging</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Mvvm.dll</h6>
+  <h5 id="ISynergy_Framework_Mvvm_Messaging_Messenger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Messenger : object, IMessenger</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Default.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Default%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L41">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Default_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Default*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Default" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Default">Default</h4>
+  <div class="markdown level1 summary"><p>Gets the Messenger's default instance, allowing
+to register and send messages in a static manner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IMessenger Default { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Messaging.IMessenger.html">IMessenger</a></td>
+        <td><p>The default.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Cleanup.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Cleanup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L608">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Cleanup_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Cleanup*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Cleanup" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Cleanup">Cleanup()</h4>
+  <div class="markdown level1 summary"><p>Scans the recipients' lists for &quot;dead&quot; instances and removes them.
+Since recipients are stored as <see cref="!:WeakReference"></see>,
+recipients can be garbage collected even though the Messenger keeps
+them in a list. During the cleanup operation, all &quot;dead&quot;
+recipients are removed from the lists. Since this operation
+can take a moment, it is only executed when the application is
+idle. For this reason, a user of the Messenger class should use
+<a class="xref" href="ISynergy.Framework.Mvvm.Messaging.Messenger.html#ISynergy_Framework_Mvvm_Messaging_Messenger_RequestCleanup">RequestCleanup()</a> instead of forcing one with the
+<a class="xref" href="ISynergy.Framework.Mvvm.Messaging.Messenger.html#ISynergy_Framework_Mvvm_Messaging_Messenger_Cleanup">Cleanup()</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cleanup()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_OverrideDefault_ISynergy_Framework_Mvvm_Messaging_IMessenger_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.OverrideDefault(ISynergy.Framework.Mvvm.Messaging.IMessenger)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L398">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_OverrideDefault_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.OverrideDefault*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_OverrideDefault_ISynergy_Framework_Mvvm_Messaging_IMessenger_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.OverrideDefault(ISynergy.Framework.Mvvm.Messaging.IMessenger)">OverrideDefault(IMessenger)</h4>
+  <div class="markdown level1 summary"><p>Provides a way to override the Messenger.Default instance with
+a custom instance, for example for unit testing purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void OverrideDefault(IMessenger newMessenger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Messaging.IMessenger.html">IMessenger</a></td>
+        <td><span class="parametername">newMessenger</span></td>
+        <td><p>The instance that will be used as Messenger.Default.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_Action___0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Register%60%601(System.Object%2CAction%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L78">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_Action___0__System_Boolean_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register``1(System.Object,Action{``0},System.Boolean)">Register&lt;TMessage&gt;(Object, Action&lt;TMessage&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a recipient for a type of message TMessage. The action
+parameter will be executed when a corresponding message is sent.</p>
+<p>Registering a recipient does not create a hard reference to it,
+so if this recipient is deleted, no memory leak is caused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Register&lt;TMessage&gt;(object recipient, Action&lt;TMessage&gt; action, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that will receive the messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TMessage&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that will be executed when a message
+of type TMessage is sent. IMPORTANT: Note that closures are not supported at the moment
+due to the use of WeakActions (see <a href="http://stackoverflow.com/questions/25730530/">http://stackoverflow.com/questions/25730530/</a>).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures. See
+<a href="http://galasoft.ch/s/mvvmweakaction">http://galasoft.ch/s/mvvmweakaction</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that the recipient registers
+for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_System_Boolean_Action___0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Register%60%601(System.Object%2CSystem.Boolean%2CAction%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L242">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_System_Boolean_Action___0__System_Boolean_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register``1(System.Object,System.Boolean,Action{``0},System.Boolean)">Register&lt;TMessage&gt;(Object, Boolean, Action&lt;TMessage&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a recipient for a type of message TMessage.
+The action parameter will be executed when a corresponding
+message is sent. See the receiveDerivedMessagesToo parameter
+for details on how messages deriving from TMessage (or, if TMessage is an interface,
+messages implementing TMessage) can be received too.</p>
+<p>Registering a recipient does not create a hard reference to it,
+so if this recipient is deleted, no memory leak is caused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Register&lt;TMessage&gt;(object recipient, bool receiveDerivedMessagesToo, Action&lt;TMessage&gt; action, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that will receive the messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">receiveDerivedMessagesToo</span></td>
+        <td><p>If true, message types deriving from
+TMessage will also be transmitted to the recipient. For example, if a SendOrderMessage
+and an ExecuteOrderMessage derive from OrderMessage, registering for OrderMessage
+and setting receiveDerivedMessagesToo to true will send SendOrderMessage
+and ExecuteOrderMessage to the recipient that registered.</p>
+<p>Also, if TMessage is an interface, message types implementing TMessage will also be
+transmitted to the recipient. For example, if a SendOrderMessage
+and an ExecuteOrderMessage implement IOrderMessage, registering for IOrderMessage
+and setting receiveDerivedMessagesToo to true will send SendOrderMessage
+and ExecuteOrderMessage to the recipient that registered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TMessage&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that will be executed when a message
+of type TMessage is sent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures. See
+<a href="http://galasoft.ch/s/mvvmweakaction">http://galasoft.ch/s/mvvmweakaction</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that the recipient registers
+for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_System_Object_Action___0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Register%60%601(System.Object%2CSystem.Object%2CAction%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L110">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_System_Object_Action___0__System_Boolean_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register``1(System.Object,System.Object,Action{``0},System.Boolean)">Register&lt;TMessage&gt;(Object, Object, Action&lt;TMessage&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a recipient for a type of message TMessage.
+The action parameter will be executed when a corresponding
+message is sent. See the receiveDerivedMessagesToo parameter
+for details on how messages deriving from TMessage (or, if TMessage is an interface,
+messages implementing TMessage) can be received too.</p>
+<p>Registering a recipient does not create a hard reference to it,
+so if this recipient is deleted, no memory leak is caused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Register&lt;TMessage&gt;(object recipient, object token, Action&lt;TMessage&gt; action, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that will receive the messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token for a messaging channel. If a recipient registers
+using a token, and a sender sends a message using the same token, then this
+message will be delivered to the recipient. Other recipients who did not
+use a token when registering (or who used a different token) will not
+get the message. Similarly, messages sent without any token, or with a different
+token, will not be delivered to that recipient.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TMessage&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that will be executed when a message
+of type TMessage is sent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures. See
+<a href="http://galasoft.ch/s/mvvmweakaction">http://galasoft.ch/s/mvvmweakaction</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that the recipient registers
+for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_System_Object_System_Boolean_Action___0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Register%60%601(System.Object%2CSystem.Object%2CSystem.Boolean%2CAction%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L153">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Register__1_System_Object_System_Object_System_Boolean_Action___0__System_Boolean_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Register``1(System.Object,System.Object,System.Boolean,Action{``0},System.Boolean)">Register&lt;TMessage&gt;(Object, Object, Boolean, Action&lt;TMessage&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a recipient for a type of message TMessage.
+The action parameter will be executed when a corresponding
+message is sent. See the receiveDerivedMessagesToo parameter
+for details on how messages deriving from TMessage (or, if TMessage is an interface,
+messages implementing TMessage) can be received too.</p>
+<p>Registering a recipient does not create a hard reference to it,
+so if this recipient is deleted, no memory leak is caused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Register&lt;TMessage&gt;(object recipient, object token, bool receiveDerivedMessagesToo, Action&lt;TMessage&gt; action, bool keepTargetAlive = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that will receive the messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token for a messaging channel. If a recipient registers
+using a token, and a sender sends a message using the same token, then this
+message will be delivered to the recipient. Other recipients who did not
+use a token when registering (or who used a different token) will not
+get the message. Similarly, messages sent without any token, or with a different
+token, will not be delivered to that recipient.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">receiveDerivedMessagesToo</span></td>
+        <td><p>If true, message types deriving from
+TMessage will also be transmitted to the recipient. For example, if a SendOrderMessage
+and an ExecuteOrderMessage derive from OrderMessage, registering for OrderMessage
+and setting receiveDerivedMessagesToo to true will send SendOrderMessage
+and ExecuteOrderMessage to the recipient that registered.</p>
+<p>Also, if TMessage is an interface, message types implementing TMessage will also be
+transmitted to the recipient. For example, if a SendOrderMessage
+and an ExecuteOrderMessage implement IOrderMessage, registering for IOrderMessage
+and setting receiveDerivedMessagesToo to true will send SendOrderMessage
+and ExecuteOrderMessage to the recipient that registered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TMessage&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that will be executed when a message
+of type TMessage is sent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepTargetAlive</span></td>
+        <td><p>If true, the target of the Action will
+be kept as a hard reference, which might cause a memory leak. You should only set this
+parameter to true if the action is using closures. See
+<a href="http://galasoft.ch/s/mvvmweakaction">http://galasoft.ch/s/mvvmweakaction</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that the recipient registers
+for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_RequestCleanup.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.RequestCleanup%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L585">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_RequestCleanup_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.RequestCleanup*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_RequestCleanup" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.RequestCleanup">RequestCleanup()</h4>
+  <div class="markdown level1 summary"><p>Notifies the Messenger that the lists of recipients should
+be scanned and cleaned up.
+Since recipients are stored as <see cref="!:WeakReference"></see>,
+recipients can be garbage collected even though the Messenger keeps
+them in a list. During the cleanup operation, all &quot;dead&quot;
+recipients are removed from the lists. Since this operation
+can take a moment, it is only executed when the application is
+idle. For this reason, a user of the Messenger class should use
+<a class="xref" href="ISynergy.Framework.Mvvm.Messaging.Messenger.html#ISynergy_Framework_Mvvm_Messaging_Messenger_RequestCleanup">RequestCleanup()</a> instead of forcing one with the
+<a class="xref" href="ISynergy.Framework.Mvvm.Messaging.Messenger.html#ISynergy_Framework_Mvvm_Messaging_Messenger_Cleanup">Cleanup()</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestCleanup()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Reset.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L406">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Reset_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Reset*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Reset" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Sets the Messenger's default (static) instance to null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Reset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_ResetAll.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.ResetAll%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L415">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_ResetAll_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.ResetAll*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_ResetAll" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.ResetAll">ResetAll()</h4>
+  <div class="markdown level1 summary"><p>Provides a non-static access to the static <a class="xref" href="ISynergy.Framework.Mvvm.Messaging.Messenger.html#ISynergy_Framework_Mvvm_Messaging_Messenger_Reset">Reset()</a> method.
+Sets the Messenger's default (static) instance to null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetAll()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Send__1___0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Send%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L263">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Send_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Send*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Send__1___0_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Send``1(``0)">Send&lt;TMessage&gt;(TMessage)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to registered recipients. The message will
+reach all recipients that registered for this message type
+using one of the Register methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Send&lt;TMessage&gt;(TMessage message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to send to registered recipients.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that will be sent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Send__1___0_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Send%60%601(%60%600%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L301">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Send_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Send*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Send__1___0_System_Object_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Send``1(``0,System.Object)">Send&lt;TMessage&gt;(TMessage, Object)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to registered recipients. The message will
+reach only recipients that registered for this message type
+using one of the Register methods, and that are
+of the targetType.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Send&lt;TMessage&gt;(TMessage message, object token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to send to registered recipients.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A token for a messaging channel. If a recipient registers
+using a token, and a sender sends a message using the same token, then this
+message will be delivered to the recipient. Other recipients who did not
+use a token when registering (or who used a different token) will not
+get the message. Similarly, messages sent without any token, or with a different
+token, will not be delivered to that recipient.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that will be sent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Send__2___0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Send%60%602(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L278">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Send_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Send*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Send__2___0_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Send``2(``0)">Send&lt;TMessage, TTarget&gt;(TMessage)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to registered recipients. The message will
+reach only recipients that registered for this message type
+using one of the Register methods, and that are
+of the targetType.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Send&lt;TMessage, TTarget&gt;(TMessage message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to send to registered recipients.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of message that will be sent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TTarget</span></td>
+        <td><p>The type of recipients that will receive
+the message. The message won't be sent to recipients of another type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L311">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_System_Object_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister(System.Object)">Unregister(Object)</h4>
+  <div class="markdown level1 summary"><p>Unregisters a messenger recipient completely. After this method
+is executed, the recipient will not receive any messages anymore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Unregister(object recipient)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that must be unregistered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister%60%601(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L326">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister``1(System.Object)">Unregister&lt;TMessage&gt;(Object)</h4>
+  <div class="markdown level1 summary"><p>Unregisters a message recipient for a given type of messages only.
+After this method is executed, the recipient will not receive messages
+of type TMessage anymore, but will still receive other message types (if it
+registered for them previously).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Unregister&lt;TMessage&gt;(object recipient)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that must be unregistered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of messages that the recipient wants
+to unregister from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_Action___0__.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister%60%601(System.Object%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L366">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_Action___0__" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister``1(System.Object,Action{``0})">Unregister&lt;TMessage&gt;(Object, Action&lt;TMessage&gt;)</h4>
+  <div class="markdown level1 summary"><p>Unregisters a message recipient for a given type of messages and for
+a given action. Other message types will still be transmitted to the
+recipient (if it registered for them previously). Other actions that have
+been registered for the message type TMessage and for the given recipient (if
+available) will also remain available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Unregister&lt;TMessage&gt;(object recipient, Action&lt;TMessage&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that must be unregistered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TMessage&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that must be unregistered for
+the recipient and for the message type TMessage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of messages that the recipient wants
+to unregister from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister%60%601(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L345">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_System_Object_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister``1(System.Object,System.Object)">Unregister&lt;TMessage&gt;(Object, Object)</h4>
+  <div class="markdown level1 summary"><p>Unregisters a message recipient for a given type of messages only and for a given token.
+After this method is executed, the recipient will not receive messages
+of type TMessage anymore with the given token, but will still receive other message types
+or messages with other tokens (if it registered for them previously).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Unregister&lt;TMessage&gt;(object recipient, object token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that must be unregistered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The token for which the recipient must be unregistered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of messages that the recipient wants
+to unregister from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_System_Object_Action___0__.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister%60%601(System.Object%2CSystem.Object%2CAction%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L384">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister_" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_Messaging_Messenger_Unregister__1_System_Object_System_Object_Action___0__" data-uid="ISynergy.Framework.Mvvm.Messaging.Messenger.Unregister``1(System.Object,System.Object,Action{``0})">Unregister&lt;TMessage&gt;(Object, Object, Action&lt;TMessage&gt;)</h4>
+  <div class="markdown level1 summary"><p>Unregisters a message recipient for a given type of messages, for
+a given action and a given token. Other message types will still be transmitted to the
+recipient (if it registered for them previously). Other actions that have
+been registered for the message type TMessage, for the given recipient and other tokens (if
+available) will also remain available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Unregister&lt;TMessage&gt;(object recipient, object token, Action&lt;TMessage&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">recipient</span></td>
+        <td><p>The recipient that must be unregistered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The token for which the recipient must be unregistered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TMessage&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The action that must be unregistered for
+the recipient and for the message type TMessage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMessage</span></td>
+        <td><p>The type of messages that the recipient wants
+to unregister from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Messaging.IMessenger.html">IMessenger</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_Messaging_Messenger.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.Messaging.Messenger%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/Messaging/Messenger.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

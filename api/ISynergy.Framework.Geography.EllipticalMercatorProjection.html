@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EllipticalMercatorProjection
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EllipticalMercatorProjection
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection">
+  
+  
+  <h1 id="ISynergy_Framework_Geography_EllipticalMercatorProjection" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection" class="text-break">Class EllipticalMercatorProjection
+  </h1>
+  <div class="markdown level0 summary"><p>This is the Mercator projection assuming the earth is a perfect elipsoid.
+It's more exact, but the math is slightly more complex and thus slower.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html">MercatorProjection</a></div>
+    <div class="level2"><a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html">GlobalMercatorProjection</a></div>
+    <div class="level3"><span class="xref">EllipticalMercatorProjection</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_ScaleFactor_System_Double_">GlobalMercatorProjection.ScaleFactor(Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_ScaleFactor_ISynergy_Framework_Geography_GlobalCoordinates_">GlobalMercatorProjection.ScaleFactor(GlobalCoordinates)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_ToEuclidian_ISynergy_Framework_Geography_GlobalCoordinates_">GlobalMercatorProjection.ToEuclidian(GlobalCoordinates)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_FromEuclidian_ISynergy_Framework_Geography_EuclidianCoordinate_">GlobalMercatorProjection.FromEuclidian(EuclidianCoordinate)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_GlobalCoordinatesToXy_ISynergy_Framework_Geography_GlobalCoordinates_">GlobalMercatorProjection.GlobalCoordinatesToXy(GlobalCoordinates)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_XyToGlobalCoordinates_System_Double_System_Double_">GlobalMercatorProjection.XyToGlobalCoordinates(Double, Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_XyToGlobalCoordinates_System_Double___">GlobalMercatorProjection.XyToGlobalCoordinates(Double[])</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_LongitudeToX_ISynergy_Framework_Geography_Angle_">GlobalMercatorProjection.LongitudeToX(Angle)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_XToLongitude_System_Double_">GlobalMercatorProjection.XToLongitude(Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_CalculatePath_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_System_Double__ISynergy_Framework_Geography_Angle__System_Int32_">GlobalMercatorProjection.CalculatePath(GlobalCoordinates, GlobalCoordinates, Double, Angle, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_GreenwichMeridian">MercatorProjection.GreenwichMeridian</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_ReferenceMeridian">MercatorProjection.ReferenceMeridian</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_ReferenceGlobe">MercatorProjection.ReferenceGlobe</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_Equals_ISynergy_Framework_Geography_MercatorProjection_">MercatorProjection.Equals(MercatorProjection)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_MaxLatitude">MercatorProjection.MaxLatitude</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_MinLatitude">MercatorProjection.MinLatitude</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_MaxLongitude">MercatorProjection.MaxLongitude</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_MinLongitude">MercatorProjection.MinLongitude</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_NormalizeLatitude_ISynergy_Framework_Geography_Angle_">MercatorProjection.NormalizeLatitude(Angle)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_NormalizeLongitude_ISynergy_Framework_Geography_Angle_">MercatorProjection.NormalizeLongitude(Angle)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_ISynergy_Framework_Geography_EuclidianCoordinate_ISynergy_Framework_Geography_EuclidianCoordinate_">MercatorProjection.EuclidianDistance(EuclidianCoordinate, EuclidianCoordinate)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_">MercatorProjection.EuclidianDistance(GlobalCoordinates, GlobalCoordinates)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_System_Double___System_Double___">MercatorProjection.EuclidianDistance(Double[], Double[])</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_">MercatorProjection.GeodesicDistance(GlobalCoordinates, GlobalCoordinates)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html#ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_System_Double_System_Double_System_Double_System_Double_">MercatorProjection.GeodesicDistance(Double, Double, Double, Double)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Geography.html">ISynergy.Framework.Geography</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Geography.dll</h6>
+  <h5 id="ISynergy_Framework_Geography_EllipticalMercatorProjection_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EllipticalMercatorProjection : GlobalMercatorProjection</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_EllipticalMercatorProjection__ctor.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.EllipticalMercatorProjection.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/EllipticalMercatorProjection.cs/#L14">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_EllipticalMercatorProjection__ctor_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_EllipticalMercatorProjection__ctor" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.#ctor">EllipticalMercatorProjection()</h4>
+  <div class="markdown level1 summary"><p>Instantiate an elliptical Mercator projection with WGS84 as Ellipsoid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EllipticalMercatorProjection()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_EllipticalMercatorProjection__ctor_ISynergy_Framework_Geography_Ellipsoid_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.EllipticalMercatorProjection.%23ctor(ISynergy.Framework.Geography.Ellipsoid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/EllipticalMercatorProjection.cs/#L22">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_EllipticalMercatorProjection__ctor_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_EllipticalMercatorProjection__ctor_ISynergy_Framework_Geography_Ellipsoid_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.#ctor(ISynergy.Framework.Geography.Ellipsoid)">EllipticalMercatorProjection(Ellipsoid)</h4>
+  <div class="markdown level1 summary"><p>Instantiate an elliptical Mercator projection with this reference Ellipsoid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EllipticalMercatorProjection(Ellipsoid referenceGlobe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Ellipsoid.html">Ellipsoid</a></td>
+        <td><span class="parametername">referenceGlobe</span></td>
+        <td><p>The reference Ellipsoid for the projection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_EllipticalMercatorProjection_LatitudeToY_ISynergy_Framework_Geography_Angle_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.EllipticalMercatorProjection.LatitudeToY(ISynergy.Framework.Geography.Angle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/EllipticalMercatorProjection.cs/#L36">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_EllipticalMercatorProjection_LatitudeToY_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.LatitudeToY*"></a>
+  <h4 id="ISynergy_Framework_Geography_EllipticalMercatorProjection_LatitudeToY_ISynergy_Framework_Geography_Angle_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.LatitudeToY(ISynergy.Framework.Geography.Angle)">LatitudeToY(Angle)</h4>
+  <div class="markdown level1 summary"><p>Convert the longitude (n degrees) to an Y-coordinate (in meters) on a Mercator map</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double LatitudeToY(Angle latitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The longitude in degrees</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The Y coordinate in meters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_LatitudeToY_ISynergy_Framework_Geography_Angle_">GlobalMercatorProjection.LatitudeToY(Angle)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_EllipticalMercatorProjection_YToLatitude_System_Double_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.EllipticalMercatorProjection.YToLatitude(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/EllipticalMercatorProjection.cs/#L51">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_EllipticalMercatorProjection_YToLatitude_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.YToLatitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_EllipticalMercatorProjection_YToLatitude_System_Double_" data-uid="ISynergy.Framework.Geography.EllipticalMercatorProjection.YToLatitude(System.Double)">YToLatitude(Double)</h4>
+  <div class="markdown level1 summary"><p>Convert the Y coordinate (in meters) on a Mercator map back into the longitude</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double YToLatitude(double y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The Y coordinate (in meters) on a Mercator map</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The longitude (in degrees)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html#ISynergy_Framework_Geography_GlobalMercatorProjection_YToLatitude_System_Double_">GlobalMercatorProjection.YToLatitude(Double)</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_EllipticalMercatorProjection.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.EllipticalMercatorProjection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/EllipticalMercatorProjection.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

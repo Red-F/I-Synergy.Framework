@@ -1,0 +1,1526 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct UtmGrid
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct UtmGrid
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography.UtmGrid">
+  
+  
+  <h1 id="ISynergy_Framework_Geography_UtmGrid" data-uid="ISynergy.Framework.Geography.UtmGrid" class="text-break">Struct UtmGrid
+  </h1>
+  <div class="markdown level0 summary"><p>The globe is partioned into Grids by the UTM projection.
+This structure represents such a grid.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Geography.html">ISynergy.Framework.Geography</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Geography.dll</h6>
+  <h5 id="ISynergy_Framework_Geography_UtmGrid_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct UtmGrid : IEquatable&lt;UtmGrid&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.%23ctor(ISynergy.Framework.Geography.UtmProjection%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L161">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid__ctor_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor(ISynergy.Framework.Geography.UtmProjection,ISynergy.Framework.Geography.GlobalCoordinates)">UtmGrid(UtmProjection, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>The UTM Grid for a given latitude/longitude</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid(UtmProjection projection, GlobalCoordinates coord)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></td>
+        <td><span class="parametername">projection</span></td>
+        <td><p>The projection to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">coord</span></td>
+        <td><p>Latitude/Longitude of the location</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.%23ctor(ISynergy.Framework.Geography.UtmProjection%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L147">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid__ctor_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_System_Int32_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor(ISynergy.Framework.Geography.UtmProjection,System.Int32)">UtmGrid(UtmProjection, Int32)</h4>
+  <div class="markdown level1 summary"><p>Instantiate a grid by its ordinal number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid(UtmProjection projection, int ordinal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></td>
+        <td><span class="parametername">projection</span></td>
+        <td><p>The UTM projection this Grid belongs to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">ordinal</span></td>
+        <td><p>The unique ordinal number of the grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_System_Int32_System_Char_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.%23ctor(ISynergy.Framework.Geography.UtmProjection%2CSystem.Int32%2CSystem.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L136">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid__ctor_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_System_Int32_System_Char_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor(ISynergy.Framework.Geography.UtmProjection,System.Int32,System.Char)">UtmGrid(UtmProjection, Int32, Char)</h4>
+  <div class="markdown level1 summary"><p>Instantiate a new UTM Grid object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid(UtmProjection projection, int zone, char band)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></td>
+        <td><span class="parametername">projection</span></td>
+        <td><p>The UTM projection this grid belongs to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">zone</span></td>
+        <td><p>The zone of the grid</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">band</span></td>
+        <td><p>The band of the grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.%23ctor(ISynergy.Framework.Geography.UtmProjection%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L123">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid__ctor_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid__ctor_ISynergy_Framework_Geography_UtmProjection_System_Int32_System_Int32_" data-uid="ISynergy.Framework.Geography.UtmGrid.#ctor(ISynergy.Framework.Geography.UtmProjection,System.Int32,System.Int32)">UtmGrid(UtmProjection, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Instantiate a new UTM Grid object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid(UtmProjection projection, int zone, int band)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></td>
+        <td><span class="parametername">projection</span></td>
+        <td><p>The UTM projection this grid belongs to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">zone</span></td>
+        <td><p>The zone of the grid</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">band</span></td>
+        <td><p>The band of the grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_NumberOfBands.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.NumberOfBands%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L45">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_NumberOfBands" data-uid="ISynergy.Framework.Geography.UtmGrid.NumberOfBands">NumberOfBands</h4>
+  <div class="markdown level1 summary"><p>The number of (vertical) bands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumberOfBands = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_NumberOfGrids.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.NumberOfGrids%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L51">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_NumberOfGrids" data-uid="ISynergy.Framework.Geography.UtmGrid.NumberOfGrids">NumberOfGrids</h4>
+  <div class="markdown level1 summary"><p>The theoretical number of UTM Grids on the globe. Actually there are
+fewer ones, because there are exceptions.  <a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html#ISynergy_Framework_Geography_UtmGrid_NumberOfUsedGrids">NumberOfUsedGrids</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumberOfGrids = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_NumberOfUsedGrids.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.NumberOfUsedGrids%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L57">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_NumberOfUsedGrids" data-uid="ISynergy.Framework.Geography.UtmGrid.NumberOfUsedGrids">NumberOfUsedGrids</h4>
+  <div class="markdown level1 summary"><p>The number of UTM Grids really used. There are 3 potential combinations
+in the X-Band that are an exception and not used (32X, 34X, 36X)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumberOfUsedGrids = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_NumberOfZones.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.NumberOfZones%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L40">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_NumberOfZones" data-uid="ISynergy.Framework.Geography.UtmGrid.NumberOfZones">NumberOfZones</h4>
+  <div class="markdown level1 summary"><p>The number of (horizontal) zones</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int NumberOfZones = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Xstep.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Xstep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L62">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Xstep" data-uid="ISynergy.Framework.Geography.UtmGrid.Xstep">Xstep</h4>
+  <div class="markdown level1 summary"><p>Horizontal stepwidth for the Grids</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Angle Xstep</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Ystep.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Ystep%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L67">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Ystep" data-uid="ISynergy.Framework.Geography.UtmGrid.Ystep">Ystep</h4>
+  <div class="markdown level1 summary"><p>Vertical stepwidth for the Grids</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Angle Ystep</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Band.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Band%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L292">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Band_" data-uid="ISynergy.Framework.Geography.UtmGrid.Band*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Band" data-uid="ISynergy.Framework.Geography.UtmGrid.Band">Band</h4>
+  <div class="markdown level1 summary"><p>The UTM band the point belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public char Band { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><p>The band.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_BandNr.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.BandNr%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L272">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_BandNr_" data-uid="ISynergy.Framework.Geography.UtmGrid.BandNr*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_BandNr" data-uid="ISynergy.Framework.Geography.UtmGrid.BandNr">BandNr</h4>
+  <div class="markdown level1 summary"><p>Get the numeric representation of the band (0 based)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int BandNr { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The band nr.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_CenterMeridian.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.CenterMeridian%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L577">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_CenterMeridian_" data-uid="ISynergy.Framework.Geography.UtmGrid.CenterMeridian*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_CenterMeridian" data-uid="ISynergy.Framework.Geography.UtmGrid.CenterMeridian">CenterMeridian</h4>
+  <div class="markdown level1 summary"><p>The longitude of the center of this Grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle CenterMeridian { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The center meridian.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_East.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.East%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L605">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_East_" data-uid="ISynergy.Framework.Geography.UtmGrid.East*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_East" data-uid="ISynergy.Framework.Geography.UtmGrid.East">East</h4>
+  <div class="markdown level1 summary"><p>The eastern neighbor of the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid East { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><p>The east.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Height.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L308">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Height_" data-uid="ISynergy.Framework.Geography.UtmGrid.Height*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Height" data-uid="ISynergy.Framework.Geography.UtmGrid.Height">Height</h4>
+  <div class="markdown level1 summary"><p>Height of the Grid (as an Angle)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_IsNorthern.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.IsNorthern%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L323">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_IsNorthern_" data-uid="ISynergy.Framework.Geography.UtmGrid.IsNorthern*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_IsNorthern" data-uid="ISynergy.Framework.Geography.UtmGrid.IsNorthern">IsNorthern</h4>
+  <div class="markdown level1 summary"><p>Return true is this is a northern band</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNorthern { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is northern; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_LowerLeftCorner.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.LowerLeftCorner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L526">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_LowerLeftCorner_" data-uid="ISynergy.Framework.Geography.UtmGrid.LowerLeftCorner*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_LowerLeftCorner" data-uid="ISynergy.Framework.Geography.UtmGrid.LowerLeftCorner">LowerLeftCorner</h4>
+  <div class="markdown level1 summary"><p>The latitude/longitude of the lower left corner of this grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates LowerLeftCorner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The lower left corner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_LowerRightCorner.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.LowerRightCorner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L563">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_LowerRightCorner_" data-uid="ISynergy.Framework.Geography.UtmGrid.LowerRightCorner*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_LowerRightCorner" data-uid="ISynergy.Framework.Geography.UtmGrid.LowerRightCorner">LowerRightCorner</h4>
+  <div class="markdown level1 summary"><p>The latitude/longitude of the lower right corner of this grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates LowerRightCorner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The lower right corner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_MapHeight.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.MapHeight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L238">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_MapHeight_" data-uid="ISynergy.Framework.Geography.UtmGrid.MapHeight*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_MapHeight" data-uid="ISynergy.Framework.Geography.UtmGrid.MapHeight">MapHeight</h4>
+  <div class="markdown level1 summary"><p>The height of this grid (in meters)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MapHeight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The height of the map.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_MapWidth.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.MapWidth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L224">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_MapWidth_" data-uid="ISynergy.Framework.Geography.UtmGrid.MapWidth*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_MapWidth" data-uid="ISynergy.Framework.Geography.UtmGrid.MapWidth">MapWidth</h4>
+  <div class="markdown level1 summary"><p>The width of this grid (in meters)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double MapWidth { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The width of the map.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_North.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.North%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L623">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_North_" data-uid="ISynergy.Framework.Geography.UtmGrid.North*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_North" data-uid="ISynergy.Framework.Geography.UtmGrid.North">North</h4>
+  <div class="markdown level1 summary"><p>The northern neighbor of the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid North { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><p>The north.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Ordinal.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Ordinal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L317">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Ordinal_" data-uid="ISynergy.Framework.Geography.UtmGrid.Ordinal*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Ordinal" data-uid="ISynergy.Framework.Geography.UtmGrid.Ordinal">Ordinal</h4>
+  <div class="markdown level1 summary"><p>Unique numbering of the Grids. The most western, most southern
+gets #0. Then we go north continue counting, when reaching the
+northern limit we go to the lowest south of the next zone to the
+east of the current one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Ordinal { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The ordinal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Origin.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Origin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L210">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Origin_" data-uid="ISynergy.Framework.Geography.UtmGrid.Origin*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Origin" data-uid="ISynergy.Framework.Geography.UtmGrid.Origin">Origin</h4>
+  <div class="markdown level1 summary"><p>The UTM coordinates of the left corner of the wider latitude of the zone
+which is the latitude closer to the aequator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmCoordinate Origin { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></td>
+        <td><p>The origin.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Projection.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Projection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L203">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Projection_" data-uid="ISynergy.Framework.Geography.UtmGrid.Projection*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Projection" data-uid="ISynergy.Framework.Geography.UtmGrid.Projection">Projection</h4>
+  <div class="markdown level1 summary"><p>The projection this grid belongs to</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmProjection Projection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></td>
+        <td><p>The projection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_South.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.South%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L645">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_South_" data-uid="ISynergy.Framework.Geography.UtmGrid.South*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_South" data-uid="ISynergy.Framework.Geography.UtmGrid.South">South</h4>
+  <div class="markdown level1 summary"><p>The southern neighbor of the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid South { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><p>The south.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_UpperLeftCorner.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.UpperLeftCorner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L549">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_UpperLeftCorner_" data-uid="ISynergy.Framework.Geography.UtmGrid.UpperLeftCorner*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_UpperLeftCorner" data-uid="ISynergy.Framework.Geography.UtmGrid.UpperLeftCorner">UpperLeftCorner</h4>
+  <div class="markdown level1 summary"><p>The latitude/longitude of the upper left corner of this grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates UpperLeftCorner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The upper left corner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_UpperRightCorner.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.UpperRightCorner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L535">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_UpperRightCorner_" data-uid="ISynergy.Framework.Geography.UtmGrid.UpperRightCorner*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_UpperRightCorner" data-uid="ISynergy.Framework.Geography.UtmGrid.UpperRightCorner">UpperRightCorner</h4>
+  <div class="markdown level1 summary"><p>The latitude/longitude of the upper right corner of this grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates UpperRightCorner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The upper right corner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_West.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.West%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L588">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_West_" data-uid="ISynergy.Framework.Geography.UtmGrid.West*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_West" data-uid="ISynergy.Framework.Geography.UtmGrid.West">West</h4>
+  <div class="markdown level1 summary"><p>The western neighbor of the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UtmGrid West { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><p>The west.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Width.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L302">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Width_" data-uid="ISynergy.Framework.Geography.UtmGrid.Width*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Width" data-uid="ISynergy.Framework.Geography.UtmGrid.Width">Width</h4>
+  <div class="markdown level1 summary"><p>Width of the Grid (as an Angle)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The width.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Zone.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Zone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L253">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Zone_" data-uid="ISynergy.Framework.Geography.UtmGrid.Zone*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Zone" data-uid="ISynergy.Framework.Geography.UtmGrid.Zone">Zone</h4>
+  <div class="markdown level1 summary"><p>The UTM zone the point belongs to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Zone { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The zone.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Equals_ISynergy_Framework_Geography_UtmGrid_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Equals(ISynergy.Framework.Geography.UtmGrid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L462">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Equals_" data-uid="ISynergy.Framework.Geography.UtmGrid.Equals*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Equals_ISynergy_Framework_Geography_UtmGrid_" data-uid="ISynergy.Framework.Geography.UtmGrid.Equals(ISynergy.Framework.Geography.UtmGrid)">Equals(UtmGrid)</h4>
+  <div class="markdown level1 summary"><p>Compare the grid to another grid for equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(UtmGrid other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if they are equal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_Equals_System_Object_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L473">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_Equals_" data-uid="ISynergy.Framework.Geography.UtmGrid.Equals*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_Equals_System_Object_" data-uid="ISynergy.Framework.Geography.UtmGrid.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Compare these coordinates to another object for equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare with the current instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the specified <see cref="!:System.Object"></see> is equal to this instance; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_GetHashCode.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L507">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_GetHashCode_" data-uid="ISynergy.Framework.Geography.UtmGrid.GetHashCode*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_GetHashCode" data-uid="ISynergy.Framework.Geography.UtmGrid.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>The Hashcode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_IsInside_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.IsInside(ISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L446">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_IsInside_" data-uid="ISynergy.Framework.Geography.UtmGrid.IsInside*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_IsInside_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.UtmGrid.IsInside(ISynergy.Framework.Geography.GlobalCoordinates)">IsInside(GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Check wether a point is in the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInside(GlobalCoordinates point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">point</span></td>
+        <td><p>The point to test</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the point is inside</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_IsValidOrdinal_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.IsValidOrdinal(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L354">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_IsValidOrdinal_" data-uid="ISynergy.Framework.Geography.UtmGrid.IsValidOrdinal*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_IsValidOrdinal_System_Int32_" data-uid="ISynergy.Framework.Geography.UtmGrid.IsValidOrdinal(System.Int32)">IsValidOrdinal(Int32)</h4>
+  <div class="markdown level1 summary"><p>Check wether or not an Ordinal number is valid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsValidOrdinal(int ordinal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">ordinal</span></td>
+        <td><p>The ordinal to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if this is a valid ordinal number</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_ToString.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L516">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_ToString_" data-uid="ISynergy.Framework.Geography.UtmGrid.ToString*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_ToString" data-uid="ISynergy.Framework.Geography.UtmGrid.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>The culture invariant string representation of the Grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>ZThe name of the Grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_op_Equality_ISynergy_Framework_Geography_UtmGrid_ISynergy_Framework_Geography_UtmGrid_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.op_Equality(ISynergy.Framework.Geography.UtmGrid%2CISynergy.Framework.Geography.UtmGrid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L487">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_op_Equality_" data-uid="ISynergy.Framework.Geography.UtmGrid.op_Equality*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_op_Equality_ISynergy_Framework_Geography_UtmGrid_ISynergy_Framework_Geography_UtmGrid_" data-uid="ISynergy.Framework.Geography.UtmGrid.op_Equality(ISynergy.Framework.Geography.UtmGrid,ISynergy.Framework.Geography.UtmGrid)">Equality(UtmGrid, UtmGrid)</h4>
+  <div class="markdown level1 summary"><p>Test two Grids for equality</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(UtmGrid lhs, UtmGrid rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first grid</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the first equals the second grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid_op_Inequality_ISynergy_Framework_Geography_UtmGrid_ISynergy_Framework_Geography_UtmGrid_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid.op_Inequality(ISynergy.Framework.Geography.UtmGrid%2CISynergy.Framework.Geography.UtmGrid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L498">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_UtmGrid_op_Inequality_" data-uid="ISynergy.Framework.Geography.UtmGrid.op_Inequality*"></a>
+  <h4 id="ISynergy_Framework_Geography_UtmGrid_op_Inequality_ISynergy_Framework_Geography_UtmGrid_ISynergy_Framework_Geography_UtmGrid_" data-uid="ISynergy.Framework.Geography.UtmGrid.op_Inequality(ISynergy.Framework.Geography.UtmGrid,ISynergy.Framework.Geography.UtmGrid)">Inequality(UtmGrid, UtmGrid)</h4>
+  <div class="markdown level1 summary"><p>Test two Grids for inequality</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(UtmGrid lhs, UtmGrid rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><span class="parametername">lhs</span></td>
+        <td><p>The first grid</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></td>
+        <td><span class="parametername">rhs</span></td>
+        <td><p>The second grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the first is not equal to the second grid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_UtmGrid.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.UtmGrid%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Utm/UtmGrid.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WeakEventListener&lt;TInstance, TSource, TEventArgs&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WeakEventListener&lt;TInstance, TSource, TEventArgs&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3">
+  
+  
+  <h1 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3" class="text-break">Class WeakEventListener&lt;TInstance, TSource, TEventArgs&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Implements a weak event listener that allows the owner to be garbage
+collected if its only remaining link is an event handler.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">WeakEventListener&lt;TInstance, TSource, TEventArgs&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Core.Listeners.html">ISynergy.Framework.Core.Listeners</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Core.dll</h6>
+  <h5 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class WeakEventListener&lt;TInstance, TSource, TEventArgs&gt; : object where TInstance : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInstance</span></td>
+        <td><p>Type of instance listening for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>Type of source for the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEventArgs</span></td>
+        <td><p>Type of event arguments for the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Listeners_WeakEventListener_3__ctor__0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Listeners.WeakEventListener%603.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Listeners/WeakEventListener.cs/#L26">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Listeners_WeakEventListener_3__ctor_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3__ctor__0_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.#ctor(`0)">WeakEventListener(TInstance)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ISynergy.Framework.Core.Listeners.WeakEventListener-3.html">WeakEventListener&lt;TInstance, TSource, TEventArgs&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WeakEventListener(TInstance instance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TInstance</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td><p>Instance subscribing to the event.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnDetachAction.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Listeners.WeakEventListener%603.OnDetachAction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Listeners/WeakEventListener.cs/#L46">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnDetachAction_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.OnDetachAction*"></a>
+  <h4 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnDetachAction" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.OnDetachAction">OnDetachAction</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the method to call when detaching from the event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;WeakEventListener&lt;TInstance, TSource, TEventArgs&gt;&gt; OnDetachAction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="ISynergy.Framework.Core.Listeners.WeakEventListener-3.html">WeakEventListener</a>&lt;TInstance, TSource, TEventArgs&gt;&gt;</td>
+        <td><p>The on detach action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnEventAction.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Listeners.WeakEventListener%603.OnEventAction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Listeners/WeakEventListener.cs/#L40">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnEventAction_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.OnEventAction*"></a>
+  <h4 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnEventAction" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.OnEventAction">OnEventAction</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the method to call when the event fires.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;TInstance, TSource, TEventArgs&gt; OnEventAction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;TInstance, TSource, TEventArgs&gt;</td>
+        <td><p>The on event action.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Listeners_WeakEventListener_3_Detach.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Listeners.WeakEventListener%603.Detach%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Listeners/WeakEventListener.cs/#L71">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_Detach_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.Detach*"></a>
+  <h4 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_Detach" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.Detach">Detach()</h4>
+  <div class="markdown level1 summary"><p>Detaches from the subscribed event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Detach()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnEvent__1__2_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Listeners.WeakEventListener%603.OnEvent(%601%2C%602)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Listeners/WeakEventListener.cs/#L53">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnEvent_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.OnEvent*"></a>
+  <h4 id="ISynergy_Framework_Core_Listeners_WeakEventListener_3_OnEvent__1__2_" data-uid="ISynergy.Framework.Core.Listeners.WeakEventListener`3.OnEvent(`1,`2)">OnEvent(TSource, TEventArgs)</h4>
+  <div class="markdown level1 summary"><p>Handler for the subscribed event calls OnEventAction to handle it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEvent(TSource source, TEventArgs eventArgs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TSource</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Event source.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TEventArgs</span></td>
+        <td><span class="parametername">eventArgs</span></td>
+        <td><p>Event arguments.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Listeners_WeakEventListener_3.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Listeners.WeakEventListener%603%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Listeners/WeakEventListener.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1021 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MercatorProjection
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MercatorProjection
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography.MercatorProjection">
+  
+  
+  <h1 id="ISynergy_Framework_Geography_MercatorProjection" data-uid="ISynergy.Framework.Geography.MercatorProjection" class="text-break">Class MercatorProjection
+  </h1>
+  <div class="markdown level0 summary"><p>Base class for Mercator projections tranlating longitude/longitude values on the globe
+into X/Y coordinates on a flat map.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MercatorProjection</span></div>
+      <div class="level2"><a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html">GlobalMercatorProjection</a></div>
+      <div class="level2"><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Geography.html">ISynergy.Framework.Geography</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Geography.dll</h6>
+  <h5 id="ISynergy_Framework_Geography_MercatorProjection_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class MercatorProjection : IEquatable&lt;MercatorProjection&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection__ctor_ISynergy_Framework_Geography_Ellipsoid_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.%23ctor(ISynergy.Framework.Geography.Ellipsoid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L25">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection__ctor_" data-uid="ISynergy.Framework.Geography.MercatorProjection.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection__ctor_ISynergy_Framework_Geography_Ellipsoid_" data-uid="ISynergy.Framework.Geography.MercatorProjection.#ctor(ISynergy.Framework.Geography.Ellipsoid)">MercatorProjection(Ellipsoid)</h4>
+  <div class="markdown level1 summary"><p>Instantiate a Meractor projection with this reference Ellipsoid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MercatorProjection(Ellipsoid referenceGlobe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Ellipsoid.html">Ellipsoid</a></td>
+        <td><span class="parametername">referenceGlobe</span></td>
+        <td><p>The reference globe.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_GreenwichMeridian.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.GreenwichMeridian%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L14">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_GreenwichMeridian" data-uid="ISynergy.Framework.Geography.MercatorProjection.GreenwichMeridian">GreenwichMeridian</h4>
+  <div class="markdown level1 summary"><p>The typical reference Meridian</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const double GreenwichMeridian = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_MaxLongitude.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.MaxLongitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L100">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_MaxLongitude" data-uid="ISynergy.Framework.Geography.MercatorProjection.MaxLongitude">MaxLongitude</h4>
+  <div class="markdown level1 summary"><p>Maximum possible longitude for this projection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Angle MaxLongitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_MinLongitude.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.MinLongitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L105">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_MinLongitude" data-uid="ISynergy.Framework.Geography.MercatorProjection.MinLongitude">MinLongitude</h4>
+  <div class="markdown level1 summary"><p>Minimum possible longitude for this projection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Angle MinLongitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_MaxLatitude.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.MaxLatitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L83">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_MaxLatitude_" data-uid="ISynergy.Framework.Geography.MercatorProjection.MaxLatitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_MaxLatitude" data-uid="ISynergy.Framework.Geography.MercatorProjection.MaxLatitude">MaxLatitude</h4>
+  <div class="markdown level1 summary"><p>Maximum possible longitude for this projection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Angle MaxLatitude { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The maximum latitude.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_MinLatitude.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.MinLatitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L92">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_MinLatitude_" data-uid="ISynergy.Framework.Geography.MercatorProjection.MinLatitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_MinLatitude" data-uid="ISynergy.Framework.Geography.MercatorProjection.MinLatitude">MinLatitude</h4>
+  <div class="markdown level1 summary"><p>Minimum possible longitude for this projection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Angle MinLatitude { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The minimum latitude.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_ReferenceGlobe.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.ReferenceGlobe%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L44">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_ReferenceGlobe_" data-uid="ISynergy.Framework.Geography.MercatorProjection.ReferenceGlobe*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_ReferenceGlobe" data-uid="ISynergy.Framework.Geography.MercatorProjection.ReferenceGlobe">ReferenceGlobe</h4>
+  <div class="markdown level1 summary"><p>The reference Ellipsoid for this projection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Ellipsoid ReferenceGlobe { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Ellipsoid.html">Ellipsoid</a></td>
+        <td><p>The reference globe.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_ReferenceMeridian.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.ReferenceMeridian%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L34">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_ReferenceMeridian_" data-uid="ISynergy.Framework.Geography.MercatorProjection.ReferenceMeridian*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_ReferenceMeridian" data-uid="ISynergy.Framework.Geography.MercatorProjection.ReferenceMeridian">ReferenceMeridian</h4>
+  <div class="markdown level1 summary"><p>The reference meridian for the projection, usually this is Greenwich with 0° longitude</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle ReferenceMeridian { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The reference meridian.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_Equals_ISynergy_Framework_Geography_MercatorProjection_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.Equals(ISynergy.Framework.Geography.MercatorProjection)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L73">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_Equals_" data-uid="ISynergy.Framework.Geography.MercatorProjection.Equals*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_Equals_ISynergy_Framework_Geography_MercatorProjection_" data-uid="ISynergy.Framework.Geography.MercatorProjection.Equals(ISynergy.Framework.Geography.MercatorProjection)">Equals(MercatorProjection)</h4>
+  <div class="markdown level1 summary"><p>Two projections are considered Equal if they are based on
+the same Reference-Globe</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(MercatorProjection other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html">MercatorProjection</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The projection to compare against</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if they are equal</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_ISynergy_Framework_Geography_EuclidianCoordinate_ISynergy_Framework_Geography_EuclidianCoordinate_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance(ISynergy.Framework.Geography.EuclidianCoordinate%2CISynergy.Framework.Geography.EuclidianCoordinate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L140">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_" data-uid="ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_ISynergy_Framework_Geography_EuclidianCoordinate_ISynergy_Framework_Geography_EuclidianCoordinate_" data-uid="ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance(ISynergy.Framework.Geography.EuclidianCoordinate,ISynergy.Framework.Geography.EuclidianCoordinate)">EuclidianDistance(EuclidianCoordinate, EuclidianCoordinate)</h4>
+  <div class="markdown level1 summary"><p>Compute the euclidian distance between two points given by rectangular coordinates
+Please note, that due to scaling effects this might be quite different from the true
+geodetic distance. To get a good approximation, you must divide this value by a
+scale factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EuclidianDistance(EuclidianCoordinate point1, EuclidianCoordinate point2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.EuclidianCoordinate.html">EuclidianCoordinate</a></td>
+        <td><span class="parametername">point1</span></td>
+        <td><p>The first point</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.EuclidianCoordinate.html">EuclidianCoordinate</a></td>
+        <td><span class="parametername">point2</span></td>
+        <td><p>The second point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The distance between the points</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L158">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_" data-uid="ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">EuclidianDistance(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Compute the euclidian distance between two points given by rectangular coordinates.
+Please note, that due to scaling effects this might be quite different from the true
+geodetic distance. To get a good approximation, you must divide this value by a
+scale factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EuclidianDistance(GlobalCoordinates point1, GlobalCoordinates point2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">point1</span></td>
+        <td><p>The first point</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">point2</span></td>
+        <td><p>The second point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The distance between the points</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_System_Double___System_Double___.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance(System.Double%5B%5D%2CSystem.Double%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L173">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_" data-uid="ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_EuclidianDistance_System_Double___System_Double___" data-uid="ISynergy.Framework.Geography.MercatorProjection.EuclidianDistance(System.Double[],System.Double[])">EuclidianDistance(Double[], Double[])</h4>
+  <div class="markdown level1 summary"><p>Compute the euclidian distance between two points given by rectangular coordinates
+Please note, that due to scaling effects this might be quite different from the true
+geodetic distance. To get a good approximation, you must divide this value by a
+scale factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double EuclidianDistance(double[] point1, double[] point2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">point1</span></td>
+        <td><p>The first point</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">point2</span></td>
+        <td><p>The second point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The distance between the points</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_FromEuclidian_ISynergy_Framework_Geography_EuclidianCoordinate_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.FromEuclidian(ISynergy.Framework.Geography.EuclidianCoordinate)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L65">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_FromEuclidian_" data-uid="ISynergy.Framework.Geography.MercatorProjection.FromEuclidian*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_FromEuclidian_ISynergy_Framework_Geography_EuclidianCoordinate_" data-uid="ISynergy.Framework.Geography.MercatorProjection.FromEuclidian(ISynergy.Framework.Geography.EuclidianCoordinate)">FromEuclidian(EuclidianCoordinate)</h4>
+  <div class="markdown level1 summary"><p>Get the latitude/longitude coordinates from the euclidian coordinates</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract GlobalCoordinates FromEuclidian(EuclidianCoordinate xy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.EuclidianCoordinate.html">EuclidianCoordinate</a></td>
+        <td><span class="parametername">xy</span></td>
+        <td><p>The euclidien coordinates</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The latitude/longitude coordinates of that point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.GeodesicDistance(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L186">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_" data-uid="ISynergy.Framework.Geography.MercatorProjection.GeodesicDistance*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.MercatorProjection.GeodesicDistance(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">GeodesicDistance(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Get the geodesic distance between two points on the globe</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GeodesicDistance(GlobalCoordinates start, GlobalCoordinates end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>The starting point</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>The ending point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The distance in meters</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_System_Double_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.GeodesicDistance(System.Double%2CSystem.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L202">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_" data-uid="ISynergy.Framework.Geography.MercatorProjection.GeodesicDistance*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_GeodesicDistance_System_Double_System_Double_System_Double_System_Double_" data-uid="ISynergy.Framework.Geography.MercatorProjection.GeodesicDistance(System.Double,System.Double,System.Double,System.Double)">GeodesicDistance(Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Compute the geodesic distance of two points on the globe</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GeodesicDistance(double longitudeStart, double latitudeStart, double longitudeEnd, double latitudeEnd)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitudeStart</span></td>
+        <td><p>The longitude of the starting point in degrees</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitudeStart</span></td>
+        <td><p>The longitude of the starting point in degrees</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">longitudeEnd</span></td>
+        <td><p>The longitude of the endig point in degrees</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">latitudeEnd</span></td>
+        <td><p>The longitude of the ending point in degrees</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>System.Double.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_NormalizeLatitude_ISynergy_Framework_Geography_Angle_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.NormalizeLatitude(ISynergy.Framework.Geography.Angle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L112">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_NormalizeLatitude_" data-uid="ISynergy.Framework.Geography.MercatorProjection.NormalizeLatitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_NormalizeLatitude_ISynergy_Framework_Geography_Angle_" data-uid="ISynergy.Framework.Geography.MercatorProjection.NormalizeLatitude(ISynergy.Framework.Geography.Angle)">NormalizeLatitude(Angle)</h4>
+  <div class="markdown level1 summary"><p>Ensure Latitude stays in range</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Angle NormalizeLatitude(Angle latitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">latitude</span></td>
+        <td><p>The longitude value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The normalized longitude</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_NormalizeLongitude_ISynergy_Framework_Geography_Angle_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.NormalizeLongitude(ISynergy.Framework.Geography.Angle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L122">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_NormalizeLongitude_" data-uid="ISynergy.Framework.Geography.MercatorProjection.NormalizeLongitude*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_NormalizeLongitude_ISynergy_Framework_Geography_Angle_" data-uid="ISynergy.Framework.Geography.MercatorProjection.NormalizeLongitude(ISynergy.Framework.Geography.Angle)">NormalizeLongitude(Angle)</h4>
+  <div class="markdown level1 summary"><p>Ensure Latitude stays in range</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Angle NormalizeLongitude(Angle longitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">longitude</span></td>
+        <td><p>The longitude value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><p>The normalized longitude</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_ScaleFactor_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.ScaleFactor(ISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L51">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_ScaleFactor_" data-uid="ISynergy.Framework.Geography.MercatorProjection.ScaleFactor*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_ScaleFactor_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.MercatorProjection.ScaleFactor(ISynergy.Framework.Geography.GlobalCoordinates)">ScaleFactor(GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Get the Mercator scale factor for the given point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract double ScaleFactor(GlobalCoordinates point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">point</span></td>
+        <td><p>The point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The scale factor</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection_ToEuclidian_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection.ToEuclidian(ISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L58">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_MercatorProjection_ToEuclidian_" data-uid="ISynergy.Framework.Geography.MercatorProjection.ToEuclidian*"></a>
+  <h4 id="ISynergy_Framework_Geography_MercatorProjection_ToEuclidian_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.MercatorProjection.ToEuclidian(ISynergy.Framework.Geography.GlobalCoordinates)">ToEuclidian(GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Convert a latitude/longitude coordinate to a Euclidian coordinate on a flat map</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract EuclidianCoordinate ToEuclidian(GlobalCoordinates coordinates)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">coordinates</span></td>
+        <td><p>The latitude/longitude coordinates in degrees</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.EuclidianCoordinate.html">EuclidianCoordinate</a></td>
+        <td><p>The euclidian coordinates of that point</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_MercatorProjection.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.MercatorProjection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Projection/MercatorProjection.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

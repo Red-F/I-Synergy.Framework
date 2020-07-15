@@ -1,0 +1,643 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ViewModelDialog&lt;TEntity&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ViewModelDialog&lt;TEntity&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1">
+  
+  
+  <h1 id="ISynergy_Framework_Mvvm_ViewModelDialog_1" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1" class="text-break">Class ViewModelDialog&lt;TEntity&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Class ViewModelDialog.
+Implements the <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html">ViewModel</a>
+Implements the <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelDialog-1.html">IViewModelDialog&lt;TEntity&gt;</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html">ObservableClass</a></div>
+    <div class="level2"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html">ViewModel</a></div>
+    <div class="level3"><span class="xref">ViewModelDialog&lt;TEntity&gt;</span></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialogWizard-1.html">ViewModelDialogWizard&lt;TEntity&gt;</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModelMessageBox.html">ViewModelMessageBox</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModels.MapsViewModel.html">MapsViewModel</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Mvvm.ViewModels.NoteViewModel.html">NoteViewModel</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Windows.ViewModels.LanguageViewModel.html">LanguageViewModel</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Windows.ViewModels.PincodeViewModel.html">PincodeViewModel</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Windows.ViewModels.ThemeViewModel.html">ThemeViewModel</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelDialog-1.html">IViewModelDialog</a>&lt;TEntity&gt;</div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelSelectedItem-1.html">IViewModelSelectedItem</a>&lt;TEntity&gt;</div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModel.html">IViewModel</a></div>
+    <div><a class="xref" href="ISynergy.Framework.Core.Data.IObservableClass.html">IObservableClass</a></div>
+    <div><a class="xref" href="ISynergy.Framework.Core.Data.IBindable.html">IBindable</a></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ICleanup.html">ICleanup</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Cancelled">ViewModel.Cancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Closed">ViewModel.Closed</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnCancelled_EventArgs_">ViewModel.OnCancelled(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnClosed_EventArgs_">ViewModel.OnClosed(EventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Context">ViewModel.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_BaseCommonServices">ViewModel.BaseCommonServices</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Logger">ViewModel.Logger</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel__loggerFactory">ViewModel._loggerFactory</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Close_Command">ViewModel.Close_Command</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Title">ViewModel.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_IsInitialized">ViewModel.IsInitialized</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_InitializeAsync">ViewModel.InitializeAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_GetEnumDescription_Enum_">ViewModel.GetEnumDescription(Enum)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnPropertyChanged_System_Object_PropertyChangedEventArgs_">ViewModel.OnPropertyChanged(Object, PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_CanClose">ViewModel.CanClose</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_IsCancelled">ViewModel.IsCancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Cleanup">ViewModel.Cleanup()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_CancelAsync">ViewModel.CancelAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_CloseAsync">ViewModel.CloseAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnDeactivateAsync">ViewModel.OnDeactivateAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_OnActivateAsync_System_Object_System_Boolean_">ViewModel.OnActivateAsync(Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html#ISynergy_Framework_Mvvm_ViewModel_Dispose_System_Boolean_">ViewModel.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Properties">ObservableClass.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Errors">ObservableClass.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validator">ObservableClass.Validator</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_IsValid">ObservableClass.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_IsDirty">ObservableClass.IsDirty</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Equals_System_Object_">ObservableClass.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_GetHashCode">ObservableClass.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_GetValue__1_System_String_">ObservableClass.GetValue&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_SetValue__1___0_System_String_">ObservableClass.SetValue&lt;T&gt;(T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_ClearErrors">ObservableClass.ClearErrors()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validate">ObservableClass.Validate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Revert">ObservableClass.Revert()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_MarkAsClean">ObservableClass.MarkAsClean()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_PropertyChanged">ObservableClass.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_OnPropertyChanged_System_String_">ObservableClass.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Dispose">ObservableClass.Dispose()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Mvvm.html">ISynergy.Framework.Mvvm</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Mvvm.dll</h6>
+  <h5 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class ViewModelDialog&lt;TEntity&gt; : ViewModel, INotifyPropertyChanged, IViewModelDialog&lt;TEntity&gt;, IViewModelSelectedItem&lt;TEntity&gt;, IViewModel, IObservableClass, IBindable, INotifyPropertyChanged, IDisposable, ICleanup</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The type of the t entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1__ctor_ISynergy_Framework_Core_Abstractions_IContext_ISynergy_Framework_Mvvm_Abstractions_Services_IBaseCommonServices_ILoggerFactory_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.%23ctor(ISynergy.Framework.Core.Abstractions.IContext%2CISynergy.Framework.Mvvm.Abstractions.Services.IBaseCommonServices%2CILoggerFactory)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L66">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1__ctor_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1__ctor_ISynergy_Framework_Core_Abstractions_IContext_ISynergy_Framework_Mvvm_Abstractions_Services_IBaseCommonServices_ILoggerFactory_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.#ctor(ISynergy.Framework.Core.Abstractions.IContext,ISynergy.Framework.Mvvm.Abstractions.Services.IBaseCommonServices,ILoggerFactory)">ViewModelDialog(IContext, IBaseCommonServices, ILoggerFactory)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ISynergy.Framework.Mvvm.ViewModelDialog-1.html">ViewModelDialog&lt;TEntity&gt;</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ViewModelDialog(IContext context, IBaseCommonServices commonServices, ILoggerFactory loggerFactory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Core.Abstractions.IContext.html">IContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.Services.IBaseCommonServices.html">IBaseCommonServices</a></td>
+        <td><span class="parametername">commonServices</span></td>
+        <td><p>The common services.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ILoggerFactory</span></td>
+        <td><span class="parametername">loggerFactory</span></td>
+        <td><p>The logger factory.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_IsNew.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.IsNew%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L48">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1_IsNew_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.IsNew*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_IsNew" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.IsNew">IsNew</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the IsNew property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNew { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if this instance is new; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_SelectedItem.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.SelectedItem%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L38">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1_SelectedItem_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.SelectedItem*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_SelectedItem" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.SelectedItem">SelectedItem</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the SelectedItem property value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TEntity SelectedItem { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>The selected item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_Submit_Command.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.Submit_Command%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L58">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1_Submit_Command_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.Submit_Command*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_Submit_Command" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.Submit_Command">Submit_Command</h4>
+  <div class="markdown level1 summary"><p>Gets the submit command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayCommand&lt;TEntity&gt; Submit_Command { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Commands.RelayCommand-1.html">RelayCommand</a>&lt;TEntity&gt;</td>
+        <td><p>The submit command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_OnSubmitted_ISynergy_Framework_Mvvm_Events_SubmitEventArgs__0__.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.OnSubmitted(ISynergy.Framework.Mvvm.Events.SubmitEventArgs%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L32">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1_OnSubmitted_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.OnSubmitted*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_OnSubmitted_ISynergy_Framework_Mvvm_Events_SubmitEventArgs__0__" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.OnSubmitted(ISynergy.Framework.Mvvm.Events.SubmitEventArgs{`0})">OnSubmitted(SubmitEventArgs&lt;TEntity&gt;)</h4>
+  <div class="markdown level1 summary"><p>Called when [submitted].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSubmitted(SubmitEventArgs&lt;TEntity&gt; e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Mvvm.Events.SubmitEventArgs-1.html">SubmitEventArgs</a>&lt;TEntity&gt;</td>
+        <td><span class="parametername">e</span></td>
+        <td><p>The e.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_SetSelectedItem__0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.SetSelectedItem(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L97">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1_SetSelectedItem_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.SetSelectedItem*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_SetSelectedItem__0_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.SetSelectedItem(`0)">SetSelectedItem(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Sets the selected item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetSelectedItem(TEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_SubmitAsync__0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.SubmitAsync(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L108">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Mvvm_ViewModelDialog_1_SubmitAsync_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.SubmitAsync*"></a>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_SubmitAsync__0_" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.SubmitAsync(`0)">SubmitAsync(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Submits the asynchronous.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task SubmitAsync(TEntity e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>The e.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>Task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1_Submitted.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601.Submitted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L27">View Source</a>
+  </span>
+  <h4 id="ISynergy_Framework_Mvvm_ViewModelDialog_1_Submitted" data-uid="ISynergy.Framework.Mvvm.ViewModelDialog`1.Submitted">Submitted</h4>
+  <div class="markdown level1 summary"><p>Occurs when [submitted].</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler&lt;SubmitEventArgs&lt;TEntity&gt;&gt; Submitted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">EventHandler</span>&lt;<a class="xref" href="ISynergy.Framework.Mvvm.Events.SubmitEventArgs-1.html">SubmitEventArgs</a>&lt;TEntity&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelDialog-1.html">IViewModelDialog&lt;TEntity&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelSelectedItem-1.html">IViewModelSelectedItem&lt;TEntity&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModel.html">IViewModel</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.IObservableClass.html">IObservableClass</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.IBindable.html">IBindable</a>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ICleanup.html">ICleanup</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="ISynergy.Framework.Mvvm.ViewModel.html">ViewModel</a></div>
+      <div><a class="xref" href="ISynergy.Framework.Mvvm.Abstractions.ViewModels.IViewModelDialog-1.html">IViewModelDialog</a>&lt;TEntity&gt;</div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Mvvm_ViewModelDialog_1.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Mvvm.ViewModelDialog%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Mvvm/ViewModels/ViewModelDialog{TEntity}.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

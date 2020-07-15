@@ -1,27 +1,61 @@
-# I-Synergy Framework
-I-Synergy Framework for backend and frontend applications
-___
-## I-Synergy Framework Build Status
+# Project Title
 
-| Build | Status |
-|:---|---|
-| [I-Synergy.Framework](https://dev.azure.com/i-synergy/I-Synergy.Framework/_git/I-Synergy.Framework) | [![Build Status](https://dev.azure.com/i-synergy/I-Synergy.Framework/_apis/build/status/I-Synergy.Framework?branchName=master)](https://dev.azure.com/i-synergy/I-Synergy.Framework/_build/latest?definitionId=147&branchName=master)|
+One Paragraph of project description goes here
 
-## Nuget Deployment Status
-| Release | Status |
-|:---|---|
-| [I-Synergy.Framework.Core](https://www.nuget.org/packages/I-Synergy.Framework.Core/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Core) |
-| [I-Synergy.Framework.Mvvm](https://www.nuget.org/packages/I-Synergy.Framework.Mvvm/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Mvvm) |
-| [I-Synergy.Framework.Mathematics](https://www.nuget.org/packages/I-Synergy.Framework.Mathematics/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Mathematics) |
-| [I-Synergy.Framework.Financial](https://www.nuget.org/packages/I-Synergy.Framework.Financial/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Financial) |
-| [I-Synergy.Framework.Geography](https://www.nuget.org/packages/I-Synergy.Framework.Geography/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Geography) |
-| [I-Synergy.Framework.AspNetCore](https://www.nuget.org/packages/I-Synergy.Framework.AspNetCore/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.AspNetCore) |
-| [I-Synergy.Framework.AspNetCore.Authentication](https://www.nuget.org/packages/I-Synergy.Framework.AspNetCore.Authentication/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.AspNetCore.Authentication) |
-| [I-Synergy.Framework.EntityFramework](https://www.nuget.org/packages/I-Synergy.Framework.EntityFramework/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.EntityFramework) |
-| [I-Synergy.Framework.MessageBus](https://www.nuget.org/packages/I-Synergy.Framework.MessageBus/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.MessageBus) |
-| [I-Synergy.Framework.MessageBus.Azure](https://www.nuget.org/packages/I-Synergy.Framework.MessageBus.Azure/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.MessageBus.Azure) |
-| [I-Synergy.Framework.Storage](https://www.nuget.org/packages/I-Synergy.Framework.Storage/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Storage) |
-| [I-Synergy.Framework.Storage.Azure](https://www.nuget.org/packages/I-Synergy.Framework.Storage.Azure/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Storage.Azure) |
-| [I-Synergy.Framework.Payment](https://www.nuget.org/packages/I-Synergy.Framework.Payment/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Payment) |
-| [I-Synergy.Framework.Payment.Mollie](https://www.nuget.org/packages/I-Synergy.Framework.Payment.Mollie/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Payment.Mollie) |
-| [I-Synergy.Framework.Windows](https://www.nuget.org/packages/I-Synergy.Framework.Windows/) | ![NuGet Badge](https://buildstats.info/nuget/I-Synergy.Framework.Windows) |
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Authors
+
+* **Ismail Hassani** - *Initial work* - [GitHub](https://github.com/IsmailHassani)

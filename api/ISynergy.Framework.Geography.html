@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace ISynergy.Framework.Geography
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace ISynergy.Framework.Geography
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography">
+  
+  <h1 id="ISynergy_Framework_Geography" data-uid="ISynergy.Framework.Geography" class="text-break">Namespace ISynergy.Framework.Geography
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.EllipticalMercatorProjection.html">EllipticalMercatorProjection</a></h4>
+      <section><p>This is the Mercator projection assuming the earth is a perfect elipsoid.
+It's more exact, but the math is slightly more complex and thus slower.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.EuclidianCoordinate.html">EuclidianCoordinate</a></h4>
+      <section><p>This class specifically models two-dimensional points in a flat plane</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GlobalMercatorProjection.html">GlobalMercatorProjection</a></h4>
+      <section><p>This is the base class of all Mercator projections that map the
+globe as a whole.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GlobalMesh.html">GlobalMesh</a></h4>
+      <section><p>This class overlays the globe with a mesh of squares.
+The algorithm is based on subdividing the UTM grids into
+finer cell structures, so the coverage is for latitudes
+between 80° South and 84° North.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.MercatorProjection.html">MercatorProjection</a></h4>
+      <section><p>Base class for Mercator projections tranlating longitude/longitude values on the globe
+into X/Y coordinates on a flat map.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.SphericalMercatorProjection.html">SphericalMercatorProjection</a></h4>
+      <section><p>This is the Mercator projection assuming the earth is a perfect sphere.
+It's less exact, but the math is slightly easier and thus faster.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.UtmCoordinate.html">UtmCoordinate</a></h4>
+      <section><p>UTM Coordinates need additionally the zone and the band info
+to identify the grid to which the X/Y values belong</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.UtmProjection.html">UtmProjection</a></h4>
+      <section><p>The Universal Transverse Mercator Projection</p>
+</section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></h4>
+      <section><p>Encapsulation of an Angle.  Angles are constructed and serialized in
+degrees for human convenience, but a conversion to radians is provided
+for mathematical calculations.
+Angle comparisons are performed in absolute terms - no &quot;wrapping&quot; occurs.
+In other words, 360 degress != 0 degrees.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.Ellipsoid.html">Ellipsoid</a></h4>
+      <section><p>Encapsulation of an ellipsoid, and declaration of common reference ellipsoids.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GeodeticCalculator.html">GeodeticCalculator</a></h4>
+      <section><p>Implementation of Thaddeus Vincenty's algorithms to solve the direct and
+inverse geodetic problems.  For more information, see Vincent's original
+publication on the NOAA website:
+See <a href="http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf">http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf</a></p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GeodeticCurve.html">GeodeticCurve</a></h4>
+      <section><p>This is the outcome of a geodetic calculation.  It represents the path and
+ellipsoidal distance between two GlobalCoordinates for a specified reference
+ellipsoid.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GeodeticMeasurement.html">GeodeticMeasurement</a></h4>
+      <section><p>This is the outcome of a three dimensional geodetic calculation.  It represents
+the path a between two GlobalPositions for a specified reference ellipsoid.</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></h4>
+      <section><p>Encapsulation of latitude and longitude coordinates on a globe.  Negative
+latitude is southern hemisphere.  Negative longitude is western hemisphere.
+Any angle may be specified for longtiude and latitude, but all angles will
+be canonicalized such that:
+-90 &lt;= latitude &lt;= +90
+-180 &lt; longitude &lt;= +180</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.GlobalPosition.html">GlobalPosition</a></h4>
+      <section><p>Encapsulates a three dimensional location on a globe (GlobalCoordinates combined with
+an elevation in meters above a reference ellipsoid).</p>
+</section>
+      <h4><a class="xref" href="ISynergy.Framework.Geography.UtmGrid.html">UtmGrid</a></h4>
+      <section><p>The globe is partioned into Grids by the UTM projection.
+This structure represents such a grid.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

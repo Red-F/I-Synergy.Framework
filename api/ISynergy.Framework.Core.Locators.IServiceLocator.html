@@ -1,0 +1,959 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IServiceLocator
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IServiceLocator
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator">
+  
+  
+  <h1 id="ISynergy_Framework_Core_Locators_IServiceLocator" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator" class="text-break">Interface IServiceLocator
+  </h1>
+  <div class="markdown level0 summary"><p>The generic Service locator interface. This interface is used
+to retrieve services (instances identified by type and optional
+name) from a container.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Core.Locators.html">ISynergy.Framework.Core.Locators</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Core.dll</h6>
+  <h5 id="ISynergy_Framework_Core_Locators_IServiceLocator_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IServiceLocator : IServiceProvider</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_ContainsCreated__1.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.ContainsCreated%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L17">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_ContainsCreated_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.ContainsCreated*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_ContainsCreated__1" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.ContainsCreated``1">ContainsCreated&lt;TClass&gt;()</h4>
+  <div class="markdown level1 summary"><p>Checks whether at least one instance of a given class is already created in the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ContainsCreated&lt;TClass&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if at least on instance of the class is already created, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The class that is queried.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_ContainsCreated__1_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.ContainsCreated%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L27">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_ContainsCreated_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.ContainsCreated*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_ContainsCreated__1_System_String_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.ContainsCreated``1(System.String)">ContainsCreated&lt;TClass&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the instance with the given key is already created for a given class
+in the container.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ContainsCreated&lt;TClass&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key that is queried.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the instance with the given key is already registered for the given class,
+false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The class that is queried.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_IsRegistered__1.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.IsRegistered%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L34">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_IsRegistered_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.IsRegistered*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_IsRegistered__1" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.IsRegistered``1">IsRegistered&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether a given type T is already registered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsRegistered&lt;T&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the type is registered, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type that the method checks for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_IsRegistered__1_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.IsRegistered%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L43">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_IsRegistered_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.IsRegistered*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_IsRegistered__1_System_String_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.IsRegistered``1(System.String)">IsRegistered&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether a given type T and a give key
+are already registered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsRegistered&lt;T&gt;(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key that the method checks for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the type and key are registered, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type that the method checks for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__1.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L70">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__1" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``1">Register&lt;TClass&gt;()</h4>
+  <div class="markdown level1 summary"><p>Registers a given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TClass&gt;()
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that must be used to create instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%601(Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L89">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``1(Func{``0})">Register&lt;TClass&gt;(Func&lt;TClass&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a given instance for a given type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TClass&gt;(Func&lt;TClass&gt; factory)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;TClass&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>The factory method able to create the instance that
+must be returned when the given type is resolved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that is being registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%601(Func%7B%60%600%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L101">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__System_Boolean_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``1(Func{``0},System.Boolean)">Register&lt;TClass&gt;(Func&lt;TClass&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a given instance for a given type with the possibility for immediate
+creation of the instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TClass&gt;(Func&lt;TClass&gt; factory, bool createInstanceImmediately)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;TClass&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>The factory method able to create the instance that
+must be returned when the given type is resolved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createInstanceImmediately</span></td>
+        <td><p>If true, forces the creation of the default
+instance of the provided class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that is being registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%601(Func%7B%60%600%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L111">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__System_String_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``1(Func{``0},System.String)">Register&lt;TClass&gt;(Func&lt;TClass&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Registers a given instance for a given type and a given key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TClass&gt;(Func&lt;TClass&gt; factory, string key)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;TClass&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>The factory method able to create the instance that
+must be returned when the given type is resolved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key for which the given instance is registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that is being registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%601(Func%7B%60%600%7D%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L124">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_Func___0__System_String_System_Boolean_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``1(Func{``0},System.String,System.Boolean)">Register&lt;TClass&gt;(Func&lt;TClass&gt;, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a given instance for a given type and a given key with the possibility for immediate
+creation of the instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TClass&gt;(Func&lt;TClass&gt; factory, string key, bool createInstanceImmediately)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Func</span>&lt;TClass&gt;</td>
+        <td><span class="parametername">factory</span></td>
+        <td><p>The factory method able to create the instance that
+must be returned when the given type is resolved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key for which the given instance is registered.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createInstanceImmediately</span></td>
+        <td><p>If true, forces the creation of the default
+instance of the provided class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that is being registered.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%601(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L80">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__1_System_Boolean_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``1(System.Boolean)">Register&lt;TClass&gt;(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a given type with the possibility for immediate
+creation of the instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TClass&gt;(bool createInstanceImmediately)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createInstanceImmediately</span></td>
+        <td><p>If true, forces the creation of the default
+instance of the provided class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that must be used to create instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__2.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L50">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__2" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``2">Register&lt;TInterface, TClass&gt;()</h4>
+  <div class="markdown level1 summary"><p>Registers a given type for a given interface.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TInterface, TClass&gt;()
+    where TInterface : class where TClass : class, TInterface</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInterface</span></td>
+        <td><p>The interface for which instances will be resolved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that must be used to create instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Register__2_System_Boolean_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Register%60%602(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L62">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Register_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Register__2_System_Boolean_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Register``2(System.Boolean)">Register&lt;TInterface, TClass&gt;(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Registers a given type for a given interface with the possibility for immediate
+creation of the instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register&lt;TInterface, TClass&gt;(bool createInstanceImmediately)
+    where TInterface : class where TClass : class, TInterface</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">createInstanceImmediately</span></td>
+        <td><p>If true, forces the creation of the default
+instance of the provided class.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInterface</span></td>
+        <td><p>The interface for which instances will be resolved.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type that must be used to create instances.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Reset.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L134">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Reset_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Reset*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Reset" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Resets the instance in its original states. This deletes all the
+registrations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Reset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Unregister__1.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Unregister%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L141">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Unregister_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Unregister__1" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Unregister``1">Unregister&lt;TClass&gt;()</h4>
+  <div class="markdown level1 summary"><p>Unregisters a class from the cache and removes all the previously
+created instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Unregister&lt;TClass&gt;()
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The class that must be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Unregister__1___0_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Unregister%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L150">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Unregister_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Unregister__1___0_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Unregister``1(``0)">Unregister&lt;TClass&gt;(TClass)</h4>
+  <div class="markdown level1 summary"><p>Removes the given instance from the cache. The class itself remains
+registered and can be used to create other instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Unregister&lt;TClass&gt;(TClass instance)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TClass</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td><p>The instance that must be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type of the instance to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator_Unregister__1_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator.Unregister%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L159">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Locators_IServiceLocator_Unregister_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Unregister*"></a>
+  <h4 id="ISynergy_Framework_Core_Locators_IServiceLocator_Unregister__1_System_String_" data-uid="ISynergy.Framework.Core.Locators.IServiceLocator.Unregister``1(System.String)">Unregister&lt;TClass&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the instance corresponding to the given key from the cache. The class itself remains
+registered and can be used to create other instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Unregister&lt;TClass&gt;(string key)
+    where TClass : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key corresponding to the instance that must be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClass</span></td>
+        <td><p>The type of the instance to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Locators_IServiceLocator.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Locators.IServiceLocator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Locators/IServiceLocator.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct GeodeticCalculator
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct GeodeticCalculator
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Geography.GeodeticCalculator">
+  
+  
+  <h1 id="ISynergy_Framework_Geography_GeodeticCalculator" data-uid="ISynergy.Framework.Geography.GeodeticCalculator" class="text-break">Struct GeodeticCalculator
+  </h1>
+  <div class="markdown level0 summary"><p>Implementation of Thaddeus Vincenty's algorithms to solve the direct and
+inverse geodetic problems.  For more information, see Vincent's original
+publication on the NOAA website:
+See <a href="http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf">http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="ISynergy.Framework.Geography.GeodeticCalculator.html">GeodeticCalculator</a>&gt;</div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Geography.html">ISynergy.Framework.Geography</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Geography.dll</h6>
+  <h5 id="ISynergy_Framework_Geography_GeodeticCalculator_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct GeodeticCalculator : IEquatable&lt;GeodeticCalculator&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator__ctor_ISynergy_Framework_Geography_Ellipsoid_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.%23ctor(ISynergy.Framework.Geography.Ellipsoid)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L33">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator__ctor_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator__ctor_ISynergy_Framework_Geography_Ellipsoid_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.#ctor(ISynergy.Framework.Geography.Ellipsoid)">GeodeticCalculator(Ellipsoid)</h4>
+  <div class="markdown level1 summary"><p>Instantiate a calculator for the specified reference Ellipsoid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GeodeticCalculator(Ellipsoid referenceGlobe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Ellipsoid.html">Ellipsoid</a></td>
+        <td><span class="parametername">referenceGlobe</span></td>
+        <td><p>The reference Ellipsoid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_ReferenceGlobe.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.ReferenceGlobe%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L27">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_ReferenceGlobe_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.ReferenceGlobe*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_ReferenceGlobe" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.ReferenceGlobe">ReferenceGlobe</h4>
+  <div class="markdown level1 summary"><p>The reference Ellipsoid to use for the calculations</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Ellipsoid ReferenceGlobe { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Ellipsoid.html">Ellipsoid</a></td>
+        <td><p>The reference globe.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_CalculateEndingGlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_Angle_System_Double_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.CalculateEndingGlobalCoordinates(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.Angle%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L175">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateEndingGlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateEndingGlobalCoordinates*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateEndingGlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_Angle_System_Double_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateEndingGlobalCoordinates(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.Angle,System.Double)">CalculateEndingGlobalCoordinates(GlobalCoordinates, Angle, Double)</h4>
+  <div class="markdown level1 summary"><p>Calculate the destination after traveling a specified distance, and a
+specified starting bearing, for an initial location. This is the
+solution to the direct geodetic problem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates CalculateEndingGlobalCoordinates(GlobalCoordinates start, Angle startBearing, double distance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>starting location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">startBearing</span></td>
+        <td><p>starting bearing (degrees)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>distance to travel (meters)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The coordinates of the final location of the traveling</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_CalculateEndingGlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_Angle_System_Double_ISynergy_Framework_Geography_Angle__.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.CalculateEndingGlobalCoordinates(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.Angle%2CSystem.Double%2CISynergy.Framework.Geography.Angle%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L49">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateEndingGlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateEndingGlobalCoordinates*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateEndingGlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_Angle_System_Double_ISynergy_Framework_Geography_Angle__" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateEndingGlobalCoordinates(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.Angle,System.Double,ISynergy.Framework.Geography.Angle@)">CalculateEndingGlobalCoordinates(GlobalCoordinates, Angle, Double, out Angle)</h4>
+  <div class="markdown level1 summary"><p>Calculate the destination and final bearing after traveling a specified
+distance, and a specified starting bearing, for an initial location.
+This is the solution to the direct geodetic problem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates CalculateEndingGlobalCoordinates(GlobalCoordinates start, Angle startBearing, double distance, out Angle endBearing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>starting location</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">startBearing</span></td>
+        <td><p>starting bearing (degrees)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>distance to travel (meters)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.Angle.html">Angle</a></td>
+        <td><span class="parametername">endBearing</span></td>
+        <td><p>bearing at destination (degrees)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><p>The coordinates of the final location of the traveling</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticCurve_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticCurve(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L194">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticCurve_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticCurve*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticCurve_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticCurve(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates)">CalculateGeodeticCurve(GlobalCoordinates, GlobalCoordinates)</h4>
+  <div class="markdown level1 summary"><p>Calculate the geodetic curve between two points on a specified reference ellipsoid.
+This is the solution to the inverse geodetic problem.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GeodeticCurve CalculateGeodeticCurve(GlobalCoordinates start, GlobalCoordinates end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>starting coordinates</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>ending coordinates</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GeodeticCurve.html">GeodeticCurve</a></td>
+        <td><p>The geodetic curve information to get from start to end</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticMeasurement_ISynergy_Framework_Geography_GlobalPosition_ISynergy_Framework_Geography_GlobalPosition_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticMeasurement(ISynergy.Framework.Geography.GlobalPosition%2CISynergy.Framework.Geography.GlobalPosition)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L353">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticMeasurement_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticMeasurement*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticMeasurement_ISynergy_Framework_Geography_GlobalPosition_ISynergy_Framework_Geography_GlobalPosition_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticMeasurement(ISynergy.Framework.Geography.GlobalPosition,ISynergy.Framework.Geography.GlobalPosition)">CalculateGeodeticMeasurement(GlobalPosition, GlobalPosition)</h4>
+  <div class="markdown level1 summary"><p>Calculate the three dimensional geodetic measurement between two positions
+measured in reference to a specified ellipsoid.
+This calculation is performed by first computing a new ellipsoid by expanding or contracting
+the reference ellipsoid such that the new ellipsoid passes through the average elevation
+of the two positions.  A geodetic curve across the new ellisoid is calculated.  The
+point-to-point distance is calculated as the hypotenuse of a right triangle where the length
+of one side is the ellipsoidal distance and the other is the difference in elevation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GeodeticMeasurement CalculateGeodeticMeasurement(GlobalPosition start, GlobalPosition end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalPosition.html">GlobalPosition</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>starting position</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalPosition.html">GlobalPosition</a></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>ending position</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GeodeticMeasurement.html">GeodeticMeasurement</a></td>
+        <td><p>The geodetic measurement information to get from start to end</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticPath_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticPath(ISynergy.Framework.Geography.GlobalCoordinates%2CISynergy.Framework.Geography.GlobalCoordinates%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L394">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticPath_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticPath*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_CalculateGeodeticPath_ISynergy_Framework_Geography_GlobalCoordinates_ISynergy_Framework_Geography_GlobalCoordinates_System_Int32_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.CalculateGeodeticPath(ISynergy.Framework.Geography.GlobalCoordinates,ISynergy.Framework.Geography.GlobalCoordinates,System.Int32)">CalculateGeodeticPath(GlobalCoordinates, GlobalCoordinates, Int32)</h4>
+  <div class="markdown level1 summary"><p>Compute a geodetic path from start to end witha given number of points</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalCoordinates[] CalculateGeodeticPath(GlobalCoordinates start, GlobalCoordinates end, int numberOfPoints = 10)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>starting coordinates</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>ending coordinates</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numberOfPoints</span></td>
+        <td><p>Number of points on the path (including start and end)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GlobalCoordinates.html">GlobalCoordinates</a>[]</td>
+        <td><p>An array of points describing the path from start to end</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator_Equals_ISynergy_Framework_Geography_GeodeticCalculator_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator.Equals(ISynergy.Framework.Geography.GeodeticCalculator)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L426">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Geography_GeodeticCalculator_Equals_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.Equals*"></a>
+  <h4 id="ISynergy_Framework_Geography_GeodeticCalculator_Equals_ISynergy_Framework_Geography_GeodeticCalculator_" data-uid="ISynergy.Framework.Geography.GeodeticCalculator.Equals(ISynergy.Framework.Geography.GeodeticCalculator)">Equals(GeodeticCalculator)</h4>
+  <div class="markdown level1 summary"><p>Test another calculator to be equal to this one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(GeodeticCalculator other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Geography.GeodeticCalculator.html">GeodeticCalculator</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The other calculator</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if they are the same (means have the same reference globe)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IEquatable&lt;&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Geography_GeodeticCalculator.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Geography.GeodeticCalculator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Geography/Geodetic/GeodeticCalculator.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
