@@ -1181,30 +1181,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Core.Converters.DataTableConverter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Core.Converters.DataTableConverter.html",
-          "hash": "grgsZnx1VUw4FUkCpmUnfA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Core.Converters.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Core.Converters.html",
-          "hash": "C7ngi8yIs0Wt9M4UQcjHEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.Core.Data.ClassBase.yml",
       "output": {
         ".html": {
@@ -7737,7 +7713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "w8glMfpJkYqOoU6vtgp9aQ=="
+          "hash": "+XkodElSPLbtI/zk6OTooA=="
         }
       },
       "is_incremental": false,
@@ -7812,7 +7788,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 643,
+          "total_file_count": 641,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
