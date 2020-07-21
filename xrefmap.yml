@@ -3702,6 +3702,47 @@ references:
   commentId: F:ISynergy.Framework.Core.Constants.RoleNames.Webmaster
   fullName: ISynergy.Framework.Core.Constants.RoleNames.Webmaster
   nameWithType: RoleNames.Webmaster
+- uid: ISynergy.Framework.Core.Converters
+  name: ISynergy.Framework.Core.Converters
+  href: api/ISynergy.Framework.Core.Converters.html
+  commentId: N:ISynergy.Framework.Core.Converters
+  fullName: ISynergy.Framework.Core.Converters
+  nameWithType: ISynergy.Framework.Core.Converters
+- uid: ISynergy.Framework.Core.Converters.DataTableConverter
+  name: DataTableConverter
+  href: api/ISynergy.Framework.Core.Converters.DataTableConverter.html
+  commentId: T:ISynergy.Framework.Core.Converters.DataTableConverter
+  fullName: ISynergy.Framework.Core.Converters.DataTableConverter
+  nameWithType: DataTableConverter
+- uid: ISynergy.Framework.Core.Converters.DataTableConverter.Read(Utf8JsonReader@,Type,JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/ISynergy.Framework.Core.Converters.DataTableConverter.html#ISynergy_Framework_Core_Converters_DataTableConverter_Read_Utf8JsonReader__Type_JsonSerializerOptions_
+  commentId: M:ISynergy.Framework.Core.Converters.DataTableConverter.Read(Utf8JsonReader@,Type,JsonSerializerOptions)
+  name.vb: Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: ISynergy.Framework.Core.Converters.DataTableConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName.vb: ISynergy.Framework.Core.Converters.DataTableConverter.Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType: DataTableConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: DataTableConverter.Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: ISynergy.Framework.Core.Converters.DataTableConverter.Read*
+  name: Read
+  href: api/ISynergy.Framework.Core.Converters.DataTableConverter.html#ISynergy_Framework_Core_Converters_DataTableConverter_Read_
+  commentId: Overload:ISynergy.Framework.Core.Converters.DataTableConverter.Read
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Converters.DataTableConverter.Read
+  nameWithType: DataTableConverter.Read
+- uid: ISynergy.Framework.Core.Converters.DataTableConverter.Write(Utf8JsonWriter,DataTable,JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, DataTable, JsonSerializerOptions)
+  href: api/ISynergy.Framework.Core.Converters.DataTableConverter.html#ISynergy_Framework_Core_Converters_DataTableConverter_Write_Utf8JsonWriter_DataTable_JsonSerializerOptions_
+  commentId: M:ISynergy.Framework.Core.Converters.DataTableConverter.Write(Utf8JsonWriter,DataTable,JsonSerializerOptions)
+  fullName: ISynergy.Framework.Core.Converters.DataTableConverter.Write(Utf8JsonWriter, DataTable, JsonSerializerOptions)
+  nameWithType: DataTableConverter.Write(Utf8JsonWriter, DataTable, JsonSerializerOptions)
+- uid: ISynergy.Framework.Core.Converters.DataTableConverter.Write*
+  name: Write
+  href: api/ISynergy.Framework.Core.Converters.DataTableConverter.html#ISynergy_Framework_Core_Converters_DataTableConverter_Write_
+  commentId: Overload:ISynergy.Framework.Core.Converters.DataTableConverter.Write
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Converters.DataTableConverter.Write
+  nameWithType: DataTableConverter.Write
 - uid: ISynergy.Framework.Core.Data
   name: ISynergy.Framework.Core.Data
   href: api/ISynergy.Framework.Core.Data.html
