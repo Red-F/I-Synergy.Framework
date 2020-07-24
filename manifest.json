@@ -989,11 +989,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Abstractions.ITimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Abstractions.ITimer.html",
+          "hash": "SRoXc/YzQWrJsfL+ZN7Yiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.Core.Abstractions.yml",
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Abstractions.html",
-          "hash": "qWcR7KSX2mk+gaTi84Fj7w=="
+          "hash": "zjHb9V7TTK976w6AFoZAaw=="
         }
       },
       "is_incremental": false,
@@ -1305,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Data.ModelBase.html",
-          "hash": "DMoOfeq8yO89fBrVed9H6A=="
+          "hash": "JY8kt4IFQqHTwze0m2FGWg=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Data.ObservableClass.html",
-          "hash": "Xfer7F+75PGt8OSdI5CSMA=="
+          "hash": "FXJ498ecaAC9ddDpijIn1w=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Extensions.CollectionExtensions.html",
-          "hash": "QOdqCso4okZrRyGlh6ZLMQ=="
+          "hash": "PWQDMH4E04GiaWNVPVk/Bw=="
         }
       },
       "is_incremental": false,
@@ -1690,6 +1702,18 @@
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Extensions.EnumerableExtensions.html",
           "hash": "jsble66KRMxPxaawONrt4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Extensions.FloatExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Extensions.FloatExtensions.html",
+          "hash": "8cQ9u+RSYxMRHqqW7BKQ5A=="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1809,43 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Extensions.html",
-          "hash": "Ka2tNcb1sQjMow7+mDyTvQ=="
+          "hash": "X7Mb35S4RsOwceHWLgrExw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Helpers.ActionTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Helpers.ActionTimer.html",
+          "hash": "Oh0Ls5FwWly1K1GHQSHM2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Helpers.DelayTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Helpers.DelayTimer.html",
+          "hash": "cBv+cTADks01yRkPJnEgXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Helpers.html",
+          "hash": "slqLFKy/u7b/3EfGXgNBOA=="
         }
       },
       "is_incremental": false,
@@ -1869,7 +1929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.Account.html",
-          "hash": "n2e28IyUoPAsmqJLxLcLxg=="
+          "hash": "qLQX/v+2gxl1MqlgXdia8w=="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.AccountFull.html",
-          "hash": "FBw37Tz18PyWJnNbJzVF8w=="
+          "hash": "+SMt6wrnAy1gPrSFr02Tiw=="
         }
       },
       "is_incremental": false,
@@ -1893,7 +1953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.Module.html",
-          "hash": "W98bA80YWsfJAmLm9/uZqQ=="
+          "hash": "dBBAw8u2iBBn3rqQu8x0AQ=="
         }
       },
       "is_incremental": false,
@@ -1905,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.RegistrationData.html",
-          "hash": "3vymse7rtma4j2+3ALO5Lw=="
+          "hash": "B8n5deeqbTVEfmp8w0/lZw=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.Role.html",
-          "hash": "dqd1slpQMCDm2rnTtyId3A=="
+          "hash": "y+e47ARNN46cWeVik/G+uQ=="
         }
       },
       "is_incremental": false,
@@ -1941,7 +2001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.User.html",
-          "hash": "lnmYut6QVbpo0HNPvUHbkA=="
+          "hash": "I07YiMndpUdzzCPEAUKrlw=="
         }
       },
       "is_incremental": false,
@@ -1953,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.UserAdd.html",
-          "hash": "mTc82vcRYAcA6xXwGKjWFg=="
+          "hash": "VtSmidqjOo+2U2/jHncETw=="
         }
       },
       "is_incremental": false,
@@ -1965,7 +2025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.UserEdit.html",
-          "hash": "ullhH8Y34in65Hm7VwI/mw=="
+          "hash": "cPwOxyI+MLnl8j4FBF+djg=="
         }
       },
       "is_incremental": false,
@@ -1977,7 +2037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.UserFull.html",
-          "hash": "i7g1zwDm6/cpRbgEkhEDnA=="
+          "hash": "r9Q6GZDZ2iwr1J1TIyuPrQ=="
         }
       },
       "is_incremental": false,
@@ -1989,7 +2049,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.Accounts.UserSelect.html",
-          "hash": "HJ/bhtB5RpJEUEUAF+gpfQ=="
+          "hash": "15azI0iIg2XsgH/KlCGKEA=="
         }
       },
       "is_incremental": false,
@@ -4857,7 +4917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModel.html",
-          "hash": "Kgtt9SQzaFxI/2PN0kYEvg=="
+          "hash": "Xmf9u+9UgQ7vCaNfREz+/A=="
         }
       },
       "is_incremental": false,
@@ -4869,7 +4929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelBlade-1.html",
-          "hash": "3bZzgrv+Z5mOgnRcBU6k3Q=="
+          "hash": "lW1ZwV1iVL6H4ixfYo5k2Q=="
         }
       },
       "is_incremental": false,
@@ -4881,7 +4941,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelBladeView-1.html",
-          "hash": "32jioLFXQyTwJVmKm0HcKQ=="
+          "hash": "Ei/FpTSu5I2zR12OT8G9Aw=="
         }
       },
       "is_incremental": false,
@@ -4893,7 +4953,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelBladeWizard-1.html",
-          "hash": "p+J6FiNA4udbZpQmop/atg=="
+          "hash": "TkGVXd2S4Vid9T6nWtYg6g=="
         }
       },
       "is_incremental": false,
@@ -4905,7 +4965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelDialog-1.html",
-          "hash": "UdMhCd9j551lksGiZtFK6Q=="
+          "hash": "AheBm3ZfAup9Vnw7pYZR4w=="
         }
       },
       "is_incremental": false,
@@ -4917,7 +4977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelDialogWizard-1.html",
-          "hash": "R5mrWafEcd1umSj+ujM2Nw=="
+          "hash": "KSE9LuajwJGlhbfgUcsieg=="
         }
       },
       "is_incremental": false,
@@ -4929,7 +4989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelMessageBox.html",
-          "hash": "Ysa0Vcu4NfYEwqCMcUnfqA=="
+          "hash": "mlzonKhT668YvvI9TGldbw=="
         }
       },
       "is_incremental": false,
@@ -4941,7 +5001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModelNavigation-1.html",
-          "hash": "b+UuKsDMJmsDDTZbzAavAw=="
+          "hash": "C5uV4wOA1jLkpuc0SSqc8w=="
         }
       },
       "is_incremental": false,
@@ -4953,7 +5013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModels.MapsViewModel.html",
-          "hash": "U20U7BkVxdAVed/UwyXHzA=="
+          "hash": "XL1GNQWZ+EPqe49ztGd4rw=="
         }
       },
       "is_incremental": false,
@@ -4965,7 +5025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModels.NoteViewModel.html",
-          "hash": "zf5iJFJEzkd2n9q7A8KzEw=="
+          "hash": "WU2QJHLjMCacbYWt9awZXQ=="
         }
       },
       "is_incremental": false,
@@ -4977,7 +5037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Mvvm.ViewModels.SelectionViewModel.html",
-          "hash": "nNX/Gq6Gf3tGllRS6TcJUA=="
+          "hash": "zYulp73BLtj0SQEXFmwvEw=="
         }
       },
       "is_incremental": false,
@@ -5554,6 +5614,234 @@
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.Controls.BladeView.html",
           "hash": "JUupNBQ1Nk9GsJlcO5S0yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.BarChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html",
+          "hash": "kPhxO7n/GjuwqyMNiU2n7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Chart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Chart.html",
+          "hash": "MkegrWnhPfwiL9WhAP+dyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html",
+          "hash": "Y0CJ9DVMJOTvGnxsUSpJyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.ChartView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html",
+          "hash": "PTyFizV9UF6VgPH3wP7Nfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html",
+          "hash": "CHeah59701AlFn8GGQwc6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.html",
+          "hash": "N+h37SgkiBFfSHmYOQmeaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.html",
+          "hash": "pFBmj3l/y/b/ZQ2m0igHwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.html",
+          "hash": "U+CEiGxWCx6lmEJIZBDPOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html",
+          "hash": "/GvOEgp11NmVcIeHTUjM3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.html",
+          "hash": "NOR6tjvH57qia73kZBo2PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.html",
+          "hash": "SSM/PuIOMtTzNzyTBHqsSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html",
+          "hash": "qqUXSIygKtahPi1t7XbxLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.Events.html",
+          "hash": "XyocC/cQy2gPPum9xtLiHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.LineChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html",
+          "hash": "sM0EyTeJ5oOBergzhpLdEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.PieChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.PieChart.html",
+          "hash": "vByug/DeKJ/TJnlKhP5SMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.PointChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html",
+          "hash": "bBmULxYy3yWyf9E+cwOGhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html",
+          "hash": "MUEoRiPPe3dIwXFVXelW2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html",
+          "hash": "7NB0e0x/d+p8gjJrqYqLeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Windows.Controls.Charts.html",
+          "hash": "pD3GTDCh/ycthDgN5SEpsA=="
         }
       },
       "is_incremental": false,
@@ -7389,7 +7677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.Services.BusyService.html",
-          "hash": "K3zfDKu6hwHaNn+kOEUZrQ=="
+          "hash": "iYwTWHFTEzpA7PQG0vlpLA=="
         }
       },
       "is_incremental": false,
@@ -7425,7 +7713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.Services.NavigationService.html",
-          "hash": "eKleekhvTNs0NAouU1huyA=="
+          "hash": "QoA+FtaTZUEFjf1GYOiFsQ=="
         }
       },
       "is_incremental": false,
@@ -7533,7 +7821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.ViewModels.LanguageViewModel.html",
-          "hash": "HZbGjqJhsVGq42D2+4Xhqw=="
+          "hash": "AhPhoZ20HELMYiqcuNJ3mg=="
         }
       },
       "is_incremental": false,
@@ -7545,7 +7833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.ViewModels.Library.MessageBoxViewModel.html",
-          "hash": "BdpGZWjo6LtpwUlOumik0w=="
+          "hash": "5tLY8ocBuP69oGZUMLkCKA=="
         }
       },
       "is_incremental": false,
@@ -7569,7 +7857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.ViewModels.PincodeViewModel.html",
-          "hash": "ArtEGHjzzi3ToI+VfrpEUg=="
+          "hash": "8CKCRXowqFnf6r2h2IbUVA=="
         }
       },
       "is_incremental": false,
@@ -7581,7 +7869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.ViewModels.ShellViewModelBase.html",
-          "hash": "RJgV1tyhAkq3CW3lunenEw=="
+          "hash": "pXIJv9BmrF16so0M/F83ZA=="
         }
       },
       "is_incremental": false,
@@ -7593,7 +7881,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Windows.ViewModels.ThemeViewModel.html",
-          "hash": "4/Ahu4497TUOKf3PKt0yhw=="
+          "hash": "O++pT8q+5ffn4/0aeiP5NQ=="
         }
       },
       "is_incremental": false,
@@ -7713,7 +8001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+XkodElSPLbtI/zk6OTooA=="
+          "hash": "96FsruNAELK/jqZLY3+Sig=="
         }
       },
       "is_incremental": false,
@@ -7788,7 +8076,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 641,
+          "total_file_count": 665,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

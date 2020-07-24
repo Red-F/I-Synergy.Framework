@@ -2729,6 +2729,28 @@ references:
   isSpec: "True"
   fullName: ISynergy.Framework.Core.Abstractions.IProfile.Username
   nameWithType: IProfile.Username
+- uid: ISynergy.Framework.Core.Abstractions.ITimer
+  name: ITimer
+  href: api/ISynergy.Framework.Core.Abstractions.ITimer.html
+  commentId: T:ISynergy.Framework.Core.Abstractions.ITimer
+  fullName: ISynergy.Framework.Core.Abstractions.ITimer
+  nameWithType: ITimer
+- uid: ISynergy.Framework.Core.Abstractions.ITimer.Start(TimeSpan,Func{System.Boolean})
+  name: Start(TimeSpan, Func<Boolean>)
+  href: api/ISynergy.Framework.Core.Abstractions.ITimer.html#ISynergy_Framework_Core_Abstractions_ITimer_Start_TimeSpan_Func_System_Boolean__
+  commentId: M:ISynergy.Framework.Core.Abstractions.ITimer.Start(TimeSpan,Func{System.Boolean})
+  name.vb: Start(TimeSpan, Func(Of Boolean))
+  fullName: ISynergy.Framework.Core.Abstractions.ITimer.Start(TimeSpan, Func<System.Boolean>)
+  fullName.vb: ISynergy.Framework.Core.Abstractions.ITimer.Start(TimeSpan, Func(Of System.Boolean))
+  nameWithType: ITimer.Start(TimeSpan, Func<Boolean>)
+  nameWithType.vb: ITimer.Start(TimeSpan, Func(Of Boolean))
+- uid: ISynergy.Framework.Core.Abstractions.ITimer.Start*
+  name: Start
+  href: api/ISynergy.Framework.Core.Abstractions.ITimer.html#ISynergy_Framework_Core_Abstractions_ITimer_Start_
+  commentId: Overload:ISynergy.Framework.Core.Abstractions.ITimer.Start
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Abstractions.ITimer.Start
+  nameWithType: ITimer.Start
 - uid: ISynergy.Framework.Core.Attributes
   name: ISynergy.Framework.Core.Attributes
   href: api/ISynergy.Framework.Core.Attributes.html
@@ -4582,6 +4604,15 @@ references:
   fullName.vb: ISynergy.Framework.Core.Data.ObservableClass.SetValue(Of T)(T, System.String)
   nameWithType: ObservableClass.SetValue<T>(T, String)
   nameWithType.vb: ObservableClass.SetValue(Of T)(T, String)
+- uid: ISynergy.Framework.Core.Data.ObservableClass.SetValue``1(``0@,``0,System.String)
+  name: SetValue<T>(ref T, T, String)
+  href: api/ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_SetValue__1___0____0_System_String_
+  commentId: M:ISynergy.Framework.Core.Data.ObservableClass.SetValue``1(``0@,``0,System.String)
+  name.vb: SetValue(Of T)(ByRef T, T, String)
+  fullName: ISynergy.Framework.Core.Data.ObservableClass.SetValue<T>(ref T, T, System.String)
+  fullName.vb: ISynergy.Framework.Core.Data.ObservableClass.SetValue(Of T)(ByRef T, T, System.String)
+  nameWithType: ObservableClass.SetValue<T>(ref T, T, String)
+  nameWithType.vb: ObservableClass.SetValue(Of T)(ByRef T, T, String)
 - uid: ISynergy.Framework.Core.Data.ObservableClass.Validate
   name: Validate()
   href: api/ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validate
@@ -6332,6 +6363,31 @@ references:
   isSpec: "True"
   fullName: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToArray
   nameWithType: CollectionExtensions.ToArray
+- uid: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable*
+  name: ToDataTable
+  href: api/ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_ToDataTable_
+  commentId: Overload:ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable
+  nameWithType: CollectionExtensions.ToDataTable
+- uid: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable``1(ICollection{``0})
+  name: ToDataTable<T>(ICollection<T>)
+  href: api/ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_ToDataTable__1_ICollection___0__
+  commentId: M:ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable``1(ICollection{``0})
+  name.vb: ToDataTable(Of T)(ICollection(Of T))
+  fullName: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable<T>(ICollection<T>)
+  fullName.vb: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable(Of T)(ICollection(Of T))
+  nameWithType: CollectionExtensions.ToDataTable<T>(ICollection<T>)
+  nameWithType.vb: CollectionExtensions.ToDataTable(Of T)(ICollection(Of T))
+- uid: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable``1(ICollection{``0},System.String)
+  name: ToDataTable<T>(ICollection<T>, String)
+  href: api/ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_ToDataTable__1_ICollection___0__System_String_
+  commentId: M:ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable``1(ICollection{``0},System.String)
+  name.vb: ToDataTable(Of T)(ICollection(Of T), String)
+  fullName: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable<T>(ICollection<T>, System.String)
+  fullName.vb: ISynergy.Framework.Core.Extensions.CollectionExtensions.ToDataTable(Of T)(ICollection(Of T), System.String)
+  nameWithType: CollectionExtensions.ToDataTable<T>(ICollection<T>, String)
+  nameWithType.vb: CollectionExtensions.ToDataTable(Of T)(ICollection(Of T), String)
 - uid: ISynergy.Framework.Core.Extensions.ConfigurationBinderExtensions
   name: ConfigurationBinderExtensions
   href: api/ISynergy.Framework.Core.Extensions.ConfigurationBinderExtensions.html
@@ -7066,6 +7122,38 @@ references:
   fullName.vb: ISynergy.Framework.Core.Extensions.EnumerableExtensions.ToPage(Of TSource)(IEnumerable(Of TSource), System.Int32, System.Int32)
   nameWithType: EnumerableExtensions.ToPage<TSource>(IEnumerable<TSource>, Int32, Int32)
   nameWithType.vb: EnumerableExtensions.ToPage(Of TSource)(IEnumerable(Of TSource), Int32, Int32)
+- uid: ISynergy.Framework.Core.Extensions.FloatExtensions
+  name: FloatExtensions
+  href: api/ISynergy.Framework.Core.Extensions.FloatExtensions.html
+  commentId: T:ISynergy.Framework.Core.Extensions.FloatExtensions
+  fullName: ISynergy.Framework.Core.Extensions.FloatExtensions
+  nameWithType: FloatExtensions
+- uid: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseIn(System.Single)
+  name: EaseIn(Single)
+  href: api/ISynergy.Framework.Core.Extensions.FloatExtensions.html#ISynergy_Framework_Core_Extensions_FloatExtensions_EaseIn_System_Single_
+  commentId: M:ISynergy.Framework.Core.Extensions.FloatExtensions.EaseIn(System.Single)
+  fullName: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseIn(System.Single)
+  nameWithType: FloatExtensions.EaseIn(Single)
+- uid: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseIn*
+  name: EaseIn
+  href: api/ISynergy.Framework.Core.Extensions.FloatExtensions.html#ISynergy_Framework_Core_Extensions_FloatExtensions_EaseIn_
+  commentId: Overload:ISynergy.Framework.Core.Extensions.FloatExtensions.EaseIn
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseIn
+  nameWithType: FloatExtensions.EaseIn
+- uid: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseOut(System.Single)
+  name: EaseOut(Single)
+  href: api/ISynergy.Framework.Core.Extensions.FloatExtensions.html#ISynergy_Framework_Core_Extensions_FloatExtensions_EaseOut_System_Single_
+  commentId: M:ISynergy.Framework.Core.Extensions.FloatExtensions.EaseOut(System.Single)
+  fullName: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseOut(System.Single)
+  nameWithType: FloatExtensions.EaseOut(Single)
+- uid: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseOut*
+  name: EaseOut
+  href: api/ISynergy.Framework.Core.Extensions.FloatExtensions.html#ISynergy_Framework_Core_Extensions_FloatExtensions_EaseOut_
+  commentId: Overload:ISynergy.Framework.Core.Extensions.FloatExtensions.EaseOut
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Extensions.FloatExtensions.EaseOut
+  nameWithType: FloatExtensions.EaseOut
 - uid: ISynergy.Framework.Core.Extensions.GuidExtensions
   name: GuidExtensions
   href: api/ISynergy.Framework.Core.Extensions.GuidExtensions.html
@@ -7703,6 +7791,53 @@ references:
   isSpec: "True"
   fullName: ISynergy.Framework.Core.Extensions.TypeExtensions.GetInterfaces
   nameWithType: TypeExtensions.GetInterfaces
+- uid: ISynergy.Framework.Core.Helpers
+  name: ISynergy.Framework.Core.Helpers
+  href: api/ISynergy.Framework.Core.Helpers.html
+  commentId: N:ISynergy.Framework.Core.Helpers
+  fullName: ISynergy.Framework.Core.Helpers
+  nameWithType: ISynergy.Framework.Core.Helpers
+- uid: ISynergy.Framework.Core.Helpers.ActionTimer
+  name: ActionTimer
+  href: api/ISynergy.Framework.Core.Helpers.ActionTimer.html
+  commentId: T:ISynergy.Framework.Core.Helpers.ActionTimer
+  fullName: ISynergy.Framework.Core.Helpers.ActionTimer
+  nameWithType: ActionTimer
+- uid: ISynergy.Framework.Core.Helpers.ActionTimer.Create
+  name: Create
+  href: api/ISynergy.Framework.Core.Helpers.ActionTimer.html#ISynergy_Framework_Core_Helpers_ActionTimer_Create
+  commentId: P:ISynergy.Framework.Core.Helpers.ActionTimer.Create
+  fullName: ISynergy.Framework.Core.Helpers.ActionTimer.Create
+  nameWithType: ActionTimer.Create
+- uid: ISynergy.Framework.Core.Helpers.ActionTimer.Create*
+  name: Create
+  href: api/ISynergy.Framework.Core.Helpers.ActionTimer.html#ISynergy_Framework_Core_Helpers_ActionTimer_Create_
+  commentId: Overload:ISynergy.Framework.Core.Helpers.ActionTimer.Create
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Helpers.ActionTimer.Create
+  nameWithType: ActionTimer.Create
+- uid: ISynergy.Framework.Core.Helpers.DelayTimer
+  name: DelayTimer
+  href: api/ISynergy.Framework.Core.Helpers.DelayTimer.html
+  commentId: T:ISynergy.Framework.Core.Helpers.DelayTimer
+  fullName: ISynergy.Framework.Core.Helpers.DelayTimer
+  nameWithType: DelayTimer
+- uid: ISynergy.Framework.Core.Helpers.DelayTimer.Start(TimeSpan,Func{System.Boolean})
+  name: Start(TimeSpan, Func<Boolean>)
+  href: api/ISynergy.Framework.Core.Helpers.DelayTimer.html#ISynergy_Framework_Core_Helpers_DelayTimer_Start_TimeSpan_Func_System_Boolean__
+  commentId: M:ISynergy.Framework.Core.Helpers.DelayTimer.Start(TimeSpan,Func{System.Boolean})
+  name.vb: Start(TimeSpan, Func(Of Boolean))
+  fullName: ISynergy.Framework.Core.Helpers.DelayTimer.Start(TimeSpan, Func<System.Boolean>)
+  fullName.vb: ISynergy.Framework.Core.Helpers.DelayTimer.Start(TimeSpan, Func(Of System.Boolean))
+  nameWithType: DelayTimer.Start(TimeSpan, Func<Boolean>)
+  nameWithType.vb: DelayTimer.Start(TimeSpan, Func(Of Boolean))
+- uid: ISynergy.Framework.Core.Helpers.DelayTimer.Start*
+  name: Start
+  href: api/ISynergy.Framework.Core.Helpers.DelayTimer.html#ISynergy_Framework_Core_Helpers_DelayTimer_Start_
+  commentId: Overload:ISynergy.Framework.Core.Helpers.DelayTimer.Start
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Helpers.DelayTimer.Start
+  nameWithType: DelayTimer.Start
 - uid: ISynergy.Framework.Core.IAsyncInitialization
   name: IAsyncInitialization
   href: api/ISynergy.Framework.Core.IAsyncInitialization.html
@@ -29857,6 +29992,1371 @@ references:
   isSpec: "True"
   fullName: ISynergy.Framework.Windows.Controls.BladeView.PrepareContainerForItemOverride
   nameWithType: BladeView.PrepareContainerForItemOverride
+- uid: ISynergy.Framework.Windows.Controls.Charts
+  name: ISynergy.Framework.Windows.Controls.Charts
+  href: api/ISynergy.Framework.Windows.Controls.Charts.html
+  commentId: N:ISynergy.Framework.Windows.Controls.Charts
+  fullName: ISynergy.Framework.Windows.Controls.Charts
+  nameWithType: ISynergy.Framework.Windows.Controls.Charts
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart
+  name: BarChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.BarChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart
+  nameWithType: BarChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.#ctor
+  name: BarChart()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart__ctor
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.BarChart.#ctor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.BarChart()
+  nameWithType: BarChart.BarChart()
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.#ctor*
+  name: BarChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.BarChart.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.BarChart
+  nameWithType: BarChart.BarChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.BarAreaAlpha
+  name: BarAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_BarAreaAlpha
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.BarChart.BarAreaAlpha
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.BarAreaAlpha
+  nameWithType: BarChart.BarAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.BarAreaAlpha*
+  name: BarAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_BarAreaAlpha_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.BarChart.BarAreaAlpha
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.BarAreaAlpha
+  nameWithType: BarChart.BarAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas(SKCanvas,SKPoint[],SKSize,System.Single)
+  name: DrawBarAreas(SKCanvas, SKPoint[], SKSize, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_DrawBarAreas_SKCanvas_SKPoint___SKSize_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas(SKCanvas,SKPoint[],SKSize,System.Single)
+  name.vb: DrawBarAreas(SKCanvas, SKPoint(), SKSize, Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas(SKCanvas, SKPoint[], SKSize, System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas(SKCanvas, SKPoint(), SKSize, System.Single)
+  nameWithType: BarChart.DrawBarAreas(SKCanvas, SKPoint[], SKSize, Single)
+  nameWithType.vb: BarChart.DrawBarAreas(SKCanvas, SKPoint(), SKSize, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas*
+  name: DrawBarAreas
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_DrawBarAreas_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBarAreas
+  nameWithType: BarChart.DrawBarAreas
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars(SKCanvas,SKPoint[],SKSize,System.Single,System.Single)
+  name: DrawBars(SKCanvas, SKPoint[], SKSize, Single, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_DrawBars_SKCanvas_SKPoint___SKSize_System_Single_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars(SKCanvas,SKPoint[],SKSize,System.Single,System.Single)
+  name.vb: DrawBars(SKCanvas, SKPoint(), SKSize, Single, Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars(SKCanvas, SKPoint[], SKSize, System.Single, System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars(SKCanvas, SKPoint(), SKSize, System.Single, System.Single)
+  nameWithType: BarChart.DrawBars(SKCanvas, SKPoint[], SKSize, Single, Single)
+  nameWithType.vb: BarChart.DrawBars(SKCanvas, SKPoint(), SKSize, Single, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars*
+  name: DrawBars
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_DrawBars_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawBars
+  nameWithType: BarChart.DrawBars
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: BarChart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.BarChart.html#ISynergy_Framework_Windows_Controls_Charts_BarChart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.BarChart.DrawContent
+  nameWithType: BarChart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart
+  name: Chart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Chart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart
+  nameWithType: Chart
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.#ctor
+  name: Chart()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart__ctor
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.#ctor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Chart()
+  nameWithType: Chart.Chart()
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.#ctor*
+  name: Chart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Chart
+  nameWithType: Chart.Chart
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimateAsync(System.Boolean,CancellationToken)
+  name: AnimateAsync(Boolean, CancellationToken)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimateAsync_System_Boolean_CancellationToken_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.AnimateAsync(System.Boolean,CancellationToken)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimateAsync(System.Boolean, CancellationToken)
+  nameWithType: Chart.AnimateAsync(Boolean, CancellationToken)
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimateAsync*
+  name: AnimateAsync
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimateAsync_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.AnimateAsync
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimateAsync
+  nameWithType: Chart.AnimateAsync
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationDuration
+  name: AnimationDuration
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimationDuration
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationDuration
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationDuration
+  nameWithType: Chart.AnimationDuration
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationDuration*
+  name: AnimationDuration
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimationDuration_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationDuration
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationDuration
+  nameWithType: Chart.AnimationDuration
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationProgress
+  name: AnimationProgress
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimationProgress
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationProgress
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationProgress
+  nameWithType: Chart.AnimationProgress
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationProgress*
+  name: AnimationProgress
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimationProgress_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationProgress
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.AnimationProgress
+  nameWithType: Chart.AnimationProgress
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.BackgroundColor
+  name: BackgroundColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_BackgroundColor
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.BackgroundColor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.BackgroundColor
+  nameWithType: Chart.BackgroundColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.BackgroundColor*
+  name: BackgroundColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_BackgroundColor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.BackgroundColor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.BackgroundColor
+  nameWithType: Chart.BackgroundColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Chart_PropertyChanged(System.Object,PropertyChangedEventArgs)
+  name: Chart_PropertyChanged(Object, PropertyChangedEventArgs)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Chart_PropertyChanged_System_Object_PropertyChangedEventArgs_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.Chart_PropertyChanged(System.Object,PropertyChangedEventArgs)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Chart_PropertyChanged(System.Object, PropertyChangedEventArgs)
+  nameWithType: Chart.Chart_PropertyChanged(Object, PropertyChangedEventArgs)
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Chart_PropertyChanged*
+  name: Chart_PropertyChanged
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Chart_PropertyChanged_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.Chart_PropertyChanged
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Chart_PropertyChanged
+  nameWithType: Chart.Chart_PropertyChanged
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Draw(SKCanvas,System.Int32,System.Int32)
+  name: Draw(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Draw_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.Draw(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Draw(SKCanvas, System.Int32, System.Int32)
+  nameWithType: Chart.Draw(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Draw*
+  name: Draw
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Draw_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.Draw
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Draw
+  nameWithType: Chart.Draw
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawableChartArea
+  name: DrawableChartArea
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawableChartArea
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.DrawableChartArea
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawableChartArea
+  nameWithType: Chart.DrawableChartArea
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawableChartArea*
+  name: DrawableChartArea
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawableChartArea_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.DrawableChartArea
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawableChartArea
+  nameWithType: Chart.DrawableChartArea
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements(SKCanvas,System.Int32,System.Int32,List{ISynergy.Framework.Windows.Controls.Charts.ChartEntry},System.Boolean,System.Boolean)
+  name: DrawCaptionElements(SKCanvas, Int32, Int32, List<ChartEntry>, Boolean, Boolean)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawCaptionElements_SKCanvas_System_Int32_System_Int32_List_ISynergy_Framework_Windows_Controls_Charts_ChartEntry__System_Boolean_System_Boolean_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements(SKCanvas,System.Int32,System.Int32,List{ISynergy.Framework.Windows.Controls.Charts.ChartEntry},System.Boolean,System.Boolean)
+  name.vb: DrawCaptionElements(SKCanvas, Int32, Int32, List(Of ChartEntry), Boolean, Boolean)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements(SKCanvas, System.Int32, System.Int32, List<ISynergy.Framework.Windows.Controls.Charts.ChartEntry>, System.Boolean, System.Boolean)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements(SKCanvas, System.Int32, System.Int32, List(Of ISynergy.Framework.Windows.Controls.Charts.ChartEntry), System.Boolean, System.Boolean)
+  nameWithType: Chart.DrawCaptionElements(SKCanvas, Int32, Int32, List<ChartEntry>, Boolean, Boolean)
+  nameWithType.vb: Chart.DrawCaptionElements(SKCanvas, Int32, Int32, List(Of ChartEntry), Boolean, Boolean)
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements*
+  name: DrawCaptionElements
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawCaptionElements_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawCaptionElements
+  nameWithType: Chart.DrawCaptionElements
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: Chart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.DrawContent
+  nameWithType: Chart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Entries
+  name: Entries
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Entries
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.Entries
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Entries
+  nameWithType: Chart.Entries
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Entries*
+  name: Entries
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Entries_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.Entries
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Entries
+  nameWithType: Chart.Entries
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMaxValue
+  name: InternalMaxValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_InternalMaxValue
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMaxValue
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMaxValue
+  nameWithType: Chart.InternalMaxValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMaxValue*
+  name: InternalMaxValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_InternalMaxValue_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMaxValue
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMaxValue
+  nameWithType: Chart.InternalMaxValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMinValue
+  name: InternalMinValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_InternalMinValue
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMinValue
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMinValue
+  nameWithType: Chart.InternalMinValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMinValue*
+  name: InternalMinValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_InternalMinValue_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMinValue
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.InternalMinValue
+  nameWithType: Chart.InternalMinValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidate
+  name: Invalidate()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Invalidate
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidate
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidate()
+  nameWithType: Chart.Invalidate()
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidate*
+  name: Invalidate
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Invalidate_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidate
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidate
+  nameWithType: Chart.Invalidate
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidated
+  name: Invalidated
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Invalidated
+  commentId: E:ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidated
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Invalidated
+  nameWithType: Chart.Invalidated
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimated
+  name: IsAnimated
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_IsAnimated
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimated
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimated
+  nameWithType: Chart.IsAnimated
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimated*
+  name: IsAnimated
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_IsAnimated_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimated
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimated
+  nameWithType: Chart.IsAnimated
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimating
+  name: IsAnimating
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_IsAnimating
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimating
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimating
+  nameWithType: Chart.IsAnimating
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimating*
+  name: IsAnimating
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_IsAnimating_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimating
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.IsAnimating
+  nameWithType: Chart.IsAnimating
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelColor
+  name: LabelColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_LabelColor
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.LabelColor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelColor
+  nameWithType: Chart.LabelColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelColor*
+  name: LabelColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_LabelColor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.LabelColor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelColor
+  nameWithType: Chart.LabelColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelTextSize
+  name: LabelTextSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_LabelTextSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.LabelTextSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelTextSize
+  nameWithType: Chart.LabelTextSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelTextSize*
+  name: LabelTextSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_LabelTextSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.LabelTextSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.LabelTextSize
+  nameWithType: Chart.LabelTextSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Margin
+  name: Margin
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Margin
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.Margin
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Margin
+  nameWithType: Chart.Margin
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Margin*
+  name: Margin
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Margin_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.Margin
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Margin
+  nameWithType: Chart.Margin
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.MaxValue
+  name: MaxValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_MaxValue
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.MaxValue
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.MaxValue
+  nameWithType: Chart.MaxValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.MaxValue*
+  name: MaxValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_MaxValue_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.MaxValue
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.MaxValue
+  nameWithType: Chart.MaxValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.MinValue
+  name: MinValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_MinValue
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.MinValue
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.MinValue
+  nameWithType: Chart.MinValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.MinValue*
+  name: MinValue
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_MinValue_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.MinValue
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.MinValue
+  nameWithType: Chart.MinValue
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate*
+  name: ObserveInvalidate
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_ObserveInvalidate_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate
+  nameWithType: Chart.ObserveInvalidate
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate``1(``0,Action{``0})
+  name: ObserveInvalidate<TTarget>(TTarget, Action<TTarget>)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_ObserveInvalidate__1___0_Action___0__
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate``1(``0,Action{``0})
+  name.vb: ObserveInvalidate(Of TTarget)(TTarget, Action(Of TTarget))
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate<TTarget>(TTarget, Action<TTarget>)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Chart.ObserveInvalidate(Of TTarget)(TTarget, Action(Of TTarget))
+  nameWithType: Chart.ObserveInvalidate<TTarget>(TTarget, Action<TTarget>)
+  nameWithType.vb: Chart.ObserveInvalidate(Of TTarget)(TTarget, Action(Of TTarget))
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.PlanifyInvalidateAsync
+  name: PlanifyInvalidateAsync()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_PlanifyInvalidateAsync
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Chart.PlanifyInvalidateAsync
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.PlanifyInvalidateAsync()
+  nameWithType: Chart.PlanifyInvalidateAsync()
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.PlanifyInvalidateAsync*
+  name: PlanifyInvalidateAsync
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_PlanifyInvalidateAsync_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.PlanifyInvalidateAsync
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.PlanifyInvalidateAsync
+  nameWithType: Chart.PlanifyInvalidateAsync
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Typeface
+  name: Typeface
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Typeface
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Chart.Typeface
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Typeface
+  nameWithType: Chart.Typeface
+- uid: ISynergy.Framework.Windows.Controls.Charts.Chart.Typeface*
+  name: Typeface
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Typeface_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Chart.Typeface
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Chart.Typeface
+  nameWithType: Chart.Typeface
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry
+  name: ChartEntry
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.ChartEntry
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry
+  nameWithType: ChartEntry
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.#ctor(System.Single)
+  name: ChartEntry(Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry__ctor_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.#ctor(System.Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ChartEntry(System.Single)
+  nameWithType: ChartEntry.ChartEntry(Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.#ctor*
+  name: ChartEntry
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ChartEntry
+  nameWithType: ChartEntry.ChartEntry
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Color
+  name: Color
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_Color
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Color
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Color
+  nameWithType: ChartEntry.Color
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Color*
+  name: Color
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_Color_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Color
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Color
+  nameWithType: ChartEntry.Color
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Label
+  name: Label
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_Label
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Label
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Label
+  nameWithType: ChartEntry.Label
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Label*
+  name: Label
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_Label_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Label
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Label
+  nameWithType: ChartEntry.Label
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.TextColor
+  name: TextColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_TextColor
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.TextColor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.TextColor
+  nameWithType: ChartEntry.TextColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.TextColor*
+  name: TextColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_TextColor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.TextColor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.TextColor
+  nameWithType: ChartEntry.TextColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Value
+  name: Value
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_Value
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Value
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Value
+  nameWithType: ChartEntry.Value
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Value*
+  name: Value
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_Value_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Value
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.Value
+  nameWithType: ChartEntry.Value
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ValueLabel
+  name: ValueLabel
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_ValueLabel
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ValueLabel
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ValueLabel
+  nameWithType: ChartEntry.ValueLabel
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ValueLabel*
+  name: ValueLabel
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartEntry.html#ISynergy_Framework_Windows_Controls_Charts_ChartEntry_ValueLabel_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ValueLabel
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartEntry.ValueLabel
+  nameWithType: ChartEntry.ValueLabel
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartView
+  name: ChartView
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.ChartView
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartView
+  nameWithType: ChartView
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartView.#ctor
+  name: ChartView()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html#ISynergy_Framework_Windows_Controls_Charts_ChartView__ctor
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.ChartView.#ctor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartView.ChartView()
+  nameWithType: ChartView.ChartView()
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartView.#ctor*
+  name: ChartView
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html#ISynergy_Framework_Windows_Controls_Charts_ChartView__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartView.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartView.ChartView
+  nameWithType: ChartView.ChartView
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartView.Chart
+  name: Chart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html#ISynergy_Framework_Windows_Controls_Charts_ChartView_Chart
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.ChartView.Chart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartView.Chart
+  nameWithType: ChartView.Chart
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartView.Chart*
+  name: Chart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html#ISynergy_Framework_Windows_Controls_Charts_ChartView_Chart_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.ChartView.Chart
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartView.Chart
+  nameWithType: ChartView.Chart
+- uid: ISynergy.Framework.Windows.Controls.Charts.ChartView.ChartProperty
+  name: ChartProperty
+  href: api/ISynergy.Framework.Windows.Controls.Charts.ChartView.html#ISynergy_Framework_Windows_Controls_Charts_ChartView_ChartProperty
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.ChartView.ChartProperty
+  fullName: ISynergy.Framework.Windows.Controls.Charts.ChartView.ChartProperty
+  nameWithType: ChartView.ChartProperty
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart
+  name: DonutChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.DonutChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart
+  nameWithType: DonutChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.DonutChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: DonutChart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.DonutChart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.DrawContent
+  nameWithType: DonutChart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.GraphPosition
+  name: GraphPosition
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_GraphPosition
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.DonutChart.GraphPosition
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.GraphPosition
+  nameWithType: DonutChart.GraphPosition
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.GraphPosition*
+  name: GraphPosition
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_GraphPosition_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.DonutChart.GraphPosition
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.GraphPosition
+  nameWithType: DonutChart.GraphPosition
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.HoleRadius
+  name: HoleRadius
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_HoleRadius
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.DonutChart.HoleRadius
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.HoleRadius
+  nameWithType: DonutChart.HoleRadius
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.HoleRadius*
+  name: HoleRadius
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_HoleRadius_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.DonutChart.HoleRadius
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.HoleRadius
+  nameWithType: DonutChart.HoleRadius
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.LabelMode
+  name: LabelMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_LabelMode
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.DonutChart.LabelMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.LabelMode
+  nameWithType: DonutChart.LabelMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.DonutChart.LabelMode*
+  name: LabelMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.DonutChart.html#ISynergy_Framework_Windows_Controls_Charts_DonutChart_LabelMode_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.DonutChart.LabelMode
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.DonutChart.LabelMode
+  nameWithType: DonutChart.LabelMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations
+  name: ISynergy.Framework.Windows.Controls.Charts.Enumerations
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.html
+  commentId: N:ISynergy.Framework.Windows.Controls.Charts.Enumerations
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations
+  nameWithType: ISynergy.Framework.Windows.Controls.Charts.Enumerations
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition
+  name: GraphPosition
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition
+  nameWithType: GraphPosition
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.AutoFill
+  name: AutoFill
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_GraphPosition_AutoFill
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.AutoFill
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.AutoFill
+  nameWithType: GraphPosition.AutoFill
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.Center
+  name: Center
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_GraphPosition_Center
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.Center
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.GraphPosition.Center
+  nameWithType: GraphPosition.Center
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode
+  name: LabelMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode
+  nameWithType: LabelMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.LeftAndRight
+  name: LeftAndRight
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_LabelMode_LeftAndRight
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.LeftAndRight
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.LeftAndRight
+  nameWithType: LabelMode.LeftAndRight
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.None
+  name: None
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_LabelMode_None
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.None
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.None
+  nameWithType: LabelMode.None
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.RightOnly
+  name: RightOnly
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_LabelMode_RightOnly
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.RightOnly
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LabelMode.RightOnly
+  nameWithType: LabelMode.RightOnly
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode
+  name: LineMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode
+  nameWithType: LineMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.None
+  name: None
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_LineMode_None
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.None
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.None
+  nameWithType: LineMode.None
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.Spline
+  name: Spline
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_LineMode_Spline
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.Spline
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.Spline
+  nameWithType: LineMode.Spline
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.Straight
+  name: Straight
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_LineMode_Straight
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.Straight
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.LineMode.Straight
+  nameWithType: LineMode.Straight
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation
+  name: Orientation
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation
+  nameWithType: Orientation
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Default
+  name: Default
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_Default
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Default
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Default
+  nameWithType: Orientation.Default
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Horizontal
+  name: Horizontal
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_Horizontal
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Horizontal
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Horizontal
+  nameWithType: Orientation.Horizontal
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Vertical
+  name: Vertical
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_Vertical
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Vertical
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.Vertical
+  nameWithType: Orientation.Vertical
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode
+  name: PointMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode
+  nameWithType: PointMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.Circle
+  name: Circle
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_PointMode_Circle
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.Circle
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.Circle
+  nameWithType: PointMode.Circle
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.None
+  name: None
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_PointMode_None
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.None
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.None
+  nameWithType: PointMode.None
+- uid: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.Square
+  name: Square
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.html#ISynergy_Framework_Windows_Controls_Charts_Enumerations_PointMode_Square
+  commentId: F:ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.Square
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.Square
+  nameWithType: PointMode.Square
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events
+  name: ISynergy.Framework.Windows.Controls.Charts.Events
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.html
+  commentId: N:ISynergy.Framework.Windows.Controls.Charts.Events
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events
+  nameWithType: ISynergy.Framework.Windows.Controls.Charts.Events
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1
+  name: InvalidatedWeakEventHandler<TTarget>
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1
+  name.vb: InvalidatedWeakEventHandler(Of TTarget)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget)
+  nameWithType: InvalidatedWeakEventHandler<TTarget>
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget)
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.#ctor(ISynergy.Framework.Windows.Controls.Charts.Chart,`0,Action{`0})
+  name: InvalidatedWeakEventHandler(Chart, TTarget, Action<TTarget>)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1__ctor_ISynergy_Framework_Windows_Controls_Charts_Chart__0_Action__0__
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.#ctor(ISynergy.Framework.Windows.Controls.Charts.Chart,`0,Action{`0})
+  name.vb: InvalidatedWeakEventHandler(Chart, TTarget, Action(Of TTarget))
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.InvalidatedWeakEventHandler(ISynergy.Framework.Windows.Controls.Charts.Chart, TTarget, Action<TTarget>)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).InvalidatedWeakEventHandler(ISynergy.Framework.Windows.Controls.Charts.Chart, TTarget, Action(Of TTarget))
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.InvalidatedWeakEventHandler(Chart, TTarget, Action<TTarget>)
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).InvalidatedWeakEventHandler(Chart, TTarget, Action(Of TTarget))
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.#ctor*
+  name: InvalidatedWeakEventHandler
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.InvalidatedWeakEventHandler
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).InvalidatedWeakEventHandler
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.InvalidatedWeakEventHandler
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).InvalidatedWeakEventHandler
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Dispose
+  name: Dispose()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_Dispose
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Dispose
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.Dispose()
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).Dispose()
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.Dispose()
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).Dispose()
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Dispose*
+  name: Dispose
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_Dispose_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Dispose
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.Dispose
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).Dispose
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.Dispose
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).Dispose
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.IsAlive
+  name: IsAlive
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_IsAlive
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.IsAlive
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.IsAlive
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).IsAlive
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.IsAlive
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).IsAlive
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.IsAlive*
+  name: IsAlive
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_IsAlive_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.IsAlive
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.IsAlive
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).IsAlive
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.IsAlive
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).IsAlive
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Subsribe
+  name: Subsribe()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_Subsribe
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Subsribe
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.Subsribe()
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).Subsribe()
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.Subsribe()
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).Subsribe()
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Subsribe*
+  name: Subsribe
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_Subsribe_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Subsribe
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.Subsribe
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).Subsribe
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.Subsribe
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).Subsribe
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Unsubscribe
+  name: Unsubscribe()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_Unsubscribe
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Unsubscribe
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.Unsubscribe()
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).Unsubscribe()
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.Unsubscribe()
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).Unsubscribe()
+- uid: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Unsubscribe*
+  name: Unsubscribe
+  href: api/ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler-1.html#ISynergy_Framework_Windows_Controls_Charts_Events_InvalidatedWeakEventHandler_1_Unsubscribe_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler`1.Unsubscribe
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler<TTarget>.Unsubscribe
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.Events.InvalidatedWeakEventHandler(Of TTarget).Unsubscribe
+  nameWithType: InvalidatedWeakEventHandler<TTarget>.Unsubscribe
+  nameWithType.vb: InvalidatedWeakEventHandler(Of TTarget).Unsubscribe
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart
+  name: LineChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.LineChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart
+  nameWithType: LineChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.#ctor
+  name: LineChart()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart__ctor
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.LineChart.#ctor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineChart()
+  nameWithType: LineChart.LineChart()
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.#ctor*
+  name: LineChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineChart
+  nameWithType: LineChart.LineChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea(SKCanvas,SKPoint[],SKSize,System.Single)
+  name: DrawArea(SKCanvas, SKPoint[], SKSize, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_DrawArea_SKCanvas_SKPoint___SKSize_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea(SKCanvas,SKPoint[],SKSize,System.Single)
+  name.vb: DrawArea(SKCanvas, SKPoint(), SKSize, Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea(SKCanvas, SKPoint[], SKSize, System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea(SKCanvas, SKPoint(), SKSize, System.Single)
+  nameWithType: LineChart.DrawArea(SKCanvas, SKPoint[], SKSize, Single)
+  nameWithType.vb: LineChart.DrawArea(SKCanvas, SKPoint(), SKSize, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea*
+  name: DrawArea
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_DrawArea_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawArea
+  nameWithType: LineChart.DrawArea
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: LineChart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawContent
+  nameWithType: LineChart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine(SKCanvas,SKPoint[],SKSize)
+  name: DrawLine(SKCanvas, SKPoint[], SKSize)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_DrawLine_SKCanvas_SKPoint___SKSize_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine(SKCanvas,SKPoint[],SKSize)
+  name.vb: DrawLine(SKCanvas, SKPoint(), SKSize)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine(SKCanvas, SKPoint[], SKSize)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine(SKCanvas, SKPoint(), SKSize)
+  nameWithType: LineChart.DrawLine(SKCanvas, SKPoint[], SKSize)
+  nameWithType.vb: LineChart.DrawLine(SKCanvas, SKPoint(), SKSize)
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine*
+  name: DrawLine
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_DrawLine_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.DrawLine
+  nameWithType: LineChart.DrawLine
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.EnableYFadeOutGradient
+  name: EnableYFadeOutGradient
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_EnableYFadeOutGradient
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.LineChart.EnableYFadeOutGradient
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.EnableYFadeOutGradient
+  nameWithType: LineChart.EnableYFadeOutGradient
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.EnableYFadeOutGradient*
+  name: EnableYFadeOutGradient
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_EnableYFadeOutGradient_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.EnableYFadeOutGradient
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.EnableYFadeOutGradient
+  nameWithType: LineChart.EnableYFadeOutGradient
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineAreaAlpha
+  name: LineAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_LineAreaAlpha
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.LineChart.LineAreaAlpha
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineAreaAlpha
+  nameWithType: LineChart.LineAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineAreaAlpha*
+  name: LineAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_LineAreaAlpha_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.LineAreaAlpha
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineAreaAlpha
+  nameWithType: LineChart.LineAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineMode
+  name: LineMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_LineMode
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.LineChart.LineMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineMode
+  nameWithType: LineChart.LineMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineMode*
+  name: LineMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_LineMode_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.LineMode
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineMode
+  nameWithType: LineChart.LineMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineSize
+  name: LineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_LineSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.LineChart.LineSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineSize
+  nameWithType: LineChart.LineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineSize*
+  name: LineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.LineChart.html#ISynergy_Framework_Windows_Controls_Charts_LineChart_LineSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.LineChart.LineSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.LineChart.LineSize
+  nameWithType: LineChart.LineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.PieChart
+  name: PieChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PieChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.PieChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PieChart
+  nameWithType: PieChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.PieChart.#ctor
+  name: PieChart()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PieChart.html#ISynergy_Framework_Windows_Controls_Charts_PieChart__ctor
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PieChart.#ctor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PieChart.PieChart()
+  nameWithType: PieChart.PieChart()
+- uid: ISynergy.Framework.Windows.Controls.Charts.PieChart.#ctor*
+  name: PieChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PieChart.html#ISynergy_Framework_Windows_Controls_Charts_PieChart__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PieChart.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PieChart.PieChart
+  nameWithType: PieChart.PieChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart
+  name: PointChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.PointChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart
+  nameWithType: PointChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.#ctor
+  name: PointChart()
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart__ctor
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.#ctor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointChart()
+  nameWithType: PointChart.PointChart()
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.#ctor*
+  name: PointChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart__ctor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.#ctor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointChart
+  nameWithType: PointChart.PointChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight(SKRect[],ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation)
+  name: CalculateFooterHeaderHeight(SKRect[], Orientation)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateFooterHeaderHeight_SKRect___ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight(SKRect[],ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation)
+  name.vb: CalculateFooterHeaderHeight(SKRect(), Orientation)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight(SKRect[], ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight(SKRect(), ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation)
+  nameWithType: PointChart.CalculateFooterHeaderHeight(SKRect[], Orientation)
+  nameWithType.vb: PointChart.CalculateFooterHeaderHeight(SKRect(), Orientation)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight*
+  name: CalculateFooterHeaderHeight
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateFooterHeaderHeight_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight
+  nameWithType: PointChart.CalculateFooterHeaderHeight
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize(System.Int32,System.Int32,System.Single,System.Single)
+  name: CalculateItemSize(Int32, Int32, Single, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateItemSize_System_Int32_System_Int32_System_Single_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize(System.Int32,System.Int32,System.Single,System.Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize(System.Int32, System.Int32, System.Single, System.Single)
+  nameWithType: PointChart.CalculateItemSize(Int32, Int32, Single, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize*
+  name: CalculateItemSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateItemSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize
+  nameWithType: PointChart.CalculateItemSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints(SKSize,System.Single,System.Single)
+  name: CalculatePoints(SKSize, Single, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculatePoints_SKSize_System_Single_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints(SKSize,System.Single,System.Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints(SKSize, System.Single, System.Single)
+  nameWithType: PointChart.CalculatePoints(SKSize, Single, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints*
+  name: CalculatePoints
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculatePoints_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints
+  nameWithType: PointChart.CalculatePoints
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin(System.Single,System.Single)
+  name: CalculateYOrigin(Single, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateYOrigin_System_Single_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin(System.Single,System.Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin(System.Single, System.Single)
+  nameWithType: PointChart.CalculateYOrigin(Single, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin*
+  name: CalculateYOrigin
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateYOrigin_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin
+  nameWithType: PointChart.CalculateYOrigin
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: PointChart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent
+  nameWithType: PointChart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter(SKCanvas,System.String[],SKRect[],SKPoint[],SKSize,System.Int32,System.Single)
+  name: DrawFooter(SKCanvas, String[], SKRect[], SKPoint[], SKSize, Int32, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawFooter_SKCanvas_System_String___SKRect___SKPoint___SKSize_System_Int32_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter(SKCanvas,System.String[],SKRect[],SKPoint[],SKSize,System.Int32,System.Single)
+  name.vb: DrawFooter(SKCanvas, String(), SKRect(), SKPoint(), SKSize, Int32, Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter(SKCanvas, System.String[], SKRect[], SKPoint[], SKSize, System.Int32, System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter(SKCanvas, System.String(), SKRect(), SKPoint(), SKSize, System.Int32, System.Single)
+  nameWithType: PointChart.DrawFooter(SKCanvas, String[], SKRect[], SKPoint[], SKSize, Int32, Single)
+  nameWithType.vb: PointChart.DrawFooter(SKCanvas, String(), SKRect(), SKPoint(), SKSize, Int32, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter*
+  name: DrawFooter
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawFooter_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter
+  nameWithType: PointChart.DrawFooter
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader(SKCanvas,System.String[],SKRect[],SKPoint[],SKSize,System.Int32,System.Single)
+  name: DrawHeader(SKCanvas, String[], SKRect[], SKPoint[], SKSize, Int32, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawHeader_SKCanvas_System_String___SKRect___SKPoint___SKSize_System_Int32_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader(SKCanvas,System.String[],SKRect[],SKPoint[],SKSize,System.Int32,System.Single)
+  name.vb: DrawHeader(SKCanvas, String(), SKRect(), SKPoint(), SKSize, Int32, Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader(SKCanvas, System.String[], SKRect[], SKPoint[], SKSize, System.Int32, System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader(SKCanvas, System.String(), SKRect(), SKPoint(), SKSize, System.Int32, System.Single)
+  nameWithType: PointChart.DrawHeader(SKCanvas, String[], SKRect[], SKPoint[], SKSize, Int32, Single)
+  nameWithType.vb: PointChart.DrawHeader(SKCanvas, String(), SKRect(), SKPoint(), SKSize, Int32, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader*
+  name: DrawHeader
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawHeader_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader
+  nameWithType: PointChart.DrawHeader
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels(SKCanvas,System.String[],SKPoint[],SKRect[],SKColor[],ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation,System.Boolean,SKSize,System.Single)
+  name: DrawLabels(SKCanvas, String[], SKPoint[], SKRect[], SKColor[], Orientation, Boolean, SKSize, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawLabels_SKCanvas_System_String___SKPoint___SKRect___SKColor___ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_System_Boolean_SKSize_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels(SKCanvas,System.String[],SKPoint[],SKRect[],SKColor[],ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation,System.Boolean,SKSize,System.Single)
+  name.vb: DrawLabels(SKCanvas, String(), SKPoint(), SKRect(), SKColor(), Orientation, Boolean, SKSize, Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels(SKCanvas, System.String[], SKPoint[], SKRect[], SKColor[], ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation, System.Boolean, SKSize, System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels(SKCanvas, System.String(), SKPoint(), SKRect(), SKColor(), ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation, System.Boolean, SKSize, System.Single)
+  nameWithType: PointChart.DrawLabels(SKCanvas, String[], SKPoint[], SKRect[], SKColor[], Orientation, Boolean, SKSize, Single)
+  nameWithType.vb: PointChart.DrawLabels(SKCanvas, String(), SKPoint(), SKRect(), SKColor(), Orientation, Boolean, SKSize, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels*
+  name: DrawLabels
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawLabels_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels
+  nameWithType: PointChart.DrawLabels
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas(SKCanvas,SKPoint[],System.Single)
+  name: DrawPointAreas(SKCanvas, SKPoint[], Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPointAreas_SKCanvas_SKPoint___System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas(SKCanvas,SKPoint[],System.Single)
+  name.vb: DrawPointAreas(SKCanvas, SKPoint(), Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas(SKCanvas, SKPoint[], System.Single)
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas(SKCanvas, SKPoint(), System.Single)
+  nameWithType: PointChart.DrawPointAreas(SKCanvas, SKPoint[], Single)
+  nameWithType.vb: PointChart.DrawPointAreas(SKCanvas, SKPoint(), Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas*
+  name: DrawPointAreas
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPointAreas_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas
+  nameWithType: PointChart.DrawPointAreas
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints(SKCanvas,SKPoint[])
+  name: DrawPoints(SKCanvas, SKPoint[])
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPoints_SKCanvas_SKPoint___
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints(SKCanvas,SKPoint[])
+  name.vb: DrawPoints(SKCanvas, SKPoint())
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints(SKCanvas, SKPoint[])
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints(SKCanvas, SKPoint())
+  nameWithType: PointChart.DrawPoints(SKCanvas, SKPoint[])
+  nameWithType.vb: PointChart.DrawPoints(SKCanvas, SKPoint())
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints*
+  name: DrawPoints
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPoints_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints
+  nameWithType: PointChart.DrawPoints
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation
+  name: LabelOrientation
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_LabelOrientation
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation
+  nameWithType: PointChart.LabelOrientation
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation*
+  name: LabelOrientation
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_LabelOrientation_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation
+  nameWithType: PointChart.LabelOrientation
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels(System.String[])
+  name: MeasureLabels(String[])
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_MeasureLabels_System_String___
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels(System.String[])
+  name.vb: MeasureLabels(String())
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels(System.String[])
+  fullName.vb: ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels(System.String())
+  nameWithType: PointChart.MeasureLabels(String[])
+  nameWithType.vb: PointChart.MeasureLabels(String())
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels*
+  name: MeasureLabels
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_MeasureLabels_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels
+  nameWithType: PointChart.MeasureLabels
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha
+  name: PointAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_PointAreaAlpha
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha
+  nameWithType: PointChart.PointAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha*
+  name: PointAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_PointAreaAlpha_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha
+  nameWithType: PointChart.PointAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode
+  name: PointMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_PointMode
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode
+  nameWithType: PointChart.PointMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode*
+  name: PointMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_PointMode_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode
+  nameWithType: PointChart.PointMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize
+  name: PointSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_PointSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize
+  nameWithType: PointChart.PointSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize*
+  name: PointSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_PointSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize
+  nameWithType: PointChart.PointSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation
+  name: ValueLabelOrientation
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_ValueLabelOrientation
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation
+  nameWithType: PointChart.ValueLabelOrientation
+- uid: ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation*
+  name: ValueLabelOrientation
+  href: api/ISynergy.Framework.Windows.Controls.Charts.PointChart.html#ISynergy_Framework_Windows_Controls_Charts_PointChart_ValueLabelOrientation_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation
+  nameWithType: PointChart.ValueLabelOrientation
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart
+  name: RadarChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.RadarChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart
+  nameWithType: RadarChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineColor
+  name: BorderLineColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_BorderLineColor
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineColor
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineColor
+  nameWithType: RadarChart.BorderLineColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineColor*
+  name: BorderLineColor
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_BorderLineColor_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineColor
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineColor
+  nameWithType: RadarChart.BorderLineColor
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineSize
+  name: BorderLineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_BorderLineSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineSize
+  nameWithType: RadarChart.BorderLineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineSize*
+  name: BorderLineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_BorderLineSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.BorderLineSize
+  nameWithType: RadarChart.BorderLineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.RadarChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: RadarChart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadarChart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.DrawContent
+  nameWithType: RadarChart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.LineSize
+  name: LineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_LineSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadarChart.LineSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.LineSize
+  nameWithType: RadarChart.LineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.LineSize*
+  name: LineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_LineSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadarChart.LineSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.LineSize
+  nameWithType: RadarChart.LineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointMode
+  name: PointMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_PointMode
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointMode
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointMode
+  nameWithType: RadarChart.PointMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointMode*
+  name: PointMode
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_PointMode_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointMode
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointMode
+  nameWithType: RadarChart.PointMode
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointSize
+  name: PointSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_PointSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointSize
+  nameWithType: RadarChart.PointSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointSize*
+  name: PointSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadarChart.html#ISynergy_Framework_Windows_Controls_Charts_RadarChart_PointSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadarChart.PointSize
+  nameWithType: RadarChart.PointSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart
+  name: RadialGaugeChart
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html
+  commentId: T:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart
+  nameWithType: RadialGaugeChart
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  name: DrawContent(SKCanvas, Int32, Int32)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_DrawContent_SKCanvas_System_Int32_System_Int32_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawContent(SKCanvas,System.Int32,System.Int32)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawContent(SKCanvas, System.Int32, System.Int32)
+  nameWithType: RadialGaugeChart.DrawContent(SKCanvas, Int32, Int32)
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawContent*
+  name: DrawContent
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_DrawContent_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawContent
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawContent
+  nameWithType: RadialGaugeChart.DrawContent
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGauge(SKCanvas,ISynergy.Framework.Windows.Controls.Charts.ChartEntry,System.Single,System.Int32,System.Int32,System.Single)
+  name: DrawGauge(SKCanvas, ChartEntry, Single, Int32, Int32, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_DrawGauge_SKCanvas_ISynergy_Framework_Windows_Controls_Charts_ChartEntry_System_Single_System_Int32_System_Int32_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGauge(SKCanvas,ISynergy.Framework.Windows.Controls.Charts.ChartEntry,System.Single,System.Int32,System.Int32,System.Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGauge(SKCanvas, ISynergy.Framework.Windows.Controls.Charts.ChartEntry, System.Single, System.Int32, System.Int32, System.Single)
+  nameWithType: RadialGaugeChart.DrawGauge(SKCanvas, ChartEntry, Single, Int32, Int32, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGauge*
+  name: DrawGauge
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_DrawGauge_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGauge
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGauge
+  nameWithType: RadialGaugeChart.DrawGauge
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGaugeArea(SKCanvas,ISynergy.Framework.Windows.Controls.Charts.ChartEntry,System.Single,System.Int32,System.Int32,System.Single)
+  name: DrawGaugeArea(SKCanvas, ChartEntry, Single, Int32, Int32, Single)
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_DrawGaugeArea_SKCanvas_ISynergy_Framework_Windows_Controls_Charts_ChartEntry_System_Single_System_Int32_System_Int32_System_Single_
+  commentId: M:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGaugeArea(SKCanvas,ISynergy.Framework.Windows.Controls.Charts.ChartEntry,System.Single,System.Int32,System.Int32,System.Single)
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGaugeArea(SKCanvas, ISynergy.Framework.Windows.Controls.Charts.ChartEntry, System.Single, System.Int32, System.Int32, System.Single)
+  nameWithType: RadialGaugeChart.DrawGaugeArea(SKCanvas, ChartEntry, Single, Int32, Int32, Single)
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGaugeArea*
+  name: DrawGaugeArea
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_DrawGaugeArea_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGaugeArea
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.DrawGaugeArea
+  nameWithType: RadialGaugeChart.DrawGaugeArea
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineAreaAlpha
+  name: LineAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_LineAreaAlpha
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineAreaAlpha
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineAreaAlpha
+  nameWithType: RadialGaugeChart.LineAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineAreaAlpha*
+  name: LineAreaAlpha
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_LineAreaAlpha_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineAreaAlpha
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineAreaAlpha
+  nameWithType: RadialGaugeChart.LineAreaAlpha
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineSize
+  name: LineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_LineSize
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineSize
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineSize
+  nameWithType: RadialGaugeChart.LineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineSize*
+  name: LineSize
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_LineSize_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineSize
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.LineSize
+  nameWithType: RadialGaugeChart.LineSize
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.StartAngle
+  name: StartAngle
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_StartAngle
+  commentId: P:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.StartAngle
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.StartAngle
+  nameWithType: RadialGaugeChart.StartAngle
+- uid: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.StartAngle*
+  name: StartAngle
+  href: api/ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.html#ISynergy_Framework_Windows_Controls_Charts_RadialGaugeChart_StartAngle_
+  commentId: Overload:ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.StartAngle
+  isSpec: "True"
+  fullName: ISynergy.Framework.Windows.Controls.Charts.RadialGaugeChart.StartAngle
+  nameWithType: RadialGaugeChart.StartAngle
 - uid: ISynergy.Framework.Windows.Controls.CompositionShadow
   name: CompositionShadow
   href: api/ISynergy.Framework.Windows.Controls.CompositionShadow.html

@@ -1,0 +1,1145 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PointChart
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PointChart
+   ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart">
+  
+  
+  <h1 id="ISynergy_Framework_Windows_Controls_Charts_PointChart" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart" class="text-break">Class PointChart
+  </h1>
+  <div class="markdown level0 summary"><p>Class PointChart.
+Implements the <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html">Chart</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html">ObservableClass</a></div>
+    <div class="level2"><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html">Chart</a></div>
+    <div class="level3"><span class="xref">PointChart</span></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.BarChart.html">BarChart</a></div>
+      <div class="level4"><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.LineChart.html">LineChart</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ISynergy.Framework.Core.Data.IObservableClass.html">IObservableClass</a></div>
+    <div><a class="xref" href="ISynergy.Framework.Core.Data.IBindable.html">IBindable</a></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">INotifyPropertyChanged</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Invalidated">Chart.Invalidated</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_IsAnimated">Chart.IsAnimated</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_IsAnimating">Chart.IsAnimating</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimationDuration">Chart.AnimationDuration</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Margin">Chart.Margin</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimationProgress">Chart.AnimationProgress</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_LabelTextSize">Chart.LabelTextSize</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Typeface">Chart.Typeface</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_BackgroundColor">Chart.BackgroundColor</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_LabelColor">Chart.LabelColor</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Entries">Chart.Entries</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_MinValue">Chart.MinValue</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_MaxValue">Chart.MaxValue</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_InternalMinValue">Chart.InternalMinValue</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_InternalMaxValue">Chart.InternalMaxValue</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawableChartArea">Chart.DrawableChartArea</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Draw_SKCanvas_System_Int32_System_Int32_">Chart.Draw(SKCanvas, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawCaptionElements_SKCanvas_System_Int32_System_Int32_List_ISynergy_Framework_Windows_Controls_Charts_ChartEntry__System_Boolean_System_Boolean_">Chart.DrawCaptionElements(SKCanvas, Int32, Int32, List&lt;ChartEntry&gt;, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Chart_PropertyChanged_System_Object_PropertyChangedEventArgs_">Chart.Chart_PropertyChanged(Object, PropertyChangedEventArgs)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_Invalidate">Chart.Invalidate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_PlanifyInvalidateAsync">Chart.PlanifyInvalidateAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_ObserveInvalidate__1___0_Action___0__">Chart.ObserveInvalidate&lt;TTarget&gt;(TTarget, Action&lt;TTarget&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_AnimateAsync_System_Boolean_CancellationToken_">Chart.AnimateAsync(Boolean, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Properties">ObservableClass.Properties</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Errors">ObservableClass.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validator">ObservableClass.Validator</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_IsValid">ObservableClass.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_IsDirty">ObservableClass.IsDirty</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Equals_System_Object_">ObservableClass.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_GetHashCode">ObservableClass.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_GetValue__1_System_String_">ObservableClass.GetValue&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_SetValue__1___0_System_String_">ObservableClass.SetValue&lt;T&gt;(T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_SetValue__1___0____0_System_String_">ObservableClass.SetValue&lt;T&gt;(T, T, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_ClearErrors">ObservableClass.ClearErrors()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Validate">ObservableClass.Validate()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Revert">ObservableClass.Revert()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_MarkAsClean">ObservableClass.MarkAsClean()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_PropertyChanged">ObservableClass.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_OnPropertyChanged_System_String_">ObservableClass.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Dispose">ObservableClass.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.ObservableClass.html#ISynergy_Framework_Core_Data_ObservableClass_Dispose_System_Boolean_">ObservableClass.Dispose(Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.html">ISynergy.Framework.Windows.Controls.Charts</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Windows.dll</h6>
+  <h5 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PointChart : Chart, IObservableClass, IBindable, INotifyPropertyChanged, IDisposable, INotifyPropertyChanged</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart__ctor.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L20">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart__ctor_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart__ctor" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.#ctor">PointChart()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.PointChart.html">PointChart</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointChart()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_LabelOrientation.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L57">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_LabelOrientation_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_LabelOrientation" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.LabelOrientation">LabelOrientation</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the text orientation of labels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Orientation LabelOrientation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html">Orientation</a></td>
+        <td><p>The label orientation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_PointAreaAlpha.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L51">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_PointAreaAlpha_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_PointAreaAlpha" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.PointAreaAlpha">PointAreaAlpha</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the point area alpha.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte PointAreaAlpha { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><p>The point area alpha.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_PointMode.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L45">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_PointMode_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_PointMode" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.PointMode">PointMode</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the point mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointMode PointMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Enumerations.PointMode.html">PointMode</a></td>
+        <td><p>The point mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_PointSize.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L39">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_PointSize_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_PointSize" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.PointSize">PointSize</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the size of the point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float PointSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The size of the point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_ValueLabelOrientation.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L67">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_ValueLabelOrientation_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_ValueLabelOrientation" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.ValueLabelOrientation">ValueLabelOrientation</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the text orientation of value labels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Orientation ValueLabelOrientation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html">Orientation</a></td>
+        <td><p>The label orientation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateFooterHeaderHeight_SKRect___ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight(SKRect%5B%5D%2CISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L350">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateFooterHeaderHeight_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateFooterHeaderHeight_SKRect___ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateFooterHeaderHeight(SKRect[],ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation)">CalculateFooterHeaderHeight(SKRect[], Orientation)</h4>
+  <div class="markdown level1 summary"><p>Calculates the height of the footer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float CalculateFooterHeaderHeight(SKRect[] valueLabelSizes, Orientation orientation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKRect</span>[]</td>
+        <td><span class="parametername">valueLabelSizes</span></td>
+        <td><p>Value label sizes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html">Orientation</a></td>
+        <td><span class="parametername">orientation</span></td>
+        <td><p>The orientation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The footer height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateItemSize_System_Int32_System_Int32_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize(System.Int32%2CSystem.Int32%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L137">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateItemSize_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateItemSize_System_Int32_System_Int32_System_Single_System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateItemSize(System.Int32,System.Int32,System.Single,System.Single)">CalculateItemSize(Int32, Int32, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Calculates the size of the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SKSize CalculateItemSize(int width, int height, float footerHeight, float headerHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>The width.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">footerHeight</span></td>
+        <td><p>Height of the footer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">headerHeight</span></td>
+        <td><p>Height of the header.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKSize</span></td>
+        <td><p>SKSize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculatePoints_SKSize_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints(SKSize%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L152">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculatePoints_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculatePoints_SKSize_System_Single_System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculatePoints(SKSize,System.Single,System.Single)">CalculatePoints(SKSize, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Calculates the points.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SKPoint[] CalculatePoints(SKSize itemSize, float origin, float headerHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKSize</span></td>
+        <td><span class="parametername">itemSize</span></td>
+        <td><p>Size of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>The origin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">headerHeight</span></td>
+        <td><p>Height of the header.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKPoint</span>[]</td>
+        <td><p>SKPoint[].</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateYOrigin_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L114">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateYOrigin_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_CalculateYOrigin_System_Single_System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.CalculateYOrigin(System.Single,System.Single)">CalculateYOrigin(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Calculates the y origin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float CalculateYOrigin(float itemHeight, float headerHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">itemHeight</span></td>
+        <td><p>Height of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">headerHeight</span></td>
+        <td><p>Height of the header.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>System.Single.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawContent_SKCanvas_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent(SKCanvas%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L85">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawContent_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawContent_SKCanvas_System_Int32_System_Int32_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawContent(SKCanvas,System.Int32,System.Int32)">DrawContent(SKCanvas, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Draws the chart content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DrawContent(SKCanvas canvas, int width, int height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKCanvas</span></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>The width.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html#ISynergy_Framework_Windows_Controls_Charts_Chart_DrawContent_SKCanvas_System_Int32_System_Int32_">Chart.DrawContent(SKCanvas, Int32, Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawFooter_SKCanvas_System_String___SKRect___SKPoint___SKSize_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter(SKCanvas%2CSystem.String%5B%5D%2CSKRect%5B%5D%2CSKPoint%5B%5D%2CSKSize%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L203">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawFooter_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawFooter_SKCanvas_System_String___SKRect___SKPoint___SKSize_System_Int32_System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawFooter(SKCanvas,System.String[],SKRect[],SKPoint[],SKSize,System.Int32,System.Single)">DrawFooter(SKCanvas, String[], SKRect[], SKPoint[], SKSize, Int32, Single)</h4>
+  <div class="markdown level1 summary"><p>Draws the footer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawFooter(SKCanvas canvas, string[] labels, SKRect[] labelSizes, SKPoint[] points, SKSize itemSize, int height, float footerHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKCanvas</span></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">labels</span></td>
+        <td><p>The labels.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKRect</span>[]</td>
+        <td><span class="parametername">labelSizes</span></td>
+        <td><p>The label sizes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKPoint</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>The points.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKSize</span></td>
+        <td><span class="parametername">itemSize</span></td>
+        <td><p>Size of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">footerHeight</span></td>
+        <td><p>Height of the footer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawHeader_SKCanvas_System_String___SKRect___SKPoint___SKSize_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader(SKCanvas%2CSystem.String%5B%5D%2CSKRect%5B%5D%2CSKPoint%5B%5D%2CSKSize%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L180">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawHeader_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawHeader_SKCanvas_System_String___SKRect___SKPoint___SKSize_System_Int32_System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawHeader(SKCanvas,System.String[],SKRect[],SKPoint[],SKSize,System.Int32,System.Single)">DrawHeader(SKCanvas, String[], SKRect[], SKPoint[], SKSize, Int32, Single)</h4>
+  <div class="markdown level1 summary"><p>Draws the header.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawHeader(SKCanvas canvas, string[] labels, SKRect[] labelSizes, SKPoint[] points, SKSize itemSize, int height, float headerHeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKCanvas</span></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">labels</span></td>
+        <td><p>The labels.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKRect</span>[]</td>
+        <td><span class="parametername">labelSizes</span></td>
+        <td><p>The label sizes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKPoint</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>The points.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKSize</span></td>
+        <td><span class="parametername">itemSize</span></td>
+        <td><p>Size of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">headerHeight</span></td>
+        <td><p>Height of the header.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawLabels_SKCanvas_System_String___SKPoint___SKRect___SKColor___ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_System_Boolean_SKSize_System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels(SKCanvas%2CSystem.String%5B%5D%2CSKPoint%5B%5D%2CSKRect%5B%5D%2CSKColor%5B%5D%2CISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation%2CSystem.Boolean%2CSKSize%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L275">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawLabels_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawLabels_SKCanvas_System_String___SKPoint___SKRect___SKColor___ISynergy_Framework_Windows_Controls_Charts_Enumerations_Orientation_System_Boolean_SKSize_System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawLabels(SKCanvas,System.String[],SKPoint[],SKRect[],SKColor[],ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation,System.Boolean,SKSize,System.Single)">DrawLabels(SKCanvas, String[], SKPoint[], SKRect[], SKColor[], Orientation, Boolean, SKSize, Single)</h4>
+  <div class="markdown level1 summary"><p>Draws the labels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawLabels(SKCanvas canvas, string[] texts, SKPoint[] points, SKRect[] sizes, SKColor[] colors, Orientation orientation, bool isTop, SKSize itemSize, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKCanvas</span></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">texts</span></td>
+        <td><p>The texts.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKPoint</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>The points.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKRect</span>[]</td>
+        <td><span class="parametername">sizes</span></td>
+        <td><p>The sizes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKColor</span>[]</td>
+        <td><span class="parametername">colors</span></td>
+        <td><p>The colors.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Enumerations.Orientation.html">Orientation</a></td>
+        <td><span class="parametername">orientation</span></td>
+        <td><p>The orientation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isTop</span></td>
+        <td><p>if set to <code>true</code> [is top].</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKSize</span></td>
+        <td><span class="parametername">itemSize</span></td>
+        <td><p>Size of the item.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>The height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPointAreas_SKCanvas_SKPoint___System_Single_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas(SKCanvas%2CSKPoint%5B%5D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L240">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPointAreas_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPointAreas_SKCanvas_SKPoint___System_Single_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPointAreas(SKCanvas,SKPoint[],System.Single)">DrawPointAreas(SKCanvas, SKPoint[], Single)</h4>
+  <div class="markdown level1 summary"><p>Draws the point areas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawPointAreas(SKCanvas canvas, SKPoint[] points, float origin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKCanvas</span></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKPoint</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>The points.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>The origin.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPoints_SKCanvas_SKPoint___.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints(SKCanvas%2CSKPoint%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L221">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPoints_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_DrawPoints_SKCanvas_SKPoint___" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.DrawPoints(SKCanvas,SKPoint[])">DrawPoints(SKCanvas, SKPoint[])</h4>
+  <div class="markdown level1 summary"><p>Draws the points.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void DrawPoints(SKCanvas canvas, SKPoint[] points)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKCanvas</span></td>
+        <td><span class="parametername">canvas</span></td>
+        <td><p>The canvas.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">SKPoint</span>[]</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>The points.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart_MeasureLabels_System_String___.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L378">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Windows_Controls_Charts_PointChart_MeasureLabels_" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels*"></a>
+  <h4 id="ISynergy_Framework_Windows_Controls_Charts_PointChart_MeasureLabels_System_String___" data-uid="ISynergy.Framework.Windows.Controls.Charts.PointChart.MeasureLabels(System.String[])">MeasureLabels(String[])</h4>
+  <div class="markdown level1 summary"><p>Measures the value labels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SKRect[] MeasureLabels(string[] labels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">labels</span></td>
+        <td><p>The labels.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">SKRect</span>[]</td>
+        <td><p>The value labels.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.IObservableClass.html">IObservableClass</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.IBindable.html">IBindable</a>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <div>
+      <span class="xref">IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">INotifyPropertyChanged</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Data.EntityBaseExtensions.html#ISynergy_Framework_Core_Data_EntityBaseExtensions_HasProperty_System_Object_System_String_">EntityBaseExtensions.HasProperty(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__Func___0_System_Boolean__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;, Func&lt;TSource, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.CollectionExtensions.html#ISynergy_Framework_Core_Extensions_CollectionExtensions_FromHierarchy__1___0_Func___0___0__">CollectionExtensions.FromHierarchy&lt;TSource&gt;(TSource, Func&lt;TSource, TSource&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ObjectExtensions.html#ISynergy_Framework_Core_Extensions_ObjectExtensions_Clone__1___0_">ObjectExtensions.Clone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityValue__1___0_">ReflectionExtensions.GetIdentityValue&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetIdentityProperty__1___0_">ReflectionExtensions.GetIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_HasIdentityProperty__1___0_">ReflectionExtensions.HasIdentityProperty&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="ISynergy.Framework.Core.Extensions.ReflectionExtensions.html#ISynergy_Framework_Core_Extensions_ReflectionExtensions_GetPropertyValue__2___0_System_String___1_">ReflectionExtensions.GetPropertyValue&lt;T, TResult&gt;(T, String, TResult)</a>
+  </div>
+  <h3 id="seealso">See Also</h3>
+  <div class="seealso">
+      <div><a class="xref" href="ISynergy.Framework.Windows.Controls.Charts.Chart.html">Chart</a></div>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Windows_Controls_Charts_PointChart.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Windows.Controls.Charts.PointChart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Windows/Controls/Charts/PointChart.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
