@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DataReaderExtensions
+    <title>Class FileNameExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DataReaderExtensions
+    <meta name="title" content="Class FileNameExtensions
    ">
     <meta name="generator" content="docfx 2.56.1.0">
     
@@ -68,42 +68,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Extensions.DataReaderExtensions">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Extensions.FileNameExtensions">
   
   
-  <h1 id="ISynergy_Framework_Core_Extensions_DataReaderExtensions" data-uid="ISynergy.Framework.Core.Extensions.DataReaderExtensions" class="text-break">Class DataReaderExtensions
+  <h1 id="ISynergy_Framework_Core_Extensions_FileNameExtensions" data-uid="ISynergy.Framework.Core.Extensions.FileNameExtensions" class="text-break">Class FileNameExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Class DataReaderExtensions.</p>
+  <div class="markdown level0 summary"><p>Class FileNameExtensions.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DataReaderExtensions</span></div>
+    <div class="level1"><span class="xref">FileNameExtensions</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Core.Extensions.html">ISynergy.Framework.Core.Extensions</a></h6>
   <h6><strong>Assembly</strong>: I-Synergy.Framework.Core.dll</h6>
-  <h5 id="ISynergy_Framework_Core_Extensions_DataReaderExtensions_syntax">Syntax</h5>
+  <h5 id="ISynergy_Framework_Core_Extensions_FileNameExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DataReaderExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class FileNameExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Extensions_DataReaderExtensions_IsDBNull_IDataReader_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Extensions.DataReaderExtensions.IsDBNull(IDataReader%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Extensions_FileNameExtensions_IsValidFileName_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Extensions/DataReaderExtensions.cs/#L57">View Source</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Extensions/FileNameExtensions.cs/#L24">View Source</a>
   </span>
-  <a id="ISynergy_Framework_Core_Extensions_DataReaderExtensions_IsDBNull_" data-uid="ISynergy.Framework.Core.Extensions.DataReaderExtensions.IsDBNull*"></a>
-  <h4 id="ISynergy_Framework_Core_Extensions_DataReaderExtensions_IsDBNull_IDataReader_System_String_" data-uid="ISynergy.Framework.Core.Extensions.DataReaderExtensions.IsDBNull(IDataReader,System.String)">IsDBNull(IDataReader, String)</h4>
-  <div class="markdown level1 summary"><p>Checks if a column's value is DBNull</p>
+  <a id="ISynergy_Framework_Core_Extensions_FileNameExtensions_IsValidFileName_" data-uid="ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName*"></a>
+  <h4 id="ISynergy_Framework_Core_Extensions_FileNameExtensions_IsValidFileName_System_String_" data-uid="ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName(System.String)">IsValidFileName(String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether [is valid file name] [the specified file name].</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsDBNull(this IDataReader dataReader, string columnName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsValidFileName(this string _self)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -116,15 +116,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDataReader</span></td>
-        <td><span class="parametername">dataReader</span></td>
-        <td><p>The data reader</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">columnName</span></td>
-        <td><p>The column name</p>
+        <td><span class="parametername">_self</span></td>
+        <td><p>Name of the file.</p>
 </td>
       </tr>
     </tbody>
@@ -140,26 +134,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>A bool indicating if the column's value is DBNull</p>
+        <td><p><code>true</code> if [is valid file name] [the specified file name]; otherwise, <code>false</code>.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Extensions_DataReaderExtensions_MapToList__1_IDataReader_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Extensions.DataReaderExtensions.MapToList%60%601(IDataReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Extensions_FileNameExtensions_MakeValidFileName_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Extensions/DataReaderExtensions.cs/#L21">View Source</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Extensions/FileNameExtensions.cs/#L32">View Source</a>
   </span>
-  <a id="ISynergy_Framework_Core_Extensions_DataReaderExtensions_MapToList_" data-uid="ISynergy.Framework.Core.Extensions.DataReaderExtensions.MapToList*"></a>
-  <h4 id="ISynergy_Framework_Core_Extensions_DataReaderExtensions_MapToList__1_IDataReader_" data-uid="ISynergy.Framework.Core.Extensions.DataReaderExtensions.MapToList``1(IDataReader)">MapToList&lt;T&gt;(IDataReader)</h4>
-  <div class="markdown level1 summary"><p>Maps to list.</p>
+  <a id="ISynergy_Framework_Core_Extensions_FileNameExtensions_MakeValidFileName_" data-uid="ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName*"></a>
+  <h4 id="ISynergy_Framework_Core_Extensions_FileNameExtensions_MakeValidFileName_System_String_" data-uid="ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName(System.String)">MakeValidFileName(String)</h4>
+  <div class="markdown level1 summary"><p>Makes the name of the valid file.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; MapToList&lt;T&gt;(this IDataReader datareader)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string MakeValidFileName(this string _self)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,9 +166,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IDataReader</span></td>
-        <td><span class="parametername">datareader</span></td>
-        <td><p>The datareader.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">_self</span></td>
+        <td><p>Name of the file.</p>
 </td>
       </tr>
     </tbody>
@@ -189,24 +183,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><p>List&lt;T&gt;.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><p>System.String.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
@@ -218,10 +197,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Extensions_DataReaderExtensions.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Extensions.DataReaderExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Extensions_FileNameExtensions.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Extensions.FileNameExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Extensions/DataReaderExtensions.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Extensions/FileNameExtensions.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

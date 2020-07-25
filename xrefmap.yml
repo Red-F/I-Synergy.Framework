@@ -7122,6 +7122,38 @@ references:
   fullName.vb: ISynergy.Framework.Core.Extensions.EnumerableExtensions.ToPage(Of TSource)(IEnumerable(Of TSource), System.Int32, System.Int32)
   nameWithType: EnumerableExtensions.ToPage<TSource>(IEnumerable<TSource>, Int32, Int32)
   nameWithType.vb: EnumerableExtensions.ToPage(Of TSource)(IEnumerable(Of TSource), Int32, Int32)
+- uid: ISynergy.Framework.Core.Extensions.FileNameExtensions
+  name: FileNameExtensions
+  href: api/ISynergy.Framework.Core.Extensions.FileNameExtensions.html
+  commentId: T:ISynergy.Framework.Core.Extensions.FileNameExtensions
+  fullName: ISynergy.Framework.Core.Extensions.FileNameExtensions
+  nameWithType: FileNameExtensions
+- uid: ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName(System.String)
+  name: IsValidFileName(String)
+  href: api/ISynergy.Framework.Core.Extensions.FileNameExtensions.html#ISynergy_Framework_Core_Extensions_FileNameExtensions_IsValidFileName_System_String_
+  commentId: M:ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName(System.String)
+  fullName: ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName(System.String)
+  nameWithType: FileNameExtensions.IsValidFileName(String)
+- uid: ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName*
+  name: IsValidFileName
+  href: api/ISynergy.Framework.Core.Extensions.FileNameExtensions.html#ISynergy_Framework_Core_Extensions_FileNameExtensions_IsValidFileName_
+  commentId: Overload:ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Extensions.FileNameExtensions.IsValidFileName
+  nameWithType: FileNameExtensions.IsValidFileName
+- uid: ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName(System.String)
+  name: MakeValidFileName(String)
+  href: api/ISynergy.Framework.Core.Extensions.FileNameExtensions.html#ISynergy_Framework_Core_Extensions_FileNameExtensions_MakeValidFileName_System_String_
+  commentId: M:ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName(System.String)
+  fullName: ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName(System.String)
+  nameWithType: FileNameExtensions.MakeValidFileName(String)
+- uid: ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName*
+  name: MakeValidFileName
+  href: api/ISynergy.Framework.Core.Extensions.FileNameExtensions.html#ISynergy_Framework_Core_Extensions_FileNameExtensions_MakeValidFileName_
+  commentId: Overload:ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Extensions.FileNameExtensions.MakeValidFileName
+  nameWithType: FileNameExtensions.MakeValidFileName
 - uid: ISynergy.Framework.Core.Extensions.FloatExtensions
   name: FloatExtensions
   href: api/ISynergy.Framework.Core.Extensions.FloatExtensions.html
@@ -9942,38 +9974,6 @@ references:
   fullName.vb: ISynergy.Framework.Core.Utilities.EnumUtility.TryToEnum(Of T)(System.String, ByRef T)
   nameWithType: EnumUtility.TryToEnum<T>(String, out T)
   nameWithType.vb: EnumUtility.TryToEnum(Of T)(String, ByRef T)
-- uid: ISynergy.Framework.Core.Utilities.FileNameUtility
-  name: FileNameUtility
-  href: api/ISynergy.Framework.Core.Utilities.FileNameUtility.html
-  commentId: T:ISynergy.Framework.Core.Utilities.FileNameUtility
-  fullName: ISynergy.Framework.Core.Utilities.FileNameUtility
-  nameWithType: FileNameUtility
-- uid: ISynergy.Framework.Core.Utilities.FileNameUtility.IsValidFileName(System.String)
-  name: IsValidFileName(String)
-  href: api/ISynergy.Framework.Core.Utilities.FileNameUtility.html#ISynergy_Framework_Core_Utilities_FileNameUtility_IsValidFileName_System_String_
-  commentId: M:ISynergy.Framework.Core.Utilities.FileNameUtility.IsValidFileName(System.String)
-  fullName: ISynergy.Framework.Core.Utilities.FileNameUtility.IsValidFileName(System.String)
-  nameWithType: FileNameUtility.IsValidFileName(String)
-- uid: ISynergy.Framework.Core.Utilities.FileNameUtility.IsValidFileName*
-  name: IsValidFileName
-  href: api/ISynergy.Framework.Core.Utilities.FileNameUtility.html#ISynergy_Framework_Core_Utilities_FileNameUtility_IsValidFileName_
-  commentId: Overload:ISynergy.Framework.Core.Utilities.FileNameUtility.IsValidFileName
-  isSpec: "True"
-  fullName: ISynergy.Framework.Core.Utilities.FileNameUtility.IsValidFileName
-  nameWithType: FileNameUtility.IsValidFileName
-- uid: ISynergy.Framework.Core.Utilities.FileNameUtility.MakeValidFileName(System.String)
-  name: MakeValidFileName(String)
-  href: api/ISynergy.Framework.Core.Utilities.FileNameUtility.html#ISynergy_Framework_Core_Utilities_FileNameUtility_MakeValidFileName_System_String_
-  commentId: M:ISynergy.Framework.Core.Utilities.FileNameUtility.MakeValidFileName(System.String)
-  fullName: ISynergy.Framework.Core.Utilities.FileNameUtility.MakeValidFileName(System.String)
-  nameWithType: FileNameUtility.MakeValidFileName(String)
-- uid: ISynergy.Framework.Core.Utilities.FileNameUtility.MakeValidFileName*
-  name: MakeValidFileName
-  href: api/ISynergy.Framework.Core.Utilities.FileNameUtility.html#ISynergy_Framework_Core_Utilities_FileNameUtility_MakeValidFileName_
-  commentId: Overload:ISynergy.Framework.Core.Utilities.FileNameUtility.MakeValidFileName
-  isSpec: "True"
-  fullName: ISynergy.Framework.Core.Utilities.FileNameUtility.MakeValidFileName
-  nameWithType: FileNameUtility.MakeValidFileName
 - uid: ISynergy.Framework.Core.Utilities.NetworkUtility
   name: NetworkUtility
   href: api/ISynergy.Framework.Core.Utilities.NetworkUtility.html
@@ -10144,19 +10144,6 @@ references:
   commentId: T:ISynergy.Framework.Core.Utilities.StringUtility
   fullName: ISynergy.Framework.Core.Utilities.StringUtility
   nameWithType: StringUtility
-- uid: ISynergy.Framework.Core.Utilities.StringUtility.AddDecimalSeperator
-  name: AddDecimalSeperator()
-  href: api/ISynergy.Framework.Core.Utilities.StringUtility.html#ISynergy_Framework_Core_Utilities_StringUtility_AddDecimalSeperator
-  commentId: M:ISynergy.Framework.Core.Utilities.StringUtility.AddDecimalSeperator
-  fullName: ISynergy.Framework.Core.Utilities.StringUtility.AddDecimalSeperator()
-  nameWithType: StringUtility.AddDecimalSeperator()
-- uid: ISynergy.Framework.Core.Utilities.StringUtility.AddDecimalSeperator*
-  name: AddDecimalSeperator
-  href: api/ISynergy.Framework.Core.Utilities.StringUtility.html#ISynergy_Framework_Core_Utilities_StringUtility_AddDecimalSeperator_
-  commentId: Overload:ISynergy.Framework.Core.Utilities.StringUtility.AddDecimalSeperator
-  isSpec: "True"
-  fullName: ISynergy.Framework.Core.Utilities.StringUtility.AddDecimalSeperator
-  nameWithType: StringUtility.AddDecimalSeperator
 - uid: ISynergy.Framework.Core.Utilities.StringUtility.ConvertStringToDecimal(System.Decimal,System.String,System.Boolean)
   name: ConvertStringToDecimal(Decimal, String, Boolean)
   href: api/ISynergy.Framework.Core.Utilities.StringUtility.html#ISynergy_Framework_Core_Utilities_StringUtility_ConvertStringToDecimal_System_Decimal_System_String_System_Boolean_
@@ -10186,44 +10173,44 @@ references:
   fullName.vb: ISynergy.Framework.Core.Utilities.StringUtility.GetBytes(Of TEncoding)(System.String)
   nameWithType: StringUtility.GetBytes<TEncoding>(String)
   nameWithType.vb: StringUtility.GetBytes(Of TEncoding)(String)
-- uid: ISynergy.Framework.Core.Utilities.StringWriterUTF8
-  name: StringWriterUTF8
-  href: api/ISynergy.Framework.Core.Utilities.StringWriterUTF8.html
-  commentId: T:ISynergy.Framework.Core.Utilities.StringWriterUTF8
-  fullName: ISynergy.Framework.Core.Utilities.StringWriterUTF8
-  nameWithType: StringWriterUTF8
-- uid: ISynergy.Framework.Core.Utilities.StringWriterUTF8.#ctor
-  name: StringWriterUTF8()
-  href: api/ISynergy.Framework.Core.Utilities.StringWriterUTF8.html#ISynergy_Framework_Core_Utilities_StringWriterUTF8__ctor
-  commentId: M:ISynergy.Framework.Core.Utilities.StringWriterUTF8.#ctor
-  fullName: ISynergy.Framework.Core.Utilities.StringWriterUTF8.StringWriterUTF8()
-  nameWithType: StringWriterUTF8.StringWriterUTF8()
-- uid: ISynergy.Framework.Core.Utilities.StringWriterUTF8.#ctor(IFormatProvider)
-  name: StringWriterUTF8(IFormatProvider)
-  href: api/ISynergy.Framework.Core.Utilities.StringWriterUTF8.html#ISynergy_Framework_Core_Utilities_StringWriterUTF8__ctor_IFormatProvider_
-  commentId: M:ISynergy.Framework.Core.Utilities.StringWriterUTF8.#ctor(IFormatProvider)
-  fullName: ISynergy.Framework.Core.Utilities.StringWriterUTF8.StringWriterUTF8(IFormatProvider)
-  nameWithType: StringWriterUTF8.StringWriterUTF8(IFormatProvider)
-- uid: ISynergy.Framework.Core.Utilities.StringWriterUTF8.#ctor*
-  name: StringWriterUTF8
-  href: api/ISynergy.Framework.Core.Utilities.StringWriterUTF8.html#ISynergy_Framework_Core_Utilities_StringWriterUTF8__ctor_
-  commentId: Overload:ISynergy.Framework.Core.Utilities.StringWriterUTF8.#ctor
+- uid: ISynergy.Framework.Core.Utilities.StringWriterUtf8
+  name: StringWriterUtf8
+  href: api/ISynergy.Framework.Core.Utilities.StringWriterUtf8.html
+  commentId: T:ISynergy.Framework.Core.Utilities.StringWriterUtf8
+  fullName: ISynergy.Framework.Core.Utilities.StringWriterUtf8
+  nameWithType: StringWriterUtf8
+- uid: ISynergy.Framework.Core.Utilities.StringWriterUtf8.#ctor
+  name: StringWriterUtf8()
+  href: api/ISynergy.Framework.Core.Utilities.StringWriterUtf8.html#ISynergy_Framework_Core_Utilities_StringWriterUtf8__ctor
+  commentId: M:ISynergy.Framework.Core.Utilities.StringWriterUtf8.#ctor
+  fullName: ISynergy.Framework.Core.Utilities.StringWriterUtf8.StringWriterUtf8()
+  nameWithType: StringWriterUtf8.StringWriterUtf8()
+- uid: ISynergy.Framework.Core.Utilities.StringWriterUtf8.#ctor(IFormatProvider)
+  name: StringWriterUtf8(IFormatProvider)
+  href: api/ISynergy.Framework.Core.Utilities.StringWriterUtf8.html#ISynergy_Framework_Core_Utilities_StringWriterUtf8__ctor_IFormatProvider_
+  commentId: M:ISynergy.Framework.Core.Utilities.StringWriterUtf8.#ctor(IFormatProvider)
+  fullName: ISynergy.Framework.Core.Utilities.StringWriterUtf8.StringWriterUtf8(IFormatProvider)
+  nameWithType: StringWriterUtf8.StringWriterUtf8(IFormatProvider)
+- uid: ISynergy.Framework.Core.Utilities.StringWriterUtf8.#ctor*
+  name: StringWriterUtf8
+  href: api/ISynergy.Framework.Core.Utilities.StringWriterUtf8.html#ISynergy_Framework_Core_Utilities_StringWriterUtf8__ctor_
+  commentId: Overload:ISynergy.Framework.Core.Utilities.StringWriterUtf8.#ctor
   isSpec: "True"
-  fullName: ISynergy.Framework.Core.Utilities.StringWriterUTF8.StringWriterUTF8
-  nameWithType: StringWriterUTF8.StringWriterUTF8
-- uid: ISynergy.Framework.Core.Utilities.StringWriterUTF8.Encoding
+  fullName: ISynergy.Framework.Core.Utilities.StringWriterUtf8.StringWriterUtf8
+  nameWithType: StringWriterUtf8.StringWriterUtf8
+- uid: ISynergy.Framework.Core.Utilities.StringWriterUtf8.Encoding
   name: Encoding
-  href: api/ISynergy.Framework.Core.Utilities.StringWriterUTF8.html#ISynergy_Framework_Core_Utilities_StringWriterUTF8_Encoding
-  commentId: P:ISynergy.Framework.Core.Utilities.StringWriterUTF8.Encoding
-  fullName: ISynergy.Framework.Core.Utilities.StringWriterUTF8.Encoding
-  nameWithType: StringWriterUTF8.Encoding
-- uid: ISynergy.Framework.Core.Utilities.StringWriterUTF8.Encoding*
+  href: api/ISynergy.Framework.Core.Utilities.StringWriterUtf8.html#ISynergy_Framework_Core_Utilities_StringWriterUtf8_Encoding
+  commentId: P:ISynergy.Framework.Core.Utilities.StringWriterUtf8.Encoding
+  fullName: ISynergy.Framework.Core.Utilities.StringWriterUtf8.Encoding
+  nameWithType: StringWriterUtf8.Encoding
+- uid: ISynergy.Framework.Core.Utilities.StringWriterUtf8.Encoding*
   name: Encoding
-  href: api/ISynergy.Framework.Core.Utilities.StringWriterUTF8.html#ISynergy_Framework_Core_Utilities_StringWriterUTF8_Encoding_
-  commentId: Overload:ISynergy.Framework.Core.Utilities.StringWriterUTF8.Encoding
+  href: api/ISynergy.Framework.Core.Utilities.StringWriterUtf8.html#ISynergy_Framework_Core_Utilities_StringWriterUtf8_Encoding_
+  commentId: Overload:ISynergy.Framework.Core.Utilities.StringWriterUtf8.Encoding
   isSpec: "True"
-  fullName: ISynergy.Framework.Core.Utilities.StringWriterUTF8.Encoding
-  nameWithType: StringWriterUTF8.Encoding
+  fullName: ISynergy.Framework.Core.Utilities.StringWriterUtf8.Encoding
+  nameWithType: StringWriterUtf8.Encoding
 - uid: ISynergy.Framework.Core.Utilities.TypeActivator
   name: TypeActivator
   href: api/ISynergy.Framework.Core.Utilities.TypeActivator.html
