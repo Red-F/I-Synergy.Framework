@@ -9273,6 +9273,12 @@ references:
   commentId: T:ISynergy.Framework.Core.Models.ErrorDetail
   fullName: ISynergy.Framework.Core.Models.ErrorDetail
   nameWithType: ErrorDetail
+- uid: ISynergy.Framework.Core.Models.ErrorDetail.#ctor
+  name: ErrorDetail()
+  href: api/ISynergy.Framework.Core.Models.ErrorDetail.html#ISynergy_Framework_Core_Models_ErrorDetail__ctor
+  commentId: M:ISynergy.Framework.Core.Models.ErrorDetail.#ctor
+  fullName: ISynergy.Framework.Core.Models.ErrorDetail.ErrorDetail()
+  nameWithType: ErrorDetail.ErrorDetail()
 - uid: ISynergy.Framework.Core.Models.ErrorDetail.#ctor(System.Int32,System.String,System.String)
   name: ErrorDetail(Int32, String, String)
   href: api/ISynergy.Framework.Core.Models.ErrorDetail.html#ISynergy_Framework_Core_Models_ErrorDetail__ctor_System_Int32_System_String_System_String_
