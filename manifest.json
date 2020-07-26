@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.AspNetCore.BaseStartup.html",
-          "hash": "VZ5Qui+e8pyyWVlYuK6kjg=="
+          "hash": "Bi1B5NzbOk8Jjq8yVUft6g=="
         }
       },
       "is_incremental": false,
@@ -425,6 +425,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.AspNetCore.Extensions.ExceptionMiddlewareExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.AspNetCore.Extensions.ExceptionMiddlewareExtensions.html",
+          "hash": "frOfs6B/A+h2h3Lqdq+cIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.AspNetCore.Extensions.HtmlHelperExtensions.yml",
       "output": {
         ".html": {
@@ -489,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.AspNetCore.Extensions.html",
-          "hash": "TqtE7nrIFuRnE9RCjc2NLA=="
+          "hash": "bsJHwMwb8GNmWxMX7ICB6A=="
         }
       },
       "is_incremental": false,
@@ -569,6 +581,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.AspNetCore.Middleware.ExceptionMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.AspNetCore.Middleware.ExceptionMiddleware.html",
+          "hash": "jr5RbLqRxla4I8O7H1sJPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.AspNetCore.Middleware.MaxConcurrentRequestsMiddleware.yml",
       "output": {
         ".html": {
@@ -585,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.AspNetCore.Middleware.html",
-          "hash": "YuGPia692oUrYk1F6bqnqA=="
+          "hash": "ZieaH0hYAqokxwu/l/zpmQ=="
         }
       },
       "is_incremental": false,
@@ -1805,6 +1829,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Extensions.TaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Extensions.TaskExtensions.html",
+          "hash": "BqV3smsXVvYUT7P1GoFEaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.Core.Extensions.TypeExtensions.yml",
       "output": {
         ".html": {
@@ -1821,7 +1857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Extensions.html",
-          "hash": "DBs/fmpblRaNtecffTPjIg=="
+          "hash": "JLciu0cWTUGPOEDOgk+VBQ=="
         }
       },
       "is_incremental": false,
@@ -2081,6 +2117,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ISynergy.Framework.Core.Models.ErrorDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ISynergy.Framework.Core.Models.ErrorDetail.html",
+          "hash": "jKpBANYSmMHzC/cNHZPmNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.Core.Models.Grant.yml",
       "output": {
         ".html": {
@@ -2157,7 +2205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Core.Models.html",
-          "hash": "yfWsA9HmUXBs+7/gcFVNQg=="
+          "hash": "M0JbhalFeYnkF/BG7NXaSQ=="
         }
       },
       "is_incremental": false,
@@ -2417,198 +2465,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseAddress.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseAddress.html",
-          "hash": "U5UUi9MT7qZmYTbmYXgm+g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseBankAccount.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseBankAccount.html",
-          "hash": "uFqzY36entNyXXG7+TbBKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseBusinessResourceDocument.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseBusinessResourceDocument.html",
-          "hash": "2aADZcP7w8Fjd8VNM5QqGg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseBusinessResourceDocumentLine.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseBusinessResourceDocumentLine.html",
-          "hash": "ZspCD2i9AmppecFjAPZabQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseCompany.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseCompany.html",
-          "hash": "p+fT2pfFyxpB1z3nKRzV/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseContactPerson.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseContactPerson.html",
-          "hash": "4AmT8v52vUPORZHXgTzJdA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseDocument.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseDocument.html",
-          "hash": "Dz4E2h7EbAUiEfdJdFrf3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseFinancial.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseFinancial.html",
-          "hash": "aj1amSTuzPs9dyUlKFkBAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseImage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseImage.html",
-          "hash": "3cnmo+iiCeq4qhRu/t4VAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseInternetAddress.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseInternetAddress.html",
-          "hash": "njlePI0DgZWQjmXXqhSSqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseNote.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseNote.html",
-          "hash": "9x1XDMtdRrRupCpVgzV8Bg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BasePerson.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BasePerson.html",
-          "hash": "19b+RkgzKj5fQGdzO7po3g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BasePhone.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BasePhone.html",
-          "hash": "3HrCHsb3xSdH6F2OQSIzzA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BasePrice.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BasePrice.html",
-          "hash": "T7Q3KfYltRKkViYJELky6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.BaseRelation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.BaseRelation.html",
-          "hash": "uwBggCFtlscCtMQyyH+ikQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ISynergy.Framework.Entities.Base.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ISynergy.Framework.Entities.Base.html",
-          "hash": "5J10hi7QdagCvr/ZpbW47g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ISynergy.Framework.EntityFramework.Abstractions.IBaseEntityManager.yml",
       "output": {
         ".html": {
@@ -2685,7 +2541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.EntityFramework.Entities.BaseTenantEntity.html",
-          "hash": "mZw0ZfJznmOklozN5COL2A=="
+          "hash": "ryeGPRQehcMLl5sqCfGWpw=="
         }
       },
       "is_incremental": false,
@@ -3669,7 +3525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseAddress.html",
-          "hash": "WRxLdtDtlzLTrgMT5ZF+aA=="
+          "hash": "JkTpYmyjwtc0iKdl+x9K9Q=="
         }
       },
       "is_incremental": false,
@@ -3681,7 +3537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseBankAccount.html",
-          "hash": "5txJXo9JEYX/ZPIRMof96w=="
+          "hash": "BxaNC/GPNFqj/ct61BMcUg=="
         }
       },
       "is_incremental": false,
@@ -3717,7 +3573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentBasic.html",
-          "hash": "WljNniBNo8OJ0Q/5w+X+tw=="
+          "hash": "s34oqG9/EMXAmA7gM2V4Kg=="
         }
       },
       "is_incremental": false,
@@ -3741,7 +3597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseBusinessResourceDocumentLineBase.html",
-          "hash": "DGEU/J+2yeyLSaWE2Dkgug=="
+          "hash": "tY3pTWWcdrKN5q81L+VU/Q=="
         }
       },
       "is_incremental": false,
@@ -3765,7 +3621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseCommodity.html",
-          "hash": "2e8PEoKmwBS3L11Eq8dsLg=="
+          "hash": "oU3pPLG+Tpx1+yCcOKA1Ig=="
         }
       },
       "is_incremental": false,
@@ -3777,7 +3633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseCompany.html",
-          "hash": "gjOmDo5APCOxeV1XlZe63g=="
+          "hash": "5U/0nu9AH81lUdsnJD60FQ=="
         }
       },
       "is_incremental": false,
@@ -3801,7 +3657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseDocument.html",
-          "hash": "JMM3kMfshXGl8TJhNtUndg=="
+          "hash": "06PwQ8KgQUCpYaLogicSKA=="
         }
       },
       "is_incremental": false,
@@ -3813,7 +3669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseFinancial.html",
-          "hash": "BG2tLTqHKF4JiP1hasJi7A=="
+          "hash": "kzYOSuR5DHKuthP7H8gLVw=="
         }
       },
       "is_incremental": false,
@@ -3825,7 +3681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseImage.html",
-          "hash": "limj6k66moAU8Z0WjBXEOQ=="
+          "hash": "7WoW1z11ZEIDBKtELuPopg=="
         }
       },
       "is_incremental": false,
@@ -3837,7 +3693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseInternetAddress.html",
-          "hash": "/h9tmp0Bt4u2EgUkz/gPHA=="
+          "hash": "/85jZt76080MoxR9HC3DpQ=="
         }
       },
       "is_incremental": false,
@@ -3849,7 +3705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BasePerson.html",
-          "hash": "//LJN20LtWqGKMg4a3IL4Q=="
+          "hash": "CaRXcPWprT39K+uyBZV1Dg=="
         }
       },
       "is_incremental": false,
@@ -3861,7 +3717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BasePhone.html",
-          "hash": "PsQ6e5ID7bAlUZpoGB91Ww=="
+          "hash": "8BHdiNN+UQRqHcubhQtKuQ=="
         }
       },
       "is_incremental": false,
@@ -3873,7 +3729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BasePrice.html",
-          "hash": "iE5qBLlTMixsbJQmq79tjg=="
+          "hash": "QYZhwiN51LWp88yJFrjsnA=="
         }
       },
       "is_incremental": false,
@@ -3885,7 +3741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.BaseRelation.html",
-          "hash": "nzqzA+uS7anyEgCLLeB//A=="
+          "hash": "vqOS9DYycKBKQrSIMaoeyA=="
         }
       },
       "is_incremental": false,
@@ -3897,7 +3753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Base.html",
-          "hash": "dZEfk0Sg4kKxae56g0NTVg=="
+          "hash": "0SJHJOeFZgU2DUfK04nR3w=="
         }
       },
       "is_incremental": false,
@@ -4173,7 +4029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Modules.Caller.html",
-          "hash": "mHkLVHkw5WyCK5hToWADZg=="
+          "hash": "cJ9auDSfHO++mH4kgblXuA=="
         }
       },
       "is_incremental": false,
@@ -4185,7 +4041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ISynergy.Framework.Models.Modules.html",
-          "hash": "vMEU/sT6pnP9I9xjVe/gpw=="
+          "hash": "HsfXahSp0QH9TK4W82ZraA=="
         }
       },
       "is_incremental": false,
@@ -8001,7 +7857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "amGEdCR0tFjn7iMw7JJHBw=="
+          "hash": "Wy+Cfv2QG3CfmfAIE1Jfcg=="
         }
       },
       "is_incremental": false,
@@ -8076,7 +7932,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 665,
+          "total_file_count": 653,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

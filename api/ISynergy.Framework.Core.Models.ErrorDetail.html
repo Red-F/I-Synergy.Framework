@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseBankAccount
+    <title>Class ErrorDetail
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseBankAccount
+    <meta name="title" content="Class ErrorDetail
    ">
     <meta name="generator" content="docfx 2.56.1.0">
     
@@ -68,75 +68,90 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount">
+            <article class="content wrap" id="_content" data-uid="ISynergy.Framework.Core.Models.ErrorDetail">
   
   
-  <h1 id="ISynergy_Framework_Models_Base_BaseBankAccount" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount" class="text-break">Class BaseBankAccount
+  <h1 id="ISynergy_Framework_Core_Models_ErrorDetail" data-uid="ISynergy.Framework.Core.Models.ErrorDetail" class="text-break">Class ErrorDetail
   </h1>
-  <div class="markdown level0 summary"><p>Class BaseBankAccount.
-Implements the <see cref="!:ModelBase"></see></p>
+  <div class="markdown level0 summary"><p>Class ErrorDetail.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseBankAccount</span></div>
+    <div class="level1"><span class="xref">ErrorDetail</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Models.Base.html">ISynergy.Framework.Models.Base</a></h6>
-  <h6><strong>Assembly</strong>: I-Synergy.Framework.Models.dll</h6>
-  <h5 id="ISynergy_Framework_Models_Base_BaseBankAccount_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ISynergy.Framework.Core.Models.html">ISynergy.Framework.Core.Models</a></h6>
+  <h6><strong>Assembly</strong>: I-Synergy.Framework.Core.dll</h6>
+  <h5 id="ISynergy_Framework_Core_Models_ErrorDetail_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseBankAccount : ModelBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class ErrorDetail : object</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Models_ErrorDetail__ctor_System_Int32_System_String_System_String_.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Models.ErrorDetail.%23ctor(System.Int32%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Models/ErrorDetail.cs/#L16">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Models_ErrorDetail__ctor_" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.#ctor*"></a>
+  <h4 id="ISynergy_Framework_Core_Models_ErrorDetail__ctor_System_Int32_System_String_System_String_" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.#ctor(System.Int32,System.String,System.String)">ErrorDetail(Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="ISynergy.Framework.Core.Models.ErrorDetail.html">ErrorDetail</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ErrorDetail(int statusCode, string message, string type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">statusCode</span></td>
+        <td><p>The status code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBankAccount_AccountType.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBankAccount.AccountType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Models_ErrorDetail_Message.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Models.ErrorDetail.Message%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBankAccount.cs/#L53">View Source</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Models/ErrorDetail.cs/#L33">View Source</a>
   </span>
-  <a id="ISynergy_Framework_Models_Base_BaseBankAccount_AccountType_" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.AccountType*"></a>
-  <h4 id="ISynergy_Framework_Models_Base_BaseBankAccount_AccountType" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.AccountType">AccountType</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the AccountType property value.</p>
+  <a id="ISynergy_Framework_Core_Models_ErrorDetail_Message_" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.Message*"></a>
+  <h4 id="ISynergy_Framework_Core_Models_ErrorDetail_Message" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.Message">Message</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AccountTypes AccountType { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ISynergy.Framework.Models.Enumerations.AccountTypes.html">AccountTypes</a></td>
-        <td><p>The type of the account.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBankAccount_Ascription.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBankAccount.Ascription%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBankAccount.cs/#L41">View Source</a>
-  </span>
-  <a id="ISynergy_Framework_Models_Base_BaseBankAccount_Ascription_" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.Ascription*"></a>
-  <h4 id="ISynergy_Framework_Models_Base_BaseBankAccount_Ascription" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.Ascription">Ascription</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the Ascription property value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Ascription { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Message { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -149,26 +164,58 @@ Implements the <see cref="!:ModelBase"></see></p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The ascription.</p>
+        <td><p>The message.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBankAccount_BIC.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBankAccount.BIC%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Models_ErrorDetail_StatusCode.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Models.ErrorDetail.StatusCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBankAccount.cs/#L30">View Source</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Models/ErrorDetail.cs/#L27">View Source</a>
   </span>
-  <a id="ISynergy_Framework_Models_Base_BaseBankAccount_BIC_" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.BIC*"></a>
-  <h4 id="ISynergy_Framework_Models_Base_BaseBankAccount_BIC" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.BIC">BIC</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the BIC property value.</p>
+  <a id="ISynergy_Framework_Core_Models_ErrorDetail_StatusCode_" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.StatusCode*"></a>
+  <h4 id="ISynergy_Framework_Core_Models_ErrorDetail_StatusCode" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.StatusCode">StatusCode</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the status code.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string BIC { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int StatusCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The status code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Models_ErrorDetail_Type.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Models.ErrorDetail.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Models/ErrorDetail.cs/#L39">View Source</a>
+  </span>
+  <a id="ISynergy_Framework_Core_Models_ErrorDetail_Type_" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.Type*"></a>
+  <h4 id="ISynergy_Framework_Core_Models_ErrorDetail_Type" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,28 +228,30 @@ Implements the <see cref="!:ModelBase"></see></p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The bic.</p>
+        <td><p>The type.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBankAccount_IBAN.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBankAccount.IBAN%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Models_ErrorDetail_ToString.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Models.ErrorDetail.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBankAccount.cs/#L18">View Source</a>
+    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Models/ErrorDetail.cs/#L45">View Source</a>
   </span>
-  <a id="ISynergy_Framework_Models_Base_BaseBankAccount_IBAN_" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.IBAN*"></a>
-  <h4 id="ISynergy_Framework_Models_Base_BaseBankAccount_IBAN" data-uid="ISynergy.Framework.Models.Base.BaseBankAccount.IBAN">IBAN</h4>
-  <div class="markdown level1 summary"><p>Gets or sets the IBAN property value.</p>
+  <a id="ISynergy_Framework_Core_Models_ErrorDetail_ToString_" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.ToString*"></a>
+  <h4 id="ISynergy_Framework_Core_Models_ErrorDetail_ToString" data-uid="ISynergy.Framework.Core.Models.ErrorDetail.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <see cref="!:System.String"></see> that represents this instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string IBAN { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -213,7 +262,7 @@ Implements the <see cref="!:ModelBase"></see></p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The iban.</p>
+        <td><p>A <see cref="!:System.String"></see> that represents this instance.</p>
 </td>
       </tr>
     </tbody>
@@ -251,10 +300,10 @@ Implements the <see cref="!:ModelBase"></see></p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Models_Base_BaseBankAccount.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Models.Base.BaseBankAccount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/new/master/apiSpec/new?filename=ISynergy_Framework_Core_Models_ErrorDetail.md&amp;value=---%0Auid%3A%20ISynergy.Framework.Core.Models.ErrorDetail%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Models/Base/BaseBankAccount.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/I-Synergy/I-Synergy.Framework/blob/master/src/I-Synergy.Framework.Core/Models/ErrorDetail.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
