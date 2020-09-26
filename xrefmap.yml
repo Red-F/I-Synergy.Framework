@@ -7218,6 +7218,28 @@ references:
   fullName.vb: ISynergy.Framework.Core.Extensions.EnumerableExtensions.ToPage(Of TSource)(IEnumerable(Of TSource), System.Int32, System.Int32)
   nameWithType: EnumerableExtensions.ToPage<TSource>(IEnumerable<TSource>, Int32, Int32)
   nameWithType.vb: EnumerableExtensions.ToPage(Of TSource)(IEnumerable(Of TSource), Int32, Int32)
+- uid: ISynergy.Framework.Core.Extensions.EnumExtensions
+  name: EnumExtensions
+  href: api/ISynergy.Framework.Core.Extensions.EnumExtensions.html
+  commentId: T:ISynergy.Framework.Core.Extensions.EnumExtensions
+  fullName: ISynergy.Framework.Core.Extensions.EnumExtensions
+  nameWithType: EnumExtensions
+- uid: ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription*
+  name: GetDescription
+  href: api/ISynergy.Framework.Core.Extensions.EnumExtensions.html#ISynergy_Framework_Core_Extensions_EnumExtensions_GetDescription_
+  commentId: Overload:ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription
+  isSpec: "True"
+  fullName: ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription
+  nameWithType: EnumExtensions.GetDescription
+- uid: ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription``1(``0)
+  name: GetDescription<T>(T)
+  href: api/ISynergy.Framework.Core.Extensions.EnumExtensions.html#ISynergy_Framework_Core_Extensions_EnumExtensions_GetDescription__1___0_
+  commentId: M:ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription``1(``0)
+  name.vb: GetDescription(Of T)(T)
+  fullName: ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription<T>(T)
+  fullName.vb: ISynergy.Framework.Core.Extensions.EnumExtensions.GetDescription(Of T)(T)
+  nameWithType: EnumExtensions.GetDescription<T>(T)
+  nameWithType.vb: EnumExtensions.GetDescription(Of T)(T)
 - uid: ISynergy.Framework.Core.Extensions.FileNameExtensions
   name: FileNameExtensions
   href: api/ISynergy.Framework.Core.Extensions.FileNameExtensions.html
